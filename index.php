@@ -39,7 +39,7 @@
 
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use a text logo -->
-                <h1><a href="#main">I<span>R</span>IS</a></h1>
+                <h1><a href="#main">I<span><?php echo "RR"; ?></span>IS</a></h1>
                 <!--<a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
             </div>
 
