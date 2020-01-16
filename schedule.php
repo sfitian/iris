@@ -1,4 +1,4 @@
-<?php include("header.php") ?>	  
+<?php include("header.php") ?>
 <section class="ftco-section bg-light" id="schedule-section">
 			<div class="container">
 				<div class="row justify-content-center pb-5">
@@ -23,35 +23,32 @@
 	            </div>
 	          </div>
 	          <div class="col-md-8 tab-wrap">
-	            
+
 	            <div class="tab-content" id="v-pills-tabContent">
 
 	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
+	              			<span class="time">10:00AM - 11:00AM</span>
+	              			<h2><a href="#">Committee Inauguration</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
+	              			<span class="time">11:00AM - 01:00AM</span>
+	              			<h2><a href="#">Celebrity Appearance</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
+	              			<span class="time">01:00AM - 03:00AM</span>
+	              			<h2><a href="#">Mr & Ms Iris (Roadies)</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
 	              	</div>
 	              </div>
@@ -60,8 +57,8 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
+	              			<span class="time">03:00AM - 04:30AM</span>
+	              			<h2><a href="#">Intercollege Singing Competition</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
@@ -69,8 +66,8 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
+	              			<span class="time">04:30AM</span>
+	              			<h2><a href="#">Evacuation</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
@@ -78,8 +75,8 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
+	              			<span class="time">05:00AM</span>
+	              			<h2><a href="#">Entry</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
@@ -89,8 +86,8 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
+	              			<span class="time">05:30AM - 06:30AM</span>
+	              			<h2><a href="#">Standup/ The Dharvi Project</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
@@ -98,8 +95,8 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
+	              			<span class="time">06:30AM - 09:00AM</span>
+	              			<h2><a href="#">Ragas Competition</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
 	              		</div>
@@ -107,10 +104,10 @@
 	              	<div class="speaker-wrap ftco-animate d-flex">
 	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
 	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
+	              			<span class="time">09:00AM - 09:45AM</span>
+	              			<h2><a href="#">DJ, Enkore, Kaam Bhaari (tentative)</a></h2>
 	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
+	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
 	              	</div>
 	              </div>
