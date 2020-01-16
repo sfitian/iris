@@ -1,7 +1,7 @@
  <?php include("header.php") ?>	  
   
 	  <section id="home-section" class="hero js-fullheight">
-	  	<h3 class="vr"><span>Welcome</span> to MeetUp.</h3>
+	  	<h3 class="vr"><span>Welcome</span> to IRIS.</h3>
 	  	<div id="timer" class="text-center">
 			  <div class="time" id="days"></div>
 			  <div class="time" id="hours"></div>
