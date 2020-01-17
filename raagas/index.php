@@ -261,11 +261,11 @@
             </h1>
             <form action="sub.php" method="POST">
               <div class="text-ribbon-inputs-split">
-                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
-                <input type="text" required name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
-                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
-                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 1">
-                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 2">
+                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Your Band Name">
+                <input type="text" name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name (optional)">
+                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Number of members in band">
+                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
+                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
               </div>
               <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block">Submit</button>
               </div>
