@@ -50,8 +50,8 @@
                     Near Bhagwati Hospital, Mount Poinsur,<br>
                     Borivali West,<br>
                     Mumbai, Maharashtra 400103.</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 1234567890</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">022-28928585</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">sfedu@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
             </div>
