@@ -2,7 +2,7 @@
  <!--==========================
       Sponsors Section
     ============================-->
-    <section id="supporters" class="section-with-bg wow fadeInUp">
+    <section id="supporters" class="ftco-section bg-light">
 
 <div class="container">
     <div class="section-header">
