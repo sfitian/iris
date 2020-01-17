@@ -48,7 +48,7 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav nav ml-auto">
-                <li class="nav-item"><a href="index.php" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="/" class="nav-link"><span>Home</span></a></li>
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
