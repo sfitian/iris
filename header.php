@@ -41,7 +41,7 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="/iris"> <img src="images/icons/irisLogo.png" class="irisLogo"></a>
+            <a class="navbar-brand" href="/"> <img src="images/icons/irisLogo.png" class="irisLogo"></a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
             </button>
@@ -56,6 +56,7 @@
                 <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
+                <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>
             </ul>
             </div>
         </div>
