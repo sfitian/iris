@@ -8,26 +8,26 @@
     
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="/iris/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/iris/css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="/iris/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/iris/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/iris/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="/iris/css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="/iris/css/ionicons.min.css">
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/iris/css/flaticon.css">
+    <link rel="stylesheet" href="/iris/css/icomoon.css">
+    <link rel="stylesheet" href="/iris/css/style.css">
 
 <!--      Favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
+      <link rel="apple-touch-icon" sizes="180x180" href="/iris/images/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/iris/images/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/iris/images/favicon/favicon-16x16.png">
+      <link rel="manifest" href="/iris/images/favicon/site.webmanifest">
 
       <style>
           .irisLogo {
@@ -41,7 +41,7 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.php"> <img src="images/icons/irisLogo.png" class="irisLogo"></a>
+            <a class="navbar-brand" href="/iris"> <img src="/iris/images/icons/irisLogo.png" class="irisLogo"></a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
             </button>
