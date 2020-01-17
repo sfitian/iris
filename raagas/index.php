@@ -74,13 +74,13 @@
 
     <li class="nav-header"><small>Sites</small></li>
     <li class="nav-item ">
-      <a class="nav-link active" href="iris.sfit.ac.in">Raagas</a>
+      <a class="nav-link active" href="/raagas">Raagas</a>
     </li>    
     <li class="nav-item">
-      <a class="nav-link" href="iris.sfit.ac.in">IRIS</a>
+      <a class="nav-link" href="/">IRIS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="sfit.ac.in">SFIT </a>
+      <a class="nav-link" href="http://www.sfit.ac.in">SFIT </a>
     </li>
 
 
@@ -233,7 +233,7 @@
         <div class="row mb-3">
           <div class="col-md-8">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="682" height="384" src="https://www.youtube.com/embed/Bm5iA4Zupek?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="682" height="384" src="https://www.youtube.com/embed/K1iAQUpvLUQ" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/mosdef.jpg)">
+             style="background-image: url(./assets/img/people-in-concert.jpg)">
         </div>
       </div>
     </div>
