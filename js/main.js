@@ -313,3 +313,11 @@
          $("#sfitian").hide()
      }
  })
+
+ function makeNavbarTransparent(){
+    $('nav').removeClass('scrolled awake');
+ }
+
+ function makeNavbarOpaque(){
+    $('nav').addClass('scrolled awake');
+ }
