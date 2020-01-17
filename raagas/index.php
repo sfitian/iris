@@ -174,7 +174,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/2chainz.jpg)">
+             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256016/ragas/nonmin/alexander_popov_htv8_3zkM7_zukxqx.jpg')">
         </div>
       </div>
     </div>
@@ -205,7 +205,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/kanye.jpg)">
+             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256653/ragas/nonmin/matthew_kalapuch_sqj_VUvpZ_3_xkrsju.jpg')">
         </div>
       </div>
     </div>
