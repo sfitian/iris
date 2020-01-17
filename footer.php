@@ -37,15 +37,19 @@
               </ul>
             </div>
           </div> -->
-          <div class="col-md">
+          <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Contact Us</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">St. Francis Institute Of Technology,
-Sardar Vallabhbhai Patel Rd,
-Near Bhagwati Hospital, Mount Poinsur,
-Borivali West, Mumbai, Maharashtra 400103.</span></li>
+	                <li>
+                    <span class="icon icon-map-marker"></span>
+                    <span class="text">
+                    St. Francis Institute Of Technology,<br>
+                    Sardar Vallabhbhai Patel Rd,<br>
+                    Near Bhagwati Hospital, Mount Poinsur,<br>
+                    Borivali West,<br>
+                    Mumbai, Maharashtra 400103.</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 1234567890</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
