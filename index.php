@@ -1,7 +1,7 @@
  <?php include("header.php") ?>	  
   
 	  <section id="home-section" class="hero js-fullheight">
-	  	<h3 class="vr"><span>Welcome</span> to MeetUp.</h3>
+	  	<h3 class="vr"><span>Welcome</span> to IRIS.</h3>
 	  	<div id="timer" class="text-center">
 			  <div class="time" id="days"></div>
 			  <div class="time" id="hours"></div>
@@ -13,7 +13,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container-fluid px-0">
 	          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/bg_1.jpg);">
+	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/bg_dj.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
