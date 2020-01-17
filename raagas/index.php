@@ -257,17 +257,21 @@
                 <span>Sign up now.</span>
               </span>
             </h1>
-
+            <form action="sub.php" method="POST">
             <div class="text-ribbon-inputs-split">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Name">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Email">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
+              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact">
             </div>
             <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Promo code">
             <button type="button" class="btn btn-square btn-primary btn-lg btn-block">
-              Get the beta early
+              Submit
             </button>
+      
           </div>
         </div>
+              </form>
       </div>
     </div>
   </div>
