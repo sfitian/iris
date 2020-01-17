@@ -1,7 +1,10 @@
 <?php include("../header.php"); ?>
 
 <div class="comment-form-wrap pt-5">
-    <h3 class="mb-5" style="margin-top:35px; margin-left:10px">InterCollege Singing Competition</h3>
+    <div style="margin-top:35px; margin-left:20px">
+        <h1 class="navbar-brand" href="index.html"><span>Tandav.</span></h1>
+        <h3 class="mb-5">InterCollege Singing Competition</h3>
+    </div>
     <form action="#" class="p-5 bg-light">
         <!-- Name -->
         <div class="form-group">
@@ -38,13 +41,13 @@
                     <option value="mech">Mechanical</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="type">Participation *</label>
-                <select class="form-control" name="year" id="year">
-                    <option value="solo">Solo</option>
-                    <option value="duet">Duet</option>
-                </select>
-            </div>
+        </div>
+        <div class="form-group">
+            <label for="type">Participation *</label>
+            <select class="form-control" name="year" id="year">
+                <option value="solo">Solo</option>
+                <option value="duet">Duet</option>
+            </select>
         </div>
 
         <div class="form-group">
