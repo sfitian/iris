@@ -21,7 +21,7 @@
       <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
       <link href="./assets/css/toolkit-bold.css" rel="stylesheet">
       <link href="./assets/css/application-bold.css" rel="stylesheet">
-    
+      <link rel="shortcut icon" type="image/png" href="./assets/img/rock-favicon.png">    
 
     
 
