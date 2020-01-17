@@ -8812,7 +8812,7 @@ h1, h2, h3, h4, h5,
   .staff .img {
     width: 100%;
     height: 250px;
-    max-width: 200px;
+    max-width: 250px;
     display: block;
     background-position: top center;
     -moz-transition: all 0.3s ease;
@@ -8828,7 +8828,6 @@ h1, h2, h3, h4, h5,
       left: 0;
       right: 0;
       content: '';
-      background: #033fff;
       opacity: .2; }
   .staff .text {
     width: 100%;
