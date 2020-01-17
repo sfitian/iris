@@ -53,29 +53,18 @@
 
 <div class="stage-shelf hidden" id="sidebar">
   <ul class="nav nav-bordered nav-stacked flex-column">
-    <li class="nav-header"><small>Examples</small></li>
-    <li class="nav-item">
-      <a class="nav-link active" href="./bold/index.html">Bold</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./index.html">Startup</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./minimal/index.html">Minimal</a>
-    </li>
 
-    <li class="nav-divider"></li>
 
     <li class="nav-header"><small>Sections</small></li>
 
     <li class="nav-item">
-      <a class="nav-link" href="#grid" data-target="#stage" data-toggle="stage">Grid</a>
+      <a class="nav-link active" href="#grid" data-target="#stage" data-toggle="stage">Start</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#chainz" data-target="#stage" data-toggle="stage">2 Chainz</a>
+      <a class="nav-link" href="#chainz" data-target="#stage" data-toggle="stage">Info</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Pricing</a>
+      <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Contact</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#footer" data-target="#stage" data-toggle="stage">About</a>
@@ -83,14 +72,18 @@
 
     <li class="nav-divider"></li>
 
-    <li class="nav-header"><small>Docs</small></li>
+    <li class="nav-header"><small>Sites</small></li>
+    <li class="nav-item ">
+      <a class="nav-link active" href="iris.sfit.ac.in">Raagas</a>
+    </li>    
+    <li class="nav-item">
+      <a class="nav-link" href="iris.sfit.ac.in">IRIS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="sfit.ac.in">SFIT </a>
+    </li>
 
-    <li class="nav-item">
-      <a class="nav-link" href="./docs/index.html">Theme</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="http://getbootstrap.com">Bootstrap</a>
-    </li>
+
 
   </ul>
 </div>
@@ -98,34 +91,28 @@
 
 <div class="stage" id="stage">
 
-  <div class="block block-fill-height app-block-wayne"
-       style="background-image: url(./assets/img/lilwayne.jpg)">
+  <div class="block-fill-height app-block-hhero">
 
-    <button class="btn btn-link stage-toggle" data-target="#stage" data-toggle="stage">
-      <span class="icon icon-menu stage-toggle-icon"></span>
-      Menu
-    </button>
-
-    <div class="block-sm-middle block-xs-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <h1 class="block-title mb-4">
-              <span class="text-ribbon text-ribbon-primary">
-                <span>Music. Live.</span>
-              </span>
-            </h1>
-            <p class="lead mt-1">
-              <span class="text-ribbon text-ribbon-primary">
-                <span>
-                  Live recordings of your favorite artists before their hit albums drop.
-                </span>
-              </span>
-            </p>
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="two.mov" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <img src="logo.png" alt="" srcset="" id="rlogo">
           </div>
         </div>
       </div>
-    </div>
+    </header>
+
+    <button class="btn btn-link stage-toggle" data-target="#stage" data-toggle="stage">
+      <span class="icon icon-menu stage-toggle-icon"></span>
+      
+    </button>
+
+
   </div>
 
 
@@ -187,7 +174,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/2chainz.jpg)">
+             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256016/ragas/nonmin/alexander_popov_htv8_3zkM7_zukxqx.jpg')">
         </div>
       </div>
     </div>
@@ -218,7 +205,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/kanye.jpg)">
+             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256653/ragas/nonmin/matthew_kalapuch_sqj_VUvpZ_3_xkrsju.jpg')">
         </div>
       </div>
     </div>
@@ -271,20 +258,17 @@
               </span>
             </h1>
             <form action="sub.php" method="POST">
-            <div class="text-ribbon-inputs-split">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact">
+              <div class="text-ribbon-inputs-split">
+                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
+                <input type="text" required name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
+                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
+                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 1">
+                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 2">
+              </div>
+              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block">Submit</button>
+              </div>
             </div>
-            <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Promo code">
-            <button type="button" class="btn btn-square btn-primary btn-lg btn-block">
-              Submit
-            </button>
-      
-          </div>
-        </div>
-              </form>
+            </form>
       </div>
     </div>
   </div>
@@ -408,47 +392,11 @@
   </div>
 
 
-  <div class="block block-inverse accent-primary" id="footer">
-    <div class="container">
-      <div class="row text-serif">
-        <div class="col-md-2 mb-4">
-          <ul class="list-unstyled list-spaced">
-            <li><h4>Tech</h4></li>
-            <li class="text-muted"><em>Overview</em></li>
-            <li class="text-muted"><em>Design</em></li>
-            <li class="text-muted"><em>Display</em></li>
-            <li class="text-muted"><em>Technology</em></li>
-          </ul>
-        </div>
-        <div class="col-md-2 mb-4">
-          <ul class="list-unstyled list-spaced">
-            <li><h4>Press</h4></li>
-            <li class="text-muted"><em>Overview</em></li>
-            <li class="text-muted"><em>Design</em></li>
-            <li class="text-muted"><em>Display</em></li>
-            <li class="text-muted"><em>Technology</em></li>
-          </ul>
-        </div>
-        <div class="col-md-2 mb-4">
-          <ul class="list-unstyled list-spaced">
-            <li><h4>Other</h4></li>
-            <li class="text-muted"><em>Overview</em></li>
-            <li class="text-muted"><em>Design</em></li>
-            <li class="text-muted"><em>Display</em></li>
-            <li class="text-muted"><em>Technology</em></li>
-          </ul>
-        </div>
-        <div class="col-md-6 mb-4">
-          <ul class="list-unstyled list-spaced">
-            <li><h4>Photography</h4></li>
-            <li class="text-muted">
-              <em>Background photos: <a href="https://www.flickr.com/photos/demxx/8702542709/">2 Chainz by demxx</a> and <a href="https://www.flickr.com/photos/carnivalridexx/6048218344/">Nicki Minaj by Jennifer</a> are shared under the <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 license</a>. <a href="https://www.flickr.com/photos/ddalledo/2204168450/">Kanye West by Daniele Dalledonne</a> is shared under the <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0 license<a>. <a href="https://commons.wikimedia.org/wiki/Category:Lil_Wayne#/media/File:Lil_Wayne.jpg">Lil Wayne by RJ Shaughnessy</a>, and <a href="https://www.flickr.com/photos/didy_b/8150029917">Mos Def by Eddy BERTHIER</a> are public domain works. Concert portraits: <a href="https://www.flickr.com/photos/histrionicss/13951485730">Iggy Azalea by Laura Murray</a>, <a href="https://www.flickr.com/photos/32999928@N05/7213700394/">Childish Gambino by Eli Watson</a>, and <a href="https://www.flickr.com/photos/scissorfighter/5169715083/">Kid Cudi by Dana Beveridge</a> are shared under the <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 license</a>.<a href="https://www.flickr.com/photos/jasonpersse/5710284405/"> Kanye West by Jason Persse</a> and <a href="https://www.flickr.com/photos/tamtam7683/5990345195">Nicki Minaj by tamtam7683</a> are shared under the <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0 license</a>.</em>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- footer start  -->
+
+
+
+<!-- footer end  -->
 
 </div>
 
@@ -459,4 +407,3 @@
     <script src="./assets/js/application.js"></script>
   </body>
 </html>
-

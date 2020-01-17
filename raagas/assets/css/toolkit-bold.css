@@ -8746,8 +8746,8 @@ img.zoom-img {
   clear: both; }
 
 .text-ribbon-inputs-split .text-ribbon-input {
-  float: left;
-  width: 49%; }
+ 
+  }
   .text-ribbon-inputs-split .text-ribbon-input + .text-ribbon-input {
     margin-left: 2%; }
 
@@ -8949,12 +8949,16 @@ img.zoom-img {
   z-index: 100;
   padding: 4px 12px;
   color: #fff;
-  background-color: #000;
+  background-color: rgb(0,0,0,0);
   border-radius: 0; }
   .stage-toggle:hover, .stage-toggle:focus {
     color: #fff;
     text-decoration: none;
     background-color: #000; }
+
+  .stage-toggle .icon {
+    font-size: 25px;
+  }
 
 .stage-toggle-right {
   left: auto;
