@@ -9746,3 +9746,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    .navbar-brand1 {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      /* margin-right: 1rem; */
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap; }
+      .navbar-brand1:hover, .navbar-brand1:focus {
+        text-decoration: none;
+        text-: #ffc107; }
