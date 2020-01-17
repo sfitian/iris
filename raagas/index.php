@@ -258,20 +258,17 @@
               </span>
             </h1>
             <form action="sub.php" method="POST">
-            <div class="text-ribbon-inputs-split">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
-              <input type="text" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact">
+              <div class="text-ribbon-inputs-split">
+                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
+                <input type="text" required name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
+                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
+                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 1">
+                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 2">
+              </div>
+              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block">Submit</button>
+              </div>
             </div>
-            <input type="text" class="h4 text-ribbon-input text-ribbon-input-half text-ribbon-primary" placeholder="Promo code">
-            <button type="button" class="btn btn-square btn-primary btn-lg btn-block">
-              Submit
-            </button>
-      
-          </div>
-        </div>
-              </form>
+            </form>
       </div>
     </div>
   </div>

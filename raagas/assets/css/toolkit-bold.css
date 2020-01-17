@@ -8746,8 +8746,8 @@ img.zoom-img {
   clear: both; }
 
 .text-ribbon-inputs-split .text-ribbon-input {
-  float: left;
-  width: 49%; }
+ 
+  }
   .text-ribbon-inputs-split .text-ribbon-input + .text-ribbon-input {
     margin-left: 2%; }
 
