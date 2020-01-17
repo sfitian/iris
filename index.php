@@ -1,7 +1,7 @@
  <?php include("header.php") ?>	  
   
 	  <section id="home-section" class="hero js-fullheight">
-	  	<h3 class="vr"><span>Welcome</span> to MeetUp.</h3>
+	  	<h3 class="vr"><span>Welcome</span> to IRIS.</h3>
 	  	<div id="timer" class="text-center">
 			  <div class="time" id="days"></div>
 			  <div class="time" id="hours"></div>
@@ -13,7 +13,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container-fluid px-0">
 	          <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/bg_1.jpg);">
+	          	<div class="one-third order-md-last js-fullheight img" style="background-image:url(images/bg_dj.jpg);">
 	          		<div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth js-fullheight d-flex align-items-start align-items-md-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -27,7 +27,7 @@
 	        </div>
 	      </div>
 
-	      <div class="slider-item js-fullheight">
+<!-- 	      <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
 	        <div class="container-fluid px-0">
 	          <div class="row d-flex no-gutters slider-text js-fullheight align-items-end justify-content-end" data-scrollax-parent="true">
@@ -43,66 +43,13 @@
 		          </div>
 	        	</div>
 	        </div>
-	      </div>
+	      </div> -->
 	    </div>
     </section>
 
-    <section class="ftco-about ftco-counter ftco-no-pb img ftco-section" id="about-section">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img-about img d-flex align-items-stretch">
-    					<div class="overlay"></div>
-	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.jpg);">
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 pt-5">
-    				<div class="row justify-content-start pb-3">
-		          <div class="col-md-12 heading-section ftco-animate">
-		          	<span class="subheading">Welcome</span>
-		            <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Iris</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		            <p>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-		          </div>
-		        </div>
-	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text p-4 pr-5 bg-primary">
-              	<p class="mb-0">
-	                <span class="number" data-number="50">0</span>
-	                <span>Years Experienced</span>
-                </p>
-              </div>
-	          </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
-    	<div class="container-fluid px-0">
-    		<div class="row no-gutters">
-	  			<div class="col-md-6 col-lg-3 ftco-animate">
-	  				<div class="gallery img" style="background-image: url(images/gallery-1.jpg);">
-	  				</div>
-	  			</div>
-	  			<div class="col-md-6 col-lg-3 ftco-animate">
-	  				<div class="gallery img" style="background-image: url(images/gallery-2.jpg);">
-	  				</div>
-	  			</div>
-	  			<div class="col-md-6 col-lg-3 ftco-animate">
-	  				<div class="gallery img" style="background-image: url(images/gallery-3.jpg);">
-	  				</div>
-	  			</div>
-	  			<div class="col-md-6 col-lg-3 ftco-animate">
-	  				<div class="gallery img" style="background-image: url(images/gallery-4.jpg);">
-	  				</div>
-	  			</div>
-    		</div>
-    	</div>
-    </section>
 		
-		<section class="ftco-section ftco-subscribe img" style="background-image: url(images/bg_1.jpg);">
+<!-- 		<section class="ftco-section ftco-subscribe img" style="background-image: url(images/bg_1.jpg);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row justify-content-center pb-5">
@@ -122,7 +69,7 @@
           </div>
         </div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="ftco-section ftco-speakers" id="speakers-section">
 			<div class="container">
@@ -291,156 +238,7 @@
 			</div>
 		</section>
  
-		<section class="ftco-section bg-light" id="schedule-section">
-			<div class="container">
-				<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<span class="subheading">Schedule</span>
-            <h2 class="mb-4">Program Schedule</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-				<div class="ftco-schedule">
-					<div class="row">
-            <div class="col-md-4 nav-link-wrap">
-	            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-	              <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Day 01 <span>21 November 2019</span></a>
-
-	              <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Day 02 <span>22 November 2019</span></a>
-
-	              <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Day 03 <span>23 November 2019</span></a>
-
-	              <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Day 04 <span>24 November 2019</span></a>
-
-	            </div>
-	          </div>
-	          <div class="col-md-8 tab-wrap">
-	            
-	            <div class="tab-content" id="v-pills-tabContent">
-
-	              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              </div>
-
-	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              </div>
-	              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              </div>
-	              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Introduction to Wordpress 5.0</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Best Practices For Programming WordPress</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
-	              		<div class="text pl-md-5">
-	              			<span class="time">08:00AM - 10:00AM</span>
-	              			<h2><a href="#">Web Performance For Third Party Scripts</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	              			<h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3>
-	              		</div>
-	              	</div>
-	              </div>
-	            </div>
-	          </div>
-	        </div>
-        </div>
-			</div>
-		</section>
+		
 
 		<section class="ftco-section" id="pricing-section">
 			<div class="container">
@@ -585,89 +383,7 @@
       </div>
     </section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Contact</span>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
 
-        <div class="row block-9">
-          <div class="col-md-7 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-          
-          </div>
-
-          <div class="col-md-5 d-flex">
-          	<div class="row d-flex contact-info mb-5">
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="box p-2 px-3 bg-light d-flex">
-		          		<div class="icon mr-3">
-		          			<span class="icon-map-signs"></span>
-		          		</div>
-		          		<div>
-			          		<h3 class="mb-3">Address</h3>
-				            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-			            </div>
-			          </div>
-		          </div>
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="box p-2 px-3 bg-light d-flex">
-		          		<div class="icon mr-3">
-		          			<span class="icon-phone2"></span>
-		          		</div>
-		          		<div>
-			          		<h3 class="mb-3">Contact Number</h3>
-				            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-			            </div>
-			          </div>
-		          </div>
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="box p-2 px-3 bg-light d-flex">
-		          		<div class="icon mr-3">
-		          			<span class="icon-paper-plane"></span>
-		          		</div>
-		          		<div>
-			          		<h3 class="mb-3">Email Address</h3>
-				            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-			            </div>
-			          </div>
-		          </div>
-		          <div class="col-md-12 ftco-animate">
-		          	<div class="box p-2 px-3 bg-light d-flex">
-		          		<div class="icon mr-3">
-		          			<span class="icon-globe"></span>
-		          		</div>
-		          		<div>
-			          		<h3 class="mb-3">Website</h3>
-				            <p><a href="#">yoursite.com</a></p>
-			            </div>
-			          </div>
-		          </div>
-		        </div>
-          </div>
-        </div>
-      </div>
-    </section>
 		
 		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div id="map" class="bg-white"></div>

@@ -3,8 +3,8 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About MeetUp.</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">IRIS</h2>
+              <p>IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. Coupled with the legacy of grandiosity and celebration, IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -12,19 +12,21 @@
               </ul>
             </div>
           </div>
-          <div class="col-md">
+          <!-- <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Schedule</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Speakers</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Venue</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Gallery</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Sponsors</a></li>
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-md">
+          </div> -->
+          <!-- <div class="col-md">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Privacy</h2>
               <ul class="list-unstyled">
@@ -34,14 +36,17 @@
                 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Buy Ticket</a></li>
               </ul>
             </div>
-          </div>
+          </div> -->
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Contact Us</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">St. Francis Institute Of Technology,
+Sardar Vallabhbhai Patel Rd,
+Near Bhagwati Hospital, Mount Poinsur,
+Borivali West, Mumbai, Maharashtra 400103.</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 1234567890</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
 	            </div>
