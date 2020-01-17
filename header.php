@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MeetUp - Free Bootstrap 4 Template by Colorlib</title>
+    <title>IRIS SFIT 2020</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,12 +48,13 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav nav ml-auto">
-                <li class="nav-item"><a href="/iris" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="index.php" class="nav-link"><span>Home</span></a></li>
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+                <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="#venue-section" class="nav-link"><span>Venue</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
-                <li class="nav-item"><a href="#sponsors-section" class="nav-link"><span>Sponsors</span></a></li>
+                <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
                 <li class="nav-item cta"><a href="#" class="nav-link">Register</a></li>
             </ul>
