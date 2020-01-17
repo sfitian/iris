@@ -8745,11 +8745,6 @@ img.zoom-img {
   content: "";
   clear: both; }
 
-.text-ribbon-inputs-split .text-ribbon-input {
- 
-  }
-  .text-ribbon-inputs-split .text-ribbon-input + .text-ribbon-input {
-    margin-left: 2%; }
 
 .text-ribbon-primary {
   background-color: #EEE04A; }
