@@ -50,7 +50,8 @@
             <ul class="navbar-nav nav ml-auto">
                 <li class="nav-item"><a href="/iris" class="nav-link"><span>Home</span></a></li>
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+                <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="#venue-section" class="nav-link"><span>Venue</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
                 <li class="nav-item"><a href="#sponsors-section" class="nav-link"><span>Sponsors</span></a></li>
