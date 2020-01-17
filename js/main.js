@@ -297,7 +297,19 @@
 
      setInterval(function() { makeTimer(); }, 1000);
 
-
-
-
  })(jQuery);
+
+
+ function setVisibility() {
+     $('#interCollege').on('blur',function(){
+         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT"){
+             $("#sfitian").show();
+         }
+     });
+ }
+
+ $(document).ready(function () {
+     if ($("#interCollege").length > 0) {
+         $("#sfitian").hide()
+     }
+ })
