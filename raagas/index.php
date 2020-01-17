@@ -96,7 +96,7 @@
     <header>
       <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="two.mov" type="video/mp4">
+        <source src="finalhero.mp4" type="video/mp4">
       </video>
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
@@ -105,7 +105,9 @@
           </div>
         </div>
       </div>
+
     </header>
+
 
     <button class="btn btn-link stage-toggle" data-target="#stage" data-toggle="stage">
       <span class="icon icon-menu stage-toggle-icon"></span>
