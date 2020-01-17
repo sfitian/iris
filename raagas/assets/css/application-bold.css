@@ -79,7 +79,7 @@
 header {
   position: relative;
   background-color: black;
-  height: 90vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
@@ -116,6 +116,11 @@ header .overlay {
   z-index: 1;
 }
 
+#herobtn{
+  display: absolute;
+  margin-top: 30%;
+}
+
 /* @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -145,3 +150,63 @@ header .overlay {
 
 
 /* video end */
+
+/* btn start  */
+
+.heading-btn{
+  display:block;
+  position: relative;
+
+}
+
+/*btn2*/
+.btn2:link,
+.btn2:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:15px 40px;
+    display:inline-block;
+    border-radius:100px;
+    transition: all .2s;
+    position :relative;
+    margin-top: 20px;
+}
+
+.btn2:hover{
+    transform:translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn2:active{
+    transform:translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.btn2-white{
+    background-color:#fff;
+    color:#777;
+}
+
+.btn2::after{
+    content:"";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn2-white::after{
+    background-color: #fff;
+}
+
+.btn2:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity:0;
+}
+
+/* btn end  */
