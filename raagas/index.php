@@ -13,7 +13,7 @@
 
     <title>
       
-        Bold &middot; 
+        Raagas 
       
     </title>
 
@@ -21,7 +21,7 @@
       <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
       <link href="./assets/css/toolkit-bold.css" rel="stylesheet">
       <link href="./assets/css/application-bold.css" rel="stylesheet">
-    
+      <link rel="shortcut icon" type="image/png" href="./assets/img/rock-favicon.png">    
 
     
 
@@ -74,13 +74,13 @@
 
     <li class="nav-header"><small>Sites</small></li>
     <li class="nav-item ">
-      <a class="nav-link active" href="iris.sfit.ac.in">Raagas</a>
+      <a class="nav-link active" href="/raagas">Raagas</a>
     </li>    
     <li class="nav-item">
-      <a class="nav-link" href="iris.sfit.ac.in">IRIS</a>
+      <a class="nav-link" href="/">IRIS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="sfit.ac.in">SFIT </a>
+      <a class="nav-link" href="http://www.sfit.ac.in">SFIT </a>
     </li>
 
 
@@ -96,7 +96,7 @@
     <header>
       <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="two.mov" type="video/mp4">
+        <source src="finalhero.mp4" type="video/mp4">
       </video>
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
@@ -105,7 +105,9 @@
           </div>
         </div>
       </div>
+
     </header>
+
 
     <button class="btn btn-link stage-toggle" data-target="#stage" data-toggle="stage">
       <span class="icon icon-menu stage-toggle-icon"></span>
@@ -231,7 +233,7 @@
         <div class="row mb-3">
           <div class="col-md-8">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="682" height="384" src="https://www.youtube.com/embed/Bm5iA4Zupek?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="682" height="384" src="https://www.youtube.com/embed/K1iAQUpvLUQ" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -243,7 +245,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/mosdef.jpg)">
+             style="background-image: url(./assets/img/people-in-concert.jpg)">
         </div>
       </div>
     </div>
@@ -259,134 +261,16 @@
             </h1>
             <form action="sub.php" method="POST">
               <div class="text-ribbon-inputs-split">
-                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Band Name">
-                <input type="text" required name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name">
-                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="No of members">
-                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 1">
-                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact 2">
+                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Your Band Name">
+                <input type="text" name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name (optional)">
+                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Number of members in band">
+                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
+                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
               </div>
               <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block">Submit</button>
               </div>
             </div>
             </form>
-      </div>
-    </div>
-  </div>
-
-  <div class="block block-fill-height block-inverse app-block-nicki"
-       style="background-image: url(./assets/img/nicki.jpg)"
-       id="pricing">
-    <div class="block-xs-middle">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col-lg-5">
-            <h1 class="block-title mb-4">
-              <span class="text-ribbon">
-                <span>Easy Pricing.</span>
-              </span></h1>
-            <p class="lead">
-              <span class="text-ribbon text-muted">
-                <span>
-                  One yearly payment of $99 and get unlimited leaked tracks.
-                </span>
-              </span>
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-block">
-                <h3 class="card-title">Basic Trial</h3>
-                <h4 class="text-muted text-serif mt-0 mb-3">
-                  <em>$0/yr</em>
-                </h4>
-                <p class="text-serif mb-1">
-                  <em>
-                    Endless stations based on artists, genres, and moods, including You FM, your own personalized station.
-                  </em>
-                </p>
-                <hr>
-                <ul class="iconlist text-serif mb-4">
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Unlimited streaming</em>
-                  </li>
-                  <li>
-                    <span class="icon icon-cross"></span>
-                    <em>Day of leak access</em>
-                  </li>
-                  <li>
-                    <span class="icon icon-cross"></span>
-                    <em>Offline sync</em>
-                  </li>
-                </ul>
-                <button class="btn btn-secondary btn-square btn-block btn-lg">Start a basic trial</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card accent-primary">
-              <div class="card-block">
-                <h3 class="card-title">Anual Access</h3>
-                <h4 class="text-primary text-serif mt-0 mb-3">
-                  <em>$99/yr</em>
-                </h4>
-                <p class="text-serif mb-1">
-                  <em>
-                    Endless stations based on artists, genres, and moods, including You FM, your own personalized station.
-                  </em>
-                </p>
-                <hr>
-                <ul class="iconlist text-serif mb-4">
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Unlimited streaming</em>
-                  </li>
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Day of leak access</em>
-                  </li>
-                  <li>
-                    <span class="icon icon-cross"></span>
-                    <em>Offline sync</em>
-                  </li>
-                </ul>
-                <button class="btn btn-primary btn-square btn-block btn-lg">Start a basic trial</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-block">
-                <h3 class="card-title">Celebrity Look</h3>
-                <h4 class="text-muted text-serif mt-0 mb-2">
-                  <em>$299/yr</em>
-                </h4>
-                <p class="text-serif mb-1">
-                  <em>
-                    Endless stations based on artists, genres, and moods, including You FM, your own personalized station.
-                  </em>
-                <hr>
-                <ul class="iconlist text-serif mb-4">
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Unlimited streaming</em>
-                  </li>
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Day of leak access</em>
-                  </li>
-                  <li class="active">
-                    <span class="icon icon-check"></span>
-                    <em>Offline sync</em>
-                  </li>
-                </ul>
-                <button class="btn btn-secondary btn-square btn-block btn-lg">Start a basic trial</button>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
