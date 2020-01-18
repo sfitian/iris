@@ -387,7 +387,9 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  padding: 10px;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -9363,7 +9365,8 @@ textarea.form-control {
   position: relative;
   z-index: 0; }
 
-.ftco-counter .text {
+
+  .ftco-counter .text {
   display: inline-block;
   -webkit-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: -20px 20px 69px -27px rgba(0, 0, 0, 0.17);
@@ -9745,3 +9748,29 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+.sponsor_logo{
+  max-width: 100px;
+  max-height: 100px;
+  align-items:center;
+  padding: 20px;
+}
+.main{
+  margin: 2%;
+}
+.card1{
+width: 20%;
+display: inline-block;
+box-shadow: 2px 2px 20px black;
+border-radius: 20px;
+margin: 2%;
+padding:20px;
+}
+.image img{
+  width: 10%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.supporter-logo{
+  width: max-content;
+  height: fit-content;
+}
