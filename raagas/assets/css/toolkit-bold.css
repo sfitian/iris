@@ -6935,7 +6935,6 @@ textarea {
   top: 2px;
   display: inline-block;
   font-family: "toolkit-entypo";
-  speak: none;
   font-size: 100%;
   font-style: normal;
   font-weight: normal;
@@ -8745,11 +8744,6 @@ img.zoom-img {
   content: "";
   clear: both; }
 
-.text-ribbon-inputs-split .text-ribbon-input {
- 
-  }
-  .text-ribbon-inputs-split .text-ribbon-input + .text-ribbon-input {
-    margin-left: 2%; }
 
 .text-ribbon-primary {
   background-color: #EEE04A; }
@@ -9000,6 +8994,5 @@ html {
 
 body {
   position: relative;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto; }
