@@ -23,7 +23,9 @@
       <link href="./assets/css/application-bold.css" rel="stylesheet">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    
+    <!-- favicon -->
+
+    <link rel="icon" type="image/ico" sizes="32x32" href="./assets/favicon/favicon.ico">
 
     
 
