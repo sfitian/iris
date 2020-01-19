@@ -9801,3 +9801,8 @@ padding:10px;
       .navbar-brand1:hover, .navbar-brand1:focus {
         text-decoration: none;
         text-: #ffc107; } */ 
+
+.raagas-submit{
+  background: #EEE04A;
+  border: 1px solid #EEE04A !important;
+}

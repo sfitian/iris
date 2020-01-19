@@ -22,7 +22,7 @@
 						<li>Single: Rs.150</li>
 						<li>Duet: Rs.200</li>
 					</ul>
-					<p class="button text-center"><a href="forms/singing.php" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/surshastra.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 
@@ -38,7 +38,7 @@
 						<li>Single: 200</li>
 						<li>Group: 500</li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/tandav.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -52,7 +52,7 @@
 						<li>Cash prize: </li>
 						<li>Entry fee: </li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/shutterUp.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 		</div>
@@ -69,7 +69,7 @@
 						<li>Cash prize: </li>
 						<li>Entry fee: </li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/contrasto.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -84,7 +84,7 @@
 						<li>Group of 5</li>
 						<li>Entry fee: </li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/csGo.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -99,7 +99,7 @@
 						<li>1v1</li>
 						<li>Entry fee: </li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/fifa.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 
@@ -122,7 +122,7 @@
 							<li>Cash prize: </li>
 							<li>Entry fee: </li>
 						</ul>
-						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+						<p class="button text-center"><a href="forms/iris.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
 				</div>
 				<div class="col-md-4 ftco-animate">
@@ -137,7 +137,7 @@
 							<li>Group of 4</li>
 							<li>Entry fee: </li>
 						</ul>
-						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+						<p class="button text-center"><a href="forms/pubg.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 ftco-animate"></div>
