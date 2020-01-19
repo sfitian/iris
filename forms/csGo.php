@@ -2,8 +2,8 @@
 
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
-        <h1 style="color:rgb(3,63,255); font-weight: bolder">CONTRASTO.</h1>
-        <h4 class="mb-5" style="margin-left: 20px">InterCollege Doodling Contest</h4>
+        <h1 style="color:rgb(3,63,255); font-weight: bolder">CS GO.</h1>
+        <!-- <h4 class="mb-5" style="margin-left: 20px">InterCollege Photography Competition</h4> -->
     </div>
     <form action="#" class="p-5 bg-light">
         <!-- Name -->
@@ -54,5 +54,7 @@
         </div>
     </form>
 </div>
+
+
 
 <?php include("../footer.php") ?>

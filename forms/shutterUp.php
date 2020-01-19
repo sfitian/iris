@@ -2,7 +2,7 @@
 
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
-        <h1 style="color:rgb(251, 185, 1); font-weight: bolder">SHUTTER UP.</h1>
+        <h1 style="color:rgb(3,63,255); font-weight: bolder">SHUTTER UP.</h1>
         <h4 class="mb-5" style="margin-left: 20px">InterCollege Photography Competition</h4>
     </div>
     <form action="#" class="p-5 bg-light">
