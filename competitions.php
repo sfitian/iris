@@ -13,12 +13,12 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
-						<h3 class="navbar-brand1 text-warning"><span>Surshastra</span></h3>
-						<h5 class="mb-0">Singing</h5>
+						<h3><p><span class="price">SURSHASTRA</span></h3>
+						<h5 class="mb-0">A Singing Competition</h5>
 						
 					</div>
 					<ul>
-						<li><p><span class="price">Cash prize: 2000</span></li>
+						<li>Cash prize: 2000</li>
 						<li>Single: Rs.150</li>
 						<li>Duet: Rs.200</li>
 					</ul>
@@ -29,12 +29,12 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
-						<h3 class="navbar-brand1 text-warning"><span>Tandav</span></h3>
+						<h3><p><span class="price">TANDAV</span></h3>
 						<h5 class="mb-0">Dance</h5>
 						
 					</div>
 					<ul>
-						<li><p><span class="price">Cash prize: </span></li>
+						<li>Cash prize: 5000</li>
 						<li>Single: 200</li>
 						<li>Group: 500</li>
 					</ul>
@@ -44,12 +44,12 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry active pb-5 text-center">
 					<div>
-						<h3 class="navbar-brand1 text-warning"><span>Shutter Up</span></h3>
-						<h5 class="mb-0">Photography</h5>
+						<h3><p><span class="price">SHUTTER UP</span></h3>
+						<h5 class="mb-0">Photography Competition</h5>
 						
 					</div>
 					<ul style="margin-bottom: 48px">
-						<li><p><span class="price">Cash prize: 5000</span></li>
+						<li>Cash prize: </li>
 						<li>Entry fee: </li>
 					</ul>
 					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
@@ -61,12 +61,12 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
-						<h3 class="navbar-brand1 text-warning"><span>Contrasto</span></h3>
-						<h5 class="mb-0">Doodling</h5>
+						<h3><p><span class="price">CONTRASTO</span></h3>
+						<h5 class="mb-0">A Doodling Contest</h5>
 						
 					</div>
 					<ul style="margin-bottom: 48px">
-						<li><p><span class="price">Cash prize: </span></li>
+						<li>Cash prize: </li>
 						<li>Entry fee: </li>
 					</ul>
 					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
@@ -76,11 +76,11 @@
 				<div class="pricing-entry pb-5 text-center">
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
-						<h3 class="navbar-brand1 text-warning">CS:GO</h3>
+						<h3><p><span class="price">CS:GO</span></h3>
 						
 					</div>
 					<ul style="margin-bottom: 30px">
-						<li><p><span class="price">Cash prize: </span></li>
+						<li>Cash prize: </li>
 						<li>Group of 5</li>
 						<li>Entry fee: </li>
 					</ul>
@@ -91,11 +91,11 @@
 				<div class="pricing-entry pb-5 text-center">
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
-						<h3 class="navbar-brand1 text-warning">FIFA</h3>
+						<h3><p><span class="price">FIFA</span></h3>
 						
 					</div>
 					<ul style="margin-bottom: 30px">
-						<li><p><span class="price">Cash prize: </span></li>
+						<li>Cash prize: </li>
 						<li>1v1</li>
 						<li>Entry fee: </li>
 					</ul>
@@ -115,11 +115,11 @@
 					<div class="pricing-entry pb-5 text-center">
 						<div>
 							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
-							<h3 class="navbar-brand1 text-warning">Mr. & Mrs. IRIS</h3>
+							<h3><p><span class="price">MR. & MRS. IRIS</span></h3>
 							
 						</div>
 						<ul style="margin-bottom: 48px">
-							<li><p><span class="price">Cash prize: </span></li>
+							<li>Cash prize: </li>
 							<li>Entry fee: </li>
 						</ul>
 						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
@@ -129,11 +129,11 @@
 					<div class="pricing-entry pb-5 text-center">
 						<div>
 							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
-							<h3 class="navbar-brand1 text-warning">Pubg</h3>
+							<h3><p><span class="price">PUBG</span></h3>
 							
 						</div>
 						<ul>
-							<li><p><span class="price">Cash prize: </span></li>
+							<li>Cash prize: </li>
 							<li>Group of 4</li>
 							<li>Entry fee: </li>
 						</ul>
