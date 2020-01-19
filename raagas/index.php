@@ -21,6 +21,8 @@
       <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
       <link href="./assets/css/toolkit-bold.css" rel="stylesheet">
       <link href="./assets/css/application-bold.css" rel="stylesheet">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     
 
     
@@ -278,7 +280,45 @@
 
 <!-- footer start  -->
 
+<footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Raagas</h2>
+              <p>IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. Coupled with the legacy of grandiosity and celebration, IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li ><a href="#"><span class="fa fa-facebook-square"></span></a></li>
+                <li ><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li ><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+              </ul>
 
+              
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Contact Us</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="fa fa-map-marker address2 info2"></span><span class="text address2" >St. Francis Institute Of Technology,
+Sardar Vallabhbhai Patel Rd,
+Near Bhagwati Hospital, Mount Poinsur,
+Borivali West, Mumbai, Maharashtra 400103.</span></li>
+	                <li><a href="#"><span class="fa fa-phone info2"></i></span><span class="text">+91 022-28928585</span></a></li>
+	                <li><a href="#"><span class="fa fa-envelope info2"></i></span><span class="text">sfedu@sfit.ac.in</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+          </div>
+        </div>
+      </div>
+    </footer>
 
 <!-- footer end  -->
 
