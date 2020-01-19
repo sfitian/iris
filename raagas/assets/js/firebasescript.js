@@ -29,10 +29,9 @@
     var noofmembers = document.getElementById('noofmembers').value;
     var contact1 = document.getElementById('contact1').value;
     var contact2 = document.getElementById('contact2').value;
-    var now = new Date();
   
     // Save message
-    saveMessage(bandName, collegeName, noofmembers, contact1, contact2,now);
+    saveMessage(bandName, collegeName, noofmembers, contact1, contact2);
   
 
     // Clear form
@@ -43,14 +42,18 @@
 
   
   // Save message to firebase
-  function saveMessage(bandName, collegeName, noofmembers, contact1, contact2,now){
+  function saveMessage(bandName, collegeName, noofmembers, contact1, contact2){
     var newMessageRef = messagesRef.push();
+    var datentime = new Date();
+    var datentime2 = datentime.toString();
+
     newMessageRef.set({
         bandName: bandName,
         collegeName:collegeName,
       noofmembers:noofmembers,
       contact1:contact1,
       contact2:contact2,
-      time:now
+      datentime2:datentime2,
     });
+    console.log(datentime2);
   }
