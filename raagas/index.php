@@ -178,7 +178,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256016/ragas/nonmin/alexander_popov_htv8_3zkM7_zukxqx.jpg')">
+             style="background-image: url('https://res.cloudinary.com/dolico5u3/image/upload/v1579407495/raagas/opti/alexander_popov_htv8_3zkM7.jpg')">
         </div>
       </div>
     </div>
@@ -209,7 +209,7 @@
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url('https://res.cloudinary.com/dk4lofijq/image/upload/v1579256653/ragas/nonmin/matthew_kalapuch_sqj_VUvpZ_3_xkrsju.jpg')">
+             style="background-image: url('https://res.cloudinary.com/dolico5u3/image/upload/v1579407494/raagas/opti/matthew_kalapuch_sqj_VUvpZ_3.jpg')">
         </div>
       </div>
     </div>
@@ -235,7 +235,7 @@
         <div class="row mb-3">
           <div class="col-md-8">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="682" height="384" src="https://www.youtube.com/embed/Bm5iA4Zupek?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="682" height="384" src="https://www.youtube.com/embed/GzU8KqOY8YA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
