@@ -410,7 +410,7 @@ function animate(){
         animate.i = 0;
     }
 }
-setInterval(animate,250);
+setInterval(animate,180);
     
     </script>
   </body>
