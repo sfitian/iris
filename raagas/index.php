@@ -106,6 +106,10 @@
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
             <img src="logo.png" alt="" srcset="" id="rlogo">
+            <div class="heading-btn">
+                 <a href="#" class="btn2 btn2-white">Browse Now
+    </a>     
+    </div>   
           </div>
         </div>
       </div>
@@ -117,6 +121,7 @@
       <span class="icon icon-menu stage-toggle-icon"></span>
       
     </button>
+
 
 
   </div>
@@ -331,5 +336,82 @@ Borivali West, Mumbai, Maharashtra 400103.</span></li>
     <script src="./assets/js/tether.min.js"></script>
     <script src="./assets/js/toolkit.js"></script>
     <script src="./assets/js/application.js"></script>
+
+    <!-- script for animated favicon -->
+
+    <script>
+    document.head = document.head || document.getElementsByTagName('head')[0];
+function changeFavicon(src) {
+    var link = document.createElement('link'), oldLink = document.getElementById('dynamic-favicon');
+    link.id = 'dynamic-favicon';
+    link.rel = 'shortcut icon';
+    link.href = src;
+    if (oldLink) {
+        document.head.removeChild(oldLink);
+    }
+    document.head.appendChild(link);
+    }
+function animate(){
+    if ( typeof animate.i == 'undefined' ) {
+        animate.i = 0;
+    }
+    switch(animate.i) {
+        case 0:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPABAACE/wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgABACwAAAAAEAAQAAACFoyPqcvtD6OctNqLJwBhd+553xiCXAEAOw==");
+            break;
+        case 1:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACG5SPqcvtD6OctNp7QxCa794JACCSY4l6KvhtBQA7");
+            break;
+        case 2:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACJpSPqcvtD6OcdAZ3D8gnB4AAYDeKQnCZmSmYLri1JUzL9nmh+K4XADs=");
+            break;
+        case 3:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACLpSPqcvtD1WIBkx5LgDL1rkZF8gJYRiUXGiurpC21Xu+cn2r9D7nPjwJBIdAQQEAOw==");
+            break;
+        case 4:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPEDAAD/ZgCE//8AAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAEAAQAAACNpwdpyI60dxgyFB5RaJpRQAMoNgZoxiOY3eqaWqG6Kwm7Uvj+X7zuuuLBXtA4FAXSCQfyuagAAA7");
+            break;
+        case 5:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPEDAAD/ZgCE//8AAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAEAAQAAACNZwdk6frMiCKLAko6TVyZywBwCCSy1iS6Kqw6lvGI8zKho3POX3Xfs+zBX9DXlEYSCQbzGUBADs=");
+            break;
+        case 6:
+            changeFavicon("[data:image/gif;base64,R0lGODlhEAAQAPEDAAD/ZgCE//8AAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAEAAQAAACOZyPGLfTbESaSCa7WrAI0OEZXhCGR0iKjme2Kgi/MFDGtMjmdqnfPA7qAYNE39AnJBZ7Okfm6YwWAAA7");
+            break;
+        case 7:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACLZSPqcvtDyMMiRprI6hm9y94h+gBlImg4QmWZbeVpxvGMYwDds0LAfXzAYeCAgA7");
+            break;
+        case 8:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACK5SPqcvtD2MLEtF0D6hb9JtpVMeMBmCexgVsHaqqreeer4vTuhBQPe8LCgoAOw==");
+            break;
+        case 9:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPABAACE/wAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgABACwAAAAAEAAQAAACFoyPqcvtD6OctNqLJwBhd+553xiCXAEAOw==");
+            break;
+        case 10:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACG5SPqcvtD6OctNqLggzAaAd0nBBoJfmdqskKBQA7");
+            break;
+        case 11:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACIJSPqcvtD6NsYdpZRb5bAdMtwCeQzVh+gVoFmau1ciwUADs=");
+            break;
+        case 12:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACI5SPqcvtD6Oc1AV5TXYg7QR0QYd8QniKpIK2qhBkMXzN9lUAADs=");
+            break;
+        case 13:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACJpSPqcvtD6OcLkhrsANC6wRwAueBXGiQB4a2oni440mKgXV3+C4UADs=");
+            break;
+        case 14:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACJJSPqcvtD+MKUtB4JdBb9AZsofEl49mVnsiuJNmirkUF9U0LBQA7");
+            break;
+        case 15:
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACK5SPqcvtD+MKkhrrgMAWG6AJmpeAYjgelsmi29GesvhpcSzfdhhQ/eYLCgoAOw==");
+            break;
+    }
+    animate.i = animate.i + 1;
+    if(animate.i == 16){
+        animate.i = 0;
+    }
+}
+setInterval(animate,250);
+    
+    </script>
   </body>
 </html>
