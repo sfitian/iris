@@ -107,7 +107,7 @@
           <div class="w-100 text-white">
             <img src="logo.png" alt="" srcset="" id="rlogo">
             <div class="heading-btn">
-                 <a href="#" class="btn2 btn2-white">Browse Now
+                 <a href="#" class="btn2 btn2-white">JOIN Now
     </a>     
     </div>   
           </div>
@@ -375,7 +375,7 @@ function animate(){
             changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPEDAAD/ZgCE//8AAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAEAAQAAACNZwdk6frMiCKLAko6TVyZywBwCCSy1iS6Kqw6lvGI8zKho3POX3Xfs+zBX9DXlEYSCQbzGUBADs=");
             break;
         case 6:
-            changeFavicon("[data:image/gif;base64,R0lGODlhEAAQAPEDAAD/ZgCE//8AAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgADACwAAAAAEAAQAAACOZyPGLfTbESaSCa7WrAI0OEZXhCGR0iKjme2Kgi/MFDGtMjmdqnfPA7qAYNE39AnJBZ7Okfm6YwWAAA7");
+            changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACLZSPqcvtDyMMiRprI6hm9y94h+gBlImg4QmWZbeVpxvGMYwDds0LAfXzAYeCAgA7");
             break;
         case 7:
             changeFavicon("data:image/gif;base64,R0lGODlhEAAQAPD/AAD/ZgCE/yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgACACwAAAAAEAAQAAACLZSPqcvtDyMMiRprI6hm9y94h+gBlImg4QmWZbeVpxvGMYwDds0LAfXzAYeCAgA7");

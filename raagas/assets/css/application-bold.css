@@ -138,17 +138,6 @@ header .overlay {
 
 
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
-    #rlogo{
-      width:40vw;
-    }
-}
-
-
 /* video end */
 
 /* btn start  */
@@ -157,6 +146,7 @@ header .overlay {
   display:block;
   position: relative;
 
+
 }
 
 /*btn2*/
@@ -164,12 +154,12 @@ header .overlay {
 .btn2:visited{
     text-transform: uppercase;
     text-decoration: none;
-    padding:15px 40px;
+    padding:5px 18px;
     display:inline-block;
     border-radius:100px;
     transition: all .2s;
     position :relative;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .btn2:hover{
@@ -185,6 +175,7 @@ header .overlay {
 .btn2-white{
     background-color:#fff;
     color:#777;
+    height:30px;
 }
 
 .btn2::after{
@@ -338,3 +329,119 @@ li{
 
 
 /* footer end  */
+
+/* responsive start  */
+
+@media only screen and (min-width: 600px)  { 
+
+  #rlogo{
+    width:40vw;
+    margin-top:-8vh;
+    
+  }
+
+  .heading-btn{
+    margin-top:-4vh;
+  
+  
+  }
+}
+
+@media only screen and (min-width: 800px)  { 
+
+    #rlogo{
+      width:40vw;
+    }
+
+    .heading-btn{
+      margin-top:-6vh;
+    
+    
+    }
+    
+    /*btn2*/
+    .btn2:link,
+    .btn2:visited{
+        padding:15px 28px;
+    }
+    
+    .btn2-white{
+        height:50px;
+    }
+}
+
+@media only screen and (min-width: 1000px)  { 
+
+  #rlogo{
+    width:40vw;
+    margin-top:-9vh;
+  }
+
+  .heading-btn{
+    margin-top:-6vh;
+  
+  
+  }
+  
+  /*btn2*/
+  .btn2:link,
+  .btn2:visited{
+      padding:15px 28px;
+  }
+  
+  .btn2-white{
+      height:50px;
+  }
+}
+
+@media only screen and (min-width: 1200px)  { 
+
+  #rlogo{
+    width:40vw;
+    margin-top:-20vh;
+    
+  }
+
+  .heading-btn{
+    margin-top:-10vh;
+  
+  
+  }
+  .btn2:link,
+  .btn2:visited{
+      padding:15px 28px;
+  }
+  
+  .btn2-white{
+      height:50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1400px)  { 
+
+  #rlogo{
+    width:40vw;
+    margin-top:-20vh;
+    
+  }
+
+  .heading-btn{
+    margin-top:-18vh;
+  
+  
+  }
+  .btn2:link,
+  .btn2:visited{
+      padding:15px 28px;
+  }
+  
+  .btn2-white{
+      height:50px;
+  }
+
+
+}
+
+/* reesponsive end  */
