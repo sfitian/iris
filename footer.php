@@ -8,7 +8,7 @@
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/irisfest/" target="_blank"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/irisfest/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>

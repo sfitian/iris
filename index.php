@@ -20,7 +20,7 @@
 		          	<div class="text mt-4 mt-md-0">
 			            <h1 class="mb-4">IRIS <span>Convergence</span> 2020</span></h1>
 			            <h2 class="mb-4">January 29-30</h2>
-			            <p><a href="competitions.php" class="btn btn-primary py-3 px-4">Register</a> <a href="https://www.instagram.com/p/B55Zf2IAY3u/?utm_source=ig_web_copy_link" target="_blank" class="btn btn-white py-3 px-4">Watch Video</a></p>
+			            <p><a href="competitions.php" class="btn btn-primary py-3 px-4">Register</a> <a href="https://www.instagram.com/p/B55Zf2IAY3u/?utm_source=ig_web_copy_link" class="btn btn-white py-3 px-4">Watch Video</a></p>
 		            </div>
 		          </div>
 	        	</div>
