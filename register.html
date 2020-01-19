@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="registerstyle.css" />
+  <title>Registration Form - IRIS</title>
+</head>
+
+<body>
+  <form action="" method="POST" id="registrationform">
+    <h1>Register</h1>
+    <div class="alert">Registered Successfully</div>
+    <fieldset>
+      <!-- Section 1 -->
+      <legend><span class="section">1</span>Your Basic Info</legend>
+      <label class="" for="name">Name:</label>
+      <input type="text" name="name" value="" id="name" required />
+
+      <label class="" for="phoneNumber">Phone Number:</label>
+      <input type="text" name="phoneNumber" value="" id="phoneNo" required/>
+
+      <label class="" for="email">Email:</label>
+      <input type="email" name="email" value="" id="email" required />
+    </fieldset>
+
+    <fieldset>
+      <!-- section 2 -->
+      <legend><span class="section">2</span>College Details</legend>
+
+      <label class="" for="nameCollege">College Name:</label>
+      <input type="text" name="nameCollege" value="" id="collegeName" required />
+
+      <label for="year">Year of Study</label>
+      <select name="yearStudy" id="yearOfStudy" required>
+        <optgroup label="years">
+          <option value="FE" id="fe">First Year</option>
+          <option value="SE" id="se">Second Year</option>
+          <option value="TE" id="te">Third Year</option>
+	  <option value="BE" id="be">Fourth Year</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      
+
+      <button type="submit" sendMessage()>Register</button>
+  </form>
+
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
