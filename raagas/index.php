@@ -268,15 +268,15 @@
                 <span>Sign up now.</span>
               </span>
             </h1>
-            <form action="sub.php" method="POST">
+            <form id="pushform">
               <div class="text-ribbon-inputs-split">
-                <input type="text" required name = "bandName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Your Band Name">
-                <input type="text" name = "collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name (optional)">
-                <input type="text" required  name = "noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Number of members in band">
-                <input type="text" required name = "contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
-                <input type="text" name = "contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
+                <input type="text" required name = "bandName" id="bandname" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Your Band Name">
+                <input type="text" name = "collegeName" id="collegeName" class="h4 text-ribbon-input text-ribbon-primary" placeholder="College Name (optional)">
+                <input type="text" required  name = "noofmembers" id="noofmembers" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Number of members in band">
+                <input type="text" required name = "contact1" id="contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
+                <input type="text" name = "contact2" id="contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
               </div>
-              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block">Submit</button>
+              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block" data-toggle="popover" data-placement="bottom" title="Success" data-content="Thanks for Signing up for the event. We hope you enjoy, and see you on the stage.">Submit</button>
               </div>
             </div>
             </form>
@@ -337,6 +337,31 @@ Borivali West, Mumbai, Maharashtra 400103.</span></li>
     <script src="./assets/js/toolkit.js"></script>
     <script src="./assets/js/application.js"></script>
 
+    <!-- script for popovers -->
+    <script>
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+
+
+<!-- script to submit form via ajax in background
+<script>
+$('#push').click(function() {
+    $.ajax({
+        url: 'sub.php',
+        type: 'POST',
+        data: {
+bandName:$('#bandName').value,
+collegeName:$('#collegeName').value,
+noofmembers:$('#noofmembers').value,
+contact1:$('#contact1').value,
+contact2:$('#contact2').value
+        },              
+    });
+});
+
+</script> -->
     <!-- script for animated favicon -->
 
     <script>
@@ -413,5 +438,14 @@ function animate(){
 setInterval(animate,180);
     
     </script>
+
+    <!-- script for firebase -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+
+    <script src="./assets/js/firebasescript.js"></script>
+
+
+
   </body>
 </html>
