@@ -22,6 +22,7 @@
       <link href="./assets/css/toolkit-bold.css" rel="stylesheet">
       <link href="./assets/css/application-bold.css" rel="stylesheet">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/style.css">
 
     <!-- favicon -->
 
@@ -276,7 +277,7 @@
                 <input type="text" required name = "contact1" id="contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
                 <input type="text" name = "contact2" id="contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
               </div>
-              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block" data-toggle="popover" data-placement="bottom" title="Success" data-content="Thanks for Signing up for the event. We hope you enjoy, and see you on the stage.">Submit</button>
+              <button type="submit" id="push" name="push" class="btn btn-square btn-lg btn-block raagas-submit" data-toggle="popover" data-placement="bottom" title="Success" data-content="Thanks for Signing up for the event. We hope you enjoy, and see you on the stage.">Submit</button>
               </div>
             </div>
             </form>
