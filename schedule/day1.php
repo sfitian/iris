@@ -10,7 +10,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">11:00AM - 01:00PM</span>
                               <h2><a href="#">Catch Up With Divya Khosla Kumar</a></h2>
@@ -19,7 +19,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">01:00PM - 03:00PM</span>
                               <h2><a href="#">Mr & Ms Iris </a></h2>

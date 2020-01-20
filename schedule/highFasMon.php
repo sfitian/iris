@@ -28,7 +28,7 @@
 	              		</div>
 	              	</div>
 	                <div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
+	              		<div class="img speaker-img" style="background-image:  url(images/tugOfWar.jpeg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">03:00PM - 04:30PM</span> -->
 	              			<h2><a href="#">Tug of war ELEC & MECH</a></h2>
