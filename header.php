@@ -8,7 +8,6 @@
 
     <meta property="og:title" content="IRIS-SFIT 2020"/>
     <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min2-min.png"/>
-    <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://iris.sfit.ac.in"/>
     <meta property="og:description" content="New year,new site! IRIS is back and better and now online!">
     
@@ -59,7 +58,8 @@
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
 -->            
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+                <li class="nav-item"><a href="preSchedule.php" class="nav-link"><span>Pre IRIS Schedule</span></a></li>
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>IRIS Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>
