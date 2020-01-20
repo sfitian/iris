@@ -1,4 +1,4 @@
-<?php include("../header.php"); ?>
+<?php include("header.php"); ?>
 
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
@@ -57,4 +57,4 @@
 
 
 
-<?php include("../footer.php") ?>
+<?php include("footer.php") ?>
