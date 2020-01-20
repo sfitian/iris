@@ -456,8 +456,8 @@ function postToGoogleForm() {
 
  $.ajax({
 
-                    url: "https://docs.google.com/forms/d/e/1FAIpQLSflK7UHh14EvPxDNPnIZ2gTzK3KztweJPCbUTxz5oNzPgFRhA/formResponse?",
-					data: {"entry.1297171993": field1, "entry.1145541295": field2, "entry.64611392": field3, "entry.900274757": field4, "entry.1834912991":field5},
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSf5LBL3wiLMPbtJqF1bRqfNjkVKn_IDyZPhGCOgP60jb_oFYA/formResponse?",
+					data: {"entry.2030456110": field1, "entry.451578530": field2, "entry.1153807689": field3, "entry.1153807689": field4, "entry.310826062":field5},
                     type: "POST",
                     dataType: "xml",
                     success: function(d)
