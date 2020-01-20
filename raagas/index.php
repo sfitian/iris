@@ -13,7 +13,7 @@
 
 
     <meta property="og:title" content="Raagas"/>
-    <meta property="og:image" content="http://localhost/iris/raagas/logo.png"/>
+    <meta property="og:image" content="http://iris.sfit.ac.in/raagas/logo.png"/>
     <meta property="og:description" content="Bands from all over Mumbai would face each other for one epic musical night."/>
     
 
