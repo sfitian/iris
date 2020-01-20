@@ -84,7 +84,7 @@
 
     <li class="nav-header"><small>Sites</small></li>
     <li class="nav-item ">
-      <a class="nav-link active" href="/raagas">Raagas</a>
+      <a class="nav-link active" href="#about" data-target="#stage" data-toggle="stage">Raagas</a>
     </li>    
     <li class="nav-item">
       <a class="nav-link" href="/">IRIS</a>
