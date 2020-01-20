@@ -11,6 +11,12 @@
     <meta name="keywords" content="">
     <meta name="author" content="">
 
+
+    <meta property="og:title" content="Raagas"/>
+    <meta property="og:image" content="logo.png"/>
+    <meta property="og:description" content="Bands from all over Mumbai would face each other for one epic musical night."/>
+    
+
     <title>
       
         Raagas 
@@ -145,7 +151,7 @@
                 <div class="card-block pb-5">
                   <h4 class="mb-0">Raagas</h4>
                   <hr>
-                  <p class="text-serif"><em>Raagas is a new venture by iris fest. It is one of its kind music festival happening for the first time in SFIT.</em></p>
+                  <p class="text-serif"><em>Raagas is a new venture by IRIS fest. It is one of its kind music festival happening for the first time in SFIT.</em></p>
                   <p class="text-serif"><em>Bands from all over Mumbai would face each other for one epic musical night.</em></p>
                 </div>
               </div>
