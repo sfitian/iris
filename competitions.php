@@ -57,6 +57,24 @@
 			</div>
 		</div>
 
+
+		<div class="row" style="margin-top:45px">
+			<div class="col-md ftco-animate">
+				<div class="pricing-entry pb-5 text-center">
+					<div>
+						<h3><p><span class="price">Raagas</span></h3>
+						<h5 class="mb-0">A Band Contest</h5>
+						
+					</div>
+					<ul style="margin-bottom: 48px">
+						<li>Cash prize: 20,000</li>
+						<li>Group </li>
+					</ul>
+					<p class="button text-center"><a href="../iris/raagas" class="btn btn-primary px-4 py-3">Register</a></p>
+				</div>
+			</div>
+        </div>
+
 		<div class="row" style="margin-top:45px">
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
