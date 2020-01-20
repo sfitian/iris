@@ -12,12 +12,6 @@
             <input type="text" class="form-control" id="name" name="name" required>
         </div>
 
-        <!-- Number  -->
-        <div class="form-group">
-            <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="contact" required>
-        </div>
-
         <!--  College  -->
         <div class="form-group">
             <label for="college">College *</label>
@@ -47,10 +41,21 @@
                     <option value="mech">Mechanical</option>
                 </select>
             </div>
+            <div class="form-group">
+                <label for="pid">PID *</label>
+                <input type="number" class="form-control" id="pid" name="pid"  required>
+            </div>
         </div>
+
         <div class="form-group">
             <label for="type">Group Count *</label>
             <input type="number" class="form-control" name="groupCount" id="groupCount" required>
+        </div>
+
+        <!-- Number  -->
+        <div class="form-group">
+            <label for="contact">Number *</label>
+            <input type="number" class="form-control" id="contact" name="contact" required>
         </div>
 
         <!-- <div class="form-group">

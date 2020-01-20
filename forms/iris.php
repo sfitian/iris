@@ -18,15 +18,6 @@
             <input type="number" class="form-control" id="contact" name="contact"  required>
         </div>
 
-         <!-- College 
-        <div class="form-group">
-            <label for="college">College *</label>
-            <input type="text" class="form-control" list="colleges" id="interCollege" name="college" required/>
-            <datalist id="colleges">
-                <option>St. Francis Institute of Technology</option>
-            </datalist>
-        </div> -->
-
         <div class="form-group">
             <label for="year">Year *</label>
             <select class="form-control" name="dept" id="dept">
@@ -45,6 +36,10 @@
                 <option value="elec">Electrical</option>
                 <option value="mech">Mechanical</option>
             </select>
+        </div>
+        <div class="form-group">
+            <label for="pid">PID *</label>
+            <input type="number" class="form-control" id="pid" name="pid"  required>
         </div>
         <div class="form-group">
             <label for="iris">Applying for *</label>

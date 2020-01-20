@@ -12,12 +12,6 @@
             <input type="text" class="form-control" id="name" name="name" required>
         </div>
 
-        <!-- Number -->
-        <div class="form-group">
-            <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="contact"  required>
-        </div>
-
         <!--  College  -->
         <div class="form-group">
             <label for="college">College *</label>
@@ -47,8 +41,18 @@
                     <option value="mech">Mechanical</option>
                 </select>
             </div>
+            <div class="form-group">
+                <label for="pid">PID *</label>
+                <input type="number" class="form-control" id="pid" name="pid"  required>
+            </div>
         </div>
         
+        <!-- Number -->
+        <div class="form-group">
+            <label for="contact">Number *</label>
+            <input type="number" class="form-control" id="contact" name="contact"  required>
+        </div>
+
        <div class="form-group">
             <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
         </div>

@@ -2,7 +2,7 @@
 
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
-        <h1 style="color:rgb(3,63,255); font-weight: bolder">CS GO.</h1>
+        <h1 style="color:rgb(3,63,255); font-weight: bolder">CS.</h1>
         <!-- <h4 class="mb-5" style="margin-left: 20px">InterCollege Photography Competition</h4> -->
     </div>
     <form action="#" class="p-5 bg-light">
@@ -10,12 +10,6 @@
         <div class="form-group">
             <label for="name">Name *</label>
             <input type="text" class="form-control" id="name" name="name" required>
-        </div>
-
-        <!-- Number -->
-        <div class="form-group">
-            <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="contact"  required>
         </div>
 
         <!--  College  -->
@@ -47,6 +41,16 @@
                     <option value="mech">Mechanical</option>
                 </select>
             </div>
+            <div class="form-group">
+                <label for="pid">PID *</label>
+                <input type="number" class="form-control" id="pid" name="pid"  required>
+            </div>
+        </div>
+
+        <!-- Number -->
+        <div class="form-group">
+            <label for="contact">Number *</label>
+            <input type="number" class="form-control" id="contact" name="contact"  required>
         </div>
         
        <div class="form-group">

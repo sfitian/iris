@@ -302,7 +302,7 @@
 
  function setVisibility() {
      $('#interCollege').on('blur',function(){
-         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT"){
+         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
              $("#sfitian").show();
          }
      });

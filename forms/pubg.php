@@ -46,7 +46,10 @@
                 <option value="mech">Mechanical</option>
             </select>
         </div>
-        
+        <div class="form-group">
+            <label for="pid">PID *</label>
+            <input type="number" class="form-control" id="pid" name="pid"  required>
+        </div>
        <div class="form-group">
             <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
         </div>
