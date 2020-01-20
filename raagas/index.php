@@ -300,9 +300,9 @@
               <h2 class="ftco-heading-2">Raagas</h2>
               <p>IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. Coupled with the legacy of grandiosity and celebration, IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li ><a href="#"><span class="fa fa-facebook-square"></span></a></li>
-                <li ><a href="#"><span class="fa fa-instagram"></span></a></li>
-                <li ><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+                <li ><a href="https://www.facebook.com/St-Francis-Institute-of-Technology-SFIT-114770585286904"><span class="fa fa-facebook-square"></span></a></li>
+                <li ><a href="https://www.instagram.com/raagassfit"><span class="fa fa-instagram"></span></a></li>
+                <li ><a href="https://www.youtube.com/channel/UCGMYAX-qClB5KJw3zi_WYIg"><span class="fa fa-youtube-play"></span></a></li>
               </ul>
 
               
@@ -349,25 +349,6 @@ Borivali West, Mumbai, Maharashtra 400103.</span></li>
 })
 </script>
 
-
-<!-- script to submit form via ajax in background
-<script>
-$('#push').click(function() {
-    $.ajax({
-        url: 'sub.php',
-        type: 'POST',
-        data: {
-bandName:$('#bandName').value,
-collegeName:$('#collegeName').value,
-noofmembers:$('#noofmembers').value,
-contact1:$('#contact1').value,
-contact2:$('#contact2').value
-        },              
-    });
-});
-
-</script> -->
-    <!-- script for animated favicon -->
 
     <script>
     document.head = document.head || document.getElementsByTagName('head')[0];
