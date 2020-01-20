@@ -196,12 +196,12 @@
           <div class="col-md-5 offset-sm-7">
           <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-primary">
-                <span>1st Price: 20k</span>
+                <span>1st Prize:₹20k</span>
               </span>
             </h1>
             <h1 class="block-title mb-4 ">
               <span class="text-ribbon text-ribbon-primary ndprice" style="margin-left: 20px; margin-top: 5px; ">
-                <span>2nd Price: 8k</span>
+                <span>2nd Prize:₹8k</span>
               </span>
             </h1>
 
@@ -311,8 +311,8 @@
 Sardar Vallabhbhai Patel Rd,
 Near Bhagwati Hospital, Mount Poinsur,
 Borivali West, Mumbai, Maharashtra 400103.</span></li>
-	                <li><a href="#"><span class="fa fa-phone info2"></i></span><span class="text">+91 022-28928585</span></a></li>
-	                <li><a href="#"><span class="fa fa-envelope info2"></i></span><span class="text">sfedu@sfit.ac.in</span></a></li>
+	                <li><a href="tel: +91-9167248587"><span class="fa fa-phone info2"></span><span class="text">Joshua Fernandes :&nbsp;</span><span class="text">+91-9167248587</span></a></li>
+	                <li><a href="mailto:studentcouncil@sfit.ac.in"><span class="fa fa-envelope info2"></span><span class="text">studentcouncil@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
             </div>
