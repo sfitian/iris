@@ -10,7 +10,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
+                          <div class="img speaker-img" style="background-image: url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <!-- <span class="time">11:00AM - 01:00PM</span> -->
                               <h2><a href="#">Garba</a></h2>
@@ -19,7 +19,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <!-- <span class="time">01:00PM - 03:00PM</span> -->
                               <h2><a href="#">Card Games</a></h2>
@@ -28,7 +28,7 @@
                           </div>
                       </div>
                     <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <!-- <span class="time">03:00PM - 04:30PM</span> -->
                               <h2><a href="#">Tug of war IT</a></h2>
@@ -37,7 +37,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <!-- <span class="time">04:30PM</span> -->
                               <h2><a href="#">Dhokla-Khaman/Jalebi-fafda and chaas</a></h2>
@@ -46,7 +46,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img speaker-img" style="background-image: url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <!-- <span class="time">05:00PM</span> -->
                               <h2><a href="#">Hoodie Wednesday</a></h2>
