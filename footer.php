@@ -50,8 +50,8 @@
                     Near Bhagwati Hospital, Mount Poinsur,<br>
                     Borivali West,<br>
                     Mumbai, Maharashtra 400103.</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 1234567890</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><a href="tel: +91-9167248587"><span class="icon icon-phone"></span><span class="text">Joshua Fernandes :&nbsp;</span><span class="text">+91-9167248587</span></a></li>
+	                <li><a href="mailto:studentcouncil@sfit.ac.in"><span class="icon icon-envelope"></span><span class="text">studentcouncil@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -60,9 +60,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
           </div>
         </div>
       </div>
@@ -75,7 +74,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
