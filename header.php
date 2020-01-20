@@ -10,6 +10,7 @@
     <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min2-min.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://iris.sfit.ac.in"/>
+    <meta property="og:description" content="New year,new site! IRIS is back and better and now online!">
     
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
