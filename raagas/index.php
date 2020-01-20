@@ -65,13 +65,13 @@
       <a class="nav-link active" href="#grid" data-target="#stage" data-toggle="stage">Start</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#chainz" data-target="#stage" data-toggle="stage">Info</a>
+      <a class="nav-link" href="#about" data-target="#stage" data-toggle="stage">Info</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#pricing" data-target="#stage" data-toggle="stage">Contact</a>
+      <a class="nav-link" href="#signup" data-target="#stage" data-toggle="stage">Signup</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#footer" data-target="#stage" data-toggle="stage">About</a>
+      <a class="nav-link" href="#footerx" data-target="#stage" data-toggle="stage">Contact</a>
     </li>
 
     <li class="nav-divider"></li>
@@ -107,7 +107,7 @@
           <div class="w-100 text-white">
             <img src="logo.png" alt="" srcset="" id="rlogo">
             <div class="heading-btn">
-                 <a href="#" class="btn2 btn2-white">JOIN Now
+                 <a href="#signup" data-target="#stage" class="btn2 btn2-white">JOIN Now
     </a>     
     </div>   
           </div>
@@ -127,7 +127,7 @@
   </div>
 
 
-  <div class="block block-inverse block-transparent py-0 app-block-grid">
+  <div class="block block-inverse block-transparent py-0 app-block-grid" id="about">
 
     <div class="block-bg-clip">
       <div class="block-bg">
@@ -141,19 +141,19 @@
           <div class="row mb-3 mb-md-5">
             <div class="col-lg-12">
               <div class="card card-bold card-danger mb-0 app-box-shadow">
-                <img src="./assets/img/azalea.jpg">
+                <img src="https://res.cloudinary.com/dolico5u3/image/upload/v1579512970/raagas/opti/new/annie-spratt-LtD7qn9k108-unsplash-min.jpg">
                 <div class="card-block pb-5">
-                  <h4 class="mb-0">Iggy Azalea</h4>
-                  <p class="text-serif"><em>Released on Dropp 6 weeks early</em></p>
+                  <h4 class="mb-0">Raagas</h4>
                   <hr>
-                  <p class="text-serif"><em>Ms. Azalea was the first artist to reach out to Dropp to coordinate her leak. We knew it was going to be the largest unofficial album drop in history. We doubled server capacity and made a lot ton of coffee.</em></p>
+                  <p class="text-serif"><em>Raagas is a new venture by iris fest. It is one of its kind music festival happening for the first time in SFIT.</em></p>
+                  <p class="text-serif"><em>Bands from all over Mumbai would face each other for one epic musical night.</em></p>
                 </div>
               </div>
             </div>
           </div>
           <div class="row hidden-md-down">
             <div class="col-lg-12">
-              <img src="./assets/img/minaj.jpg">
+              <img src="https://res.cloudinary.com/dolico5u3/image/upload/v1579512970/raagas/opti/new/jaclyn-clark-xnKHmIO_Ae0-unsplash-min.jpg">
            </div>
           </div>
         </div>
@@ -161,18 +161,18 @@
           <div class="row">
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="./assets/img/childish.jpg">
+                <img src="https://res.cloudinary.com/dolico5u3/image/upload/v1579513216/raagas/opti/new/michael-dobrinski-JxufJsFmvW0-unsplash_1.jpg">
               </div>
             </div>
             <div class="col-lg-6 mb-3 mb-md-5">
               <div class="app-box-shadow">
-                <img src="./assets/img/yeezus.jpg">
+                <img src="https://res.cloudinary.com/dolico5u3/image/upload/v1579512970/raagas/opti/new/dominik-scythe-cJmTXUAUBGc-unsplash-min.jpg">
               </div>
             </div>
           </div>
           <div class="row hidden-md-down">
             <div class="col-lg-12">
-              <img src="./assets/img/cudi.jpg">
+              <img src="https://res.cloudinary.com/dolico5u3/image/upload/v1579512970/raagas/opti/new/felipe-portella-h6gTtqBZUxc-unsplash-min.jpg">
            </div>
           </div>
         </div>
@@ -194,18 +194,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 offset-sm-7">
-            <h1 class="block-title mb-4">
+          <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-primary">
-                <span>Hand Picked.</span>
+                <span>1st Price: 20k</span>
               </span>
             </h1>
-            <p class="lead">
-              <span class="text-ribbon text-ribbon-primary">
-                <span>
-                  Every album, song, and video we leak is the very best in class.
-                </span>
+            <h1 class="block-title mb-4 ">
+              <span class="text-ribbon text-ribbon-primary ndprice" style="margin-left: 20px; margin-top: 5px; ">
+                <span>2nd Price: 8k</span>
               </span>
-            </p>
+            </h1>
+
           </div>
         </div>
       </div>
@@ -233,7 +232,7 @@
             <p class="lead">
               <span class="text-ribbon">
                 <span>
-                  We stream all leaks alongside music videos cause we don't play games.
+                  All of your performances will be recorded, so that the whole world can enjoy.
                 </span>
               </span>
             </p>
@@ -242,7 +241,7 @@
         <div class="row mb-3">
           <div class="col-md-8">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="682" height="384" src="https://www.youtube.com/embed/GzU8KqOY8YA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="682" height="384" src="https://www.youtube.com/embed/K1iAQUpvLUQ" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -250,11 +249,11 @@
     </div>
   </div>
 
-  <div class="block block-transparent block-fill-height block-angle block-app-mosdef">
+  <div class="block block-transparent block-fill-height block-angle block-app-mosdef" id="signup">
     <div class="block-bg-clip">
       <div class="block-bg">
         <div class="block-bg-img block-bg-img-top"
-             style="background-image: url(./assets/img/mosdef.jpg)">
+             style="background-image: url(https://res.cloudinary.com/dolico5u3/image/upload/v1579407495/raagas/opti/nainoa_shizuru_ncdg9_Zl1vY.jpg)">
         </div>
       </div>
     </div>
@@ -287,7 +286,7 @@
 
 <!-- footer start  -->
 
-<footer class="ftco-footer ftco-section">
+<footer class="ftco-footer ftco-section" id="footerx">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
