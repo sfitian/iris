@@ -24,7 +24,7 @@
     </title>
 
     
-      <link href="http://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic|Roboto:100,300,400,700" rel="stylesheet">
       <link href="./assets/css/toolkit-bold.css" rel="stylesheet">
       <link href="./assets/css/application-bold.css" rel="stylesheet">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
