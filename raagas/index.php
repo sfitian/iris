@@ -276,7 +276,7 @@
                 <input type="text" required name = "contact1" id="contact1" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Contact number">
                 <input type="text" name = "contact2" id="contact2" class="h4 text-ribbon-input text-ribbon-primary" placeholder="Alternate contact number">
               </div>
-              <button type="submit" id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block" data-toggle="popover" data-placement="bottom" title="Success" data-content="Thanks for Signing up for the event. We hope you enjoy, and see you on the stage.">Submit</button>
+              <button type="submit" onClick='postToGoogleForm()' id="push" name="push" class="btn btn-square btn-primary btn-lg btn-block" data-toggle="popover" data-placement="bottom" title="Success" data-content="Thanks for Signing up for the event. We hope you enjoy, and see you on the stage.">Submit</button>
               </div>
             </div>
             </form>
@@ -445,7 +445,30 @@ setInterval(animate,180);
 
     <script src="./assets/js/firebasescript.js"></script>
 
+<!-- script for google forms -->
+<script>
 
+function postToGoogleForm() {
+    var field1 = document.getElementById('bandname').value;
+    var field2 = document.getElementById('collegeName').value;
+    var field3 = document.getElementById('noofmembers').value;
+    var field4 = document.getElementById('contact1').value;
+    var field5 = document.getElementById('contact2').value;
+
+ $.ajax({
+
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSflK7UHh14EvPxDNPnIZ2gTzK3KztweJPCbUTxz5oNzPgFRhA/formResponse?",
+					data: {"entry.1297171993": field1, "entry.1145541295": field2, "entry.64611392": field3, "entry.900274757": field4, "entry.1834912991":field5},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+            console.log("posted");
+
+					}
+                });
+              }
+</script>
 
   </body>
 </html>
