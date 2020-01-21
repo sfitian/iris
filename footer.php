@@ -50,7 +50,7 @@
                     Near Bhagwati Hospital, Mount Poinsur,<br>
                     Borivali West,<br>
                     Mumbai, Maharashtra 400103.</span></li>
-	                <li><a href="tel: +91-9167248587"><span class="icon icon-phone"></span><span class="text">Joshua Fernandes :&nbsp;</span><span class="text">+91-9167248587</span></a></li>
+	                <li><a href="tel: +91-9167248587"><span class="icon icon-phone"></span><span class="text">Joshua Fernandez :&nbsp;</span><span class="text">+91-9167248587</span></a></li>
 	                <li><a href="mailto:studentcouncil@sfit.ac.in"><span class="icon icon-envelope"></span><span class="text">studentcouncil@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
