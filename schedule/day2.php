@@ -1,7 +1,7 @@
 <!-- --------------------- day 2 --------------------- -->
 <div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-day-7-tab">
                       <div id="test" class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">10:00AM - 11:30AM</span>
                               <h2><a href="#">Band (opening)</a></h2>
@@ -10,7 +10,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">11:00AM - 01:00PM</span>
                               <h2><a href="#">Celebrity Act</a></h2>
@@ -19,7 +19,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img speaker-img" style="background-image: url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">01:00PM- 03:00PM</span>
                               <h2><a href="#">Intercollege Dance</a></h2>
@@ -28,7 +28,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_1.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">03:00PM - 04:00PM</span>
                               <h2><a href="#">Mr & Ms Iris (Fashion show)</a></h2>
@@ -37,7 +37,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_2.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">04:30PM</span>
                               <h2><a href="#">Evacuation</a></h2>
@@ -46,7 +46,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">05:00PM</span>
                               <h2><a href="#">Entry</a></h2>
@@ -55,7 +55,7 @@
                           </div>
                       </div>
                         <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/person_3.jpg);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">05:30PM - 09:30PM</span>
                               <h2><a href="#">DJ, Enkore, Kaam Bhaari (tentative)</a></h2>
