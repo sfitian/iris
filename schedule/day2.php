@@ -37,7 +37,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image:  url(images/icons/evacuation-min.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/evacuation.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">04:30PM</span>
                               <h2><a href="#">Evacuation</a></h2>
@@ -46,7 +46,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image:  url(images/icons/entry-min.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/entry.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">05:00PM</span>
                               <h2><a href="#">Entry</a></h2>
