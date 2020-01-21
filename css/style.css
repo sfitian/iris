@@ -9806,3 +9806,11 @@ padding:10px;
   background: #EEE04A;
   border: 1px solid #EEE04A !important;
 }
+
+.carousel-slider-box{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
