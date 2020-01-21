@@ -130,10 +130,10 @@
 									<h3 class="mb-2 team">Alan <br>Dsilva</h3>
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/DeathBringer269"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/alan-dsilva-289b77170"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/alan.dsilva.1253"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/alandsilva26/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -206,8 +206,8 @@
 									<h3 class="mb-2 team">Kashyap <br>Talati</h3>
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/kashyap12-byte"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href=""><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
@@ -237,7 +237,7 @@
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/person_4.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/Abhishek.jpeg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>

@@ -8027,7 +8027,7 @@ h1, h2, h3, h4, h5,
   font-weight: 400; }
 
 #whiteCol {
-  color: white; 
+  color: white !important; 
 }
 
 .text-primary {
@@ -9767,14 +9767,14 @@ textarea.form-control {
 .main{
   margin: 2%;
 }
-.card1{
+/* .card1{ 
 width: 20%;
 display: inline-block;
 box-shadow: 2px 2px 20px black;
 border-radius: 20px;
 margin: 2%;
 padding:20px;
-}
+}*/
 .image img{
   width: 10%;
   border-top-right-radius: 5px;
@@ -9785,18 +9785,30 @@ padding:20px;
   height: fit-content;
 }
 .card1{
-  align-self: center;
+  /* align-self: center; */
 width: 80%;
+height:100%;
 display: block;
 box-shadow: 2px 2px 10px blueviolet;
 border-radius: 2px;
-margin: 2%;
-padding:10px;
+margin: auto 0;
+padding:auto ;
+transition: 0.3s;
+}
+.card1:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#margin{
+  margin:10px;
 }
 .image1 img{
   width: 100%;
+  margin:auto 0;
+  vertical-align: middle;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
     /* .navbar-brand1 {
@@ -9814,4 +9826,11 @@ padding:10px;
 .raagas-submit{
   background: #EEE04A;
   border: 1px solid #EEE04A !important;
+}
+.vertical-center {
+  /* margin: 0; */
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
