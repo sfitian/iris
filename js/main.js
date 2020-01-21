@@ -301,8 +301,8 @@
 
 
  function setVisibility() {
-     $('#interCollege').on('blur',function(){
-         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT"){
+     $('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',function(){
+         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
              $("#sfitian").show();
          }
      });
@@ -321,3 +321,10 @@
  function makeNavbarOpaque(){
     $('nav').addClass('scrolled awake');
  }
+
+document.getElementById('contact').addEventListener("keyup", function(){
+   txt=this.value;
+   if (txt.length==3 || txt.length==7)
+    this.value=this.value+"-";
+
+});

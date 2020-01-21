@@ -1,18 +1,87 @@
 <?php include("header.php"); ?>
 
+<div id="wrapper">
+    <div class="form-container">
+    <div class="form-heading">SURSHASTRA</div>
+    <div class="form-subheading mb-5">Intercollege singing competition</div>
+    <form action="">
+        <!-- name -->
+        <div class="input-group">
+            <!-- <label for="input" class="control-label">Username</label> -->
+            <b class="bold">Name</b>
+            <input id="name" name="entry.1242131349" type="text" placeholder="Full name" required>
+            <span class="bar"></span>
+        </div>
+        <!-- college -->
+        <div class="input-group">
+            <b class="bold">College</b>
+            <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()" placeholder="College name" required>
+            <span class="bar"></span>
+            <datalist id="colleges">
+                <option>St. Francis Institute of Technology</option>
+            </datalist>
+		</div>
+        <div class="input-group">
+        <b class="bold">Year  </b><br />
+        <select class="form-control input-list" name="entry.1864115645" id="year">
+                    <option value="fe">First Year</option>
+                    <option value="se">Second Year</option>
+                    <option value="te">Third Year</option>
+                    <option value="be">Fourth Year</option>
+                </select>
+        </div>
+        <div id="sfitian">
+			<div class="form-group dropdown">
+                <div class="input-group">
+                <b class="bold">Department</b>
+                <select class="form-control" name="entry.1944219620" id="dept">
+                    <option value="comp">COMPUTER</option>
+                    <option value="it">IT</option>
+                    <option value="extc">EXTC</option>
+                    <option value="elec">Electrical</option>
+                    <option value="mech">Mechanical</option>
+				</select>
+                </div>
+			</div>
+            <div class="input-group">
+                <b class="bold">Pid</b>
+                <input type="number" id="pid" name="entry.167761393">
+                <span class="bar"></span>
+			</div>
+            </div>
+            <div class="input-group">
+              <b class="bold">Participation</b>
+                <select class="form-control" name="entry.1299802954" id="participation">
+                  <option value="solo">Solo</option>
+                </select>
+			</div>
+			<div class="input-group">
+              <b class="bold">Phone Number</b>
+                  <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="12" id="contact" name="entry.1586680497"  required>
+                <span class="bar"></span>
+			</div>
+        <!-- submit -->
+        <div class="input-group">
+            <!--<button>Register</button>-->
+            <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+		</div>
+    </form>
+</div>
+</div>
+
+
+<!--
+
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
         <h1 style="color:rgb(3,63,255); font-weight: bolder">SURSHASTRA.</h1>
         <h4 class="mb-5" style="margin-left: 20px">InterCollege Singing Competition</h4>
     </div>
     <form action="../competitions.php" method="POST" id="registrationform" class="p-5 bg-light">
-        <!-- Name -->
         <div class="form-group">
             <label for="name">Name *</label>
             <input type="text" class="form-control" id="name" name="entry.1242131349" required>
         </div>
-
-        <!--  College  -->
         <div class="form-group">
             <label for="college">College *</label>
             <input type="text" class="form-control" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"  required/>
@@ -54,13 +123,11 @@
             </select>
         </div>
 
-        <!-- Number -->
         <div class="form-group">
             <label for="contact">Number *</label>
             <input type="number" class="form-control" id="contact" name="entry.1586680497"  required>
         </div>
 
-        <!-- <div class="form-group">
             <label for="website">Website</label>
             <input type="url" class="form-control" id="website">
         </div>
@@ -68,16 +135,15 @@
             <label for="message">Message</label>
             <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
         </div> -->
-        <div class="form-group">
-            <!-- <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary"> -->
-            <!-- <button type="submit" class="btn py-3 px-4 btn-primary" sendMessage()>Register</button> -->
-            <!-- <button class="btn py-3 px-4 btn-primary" onclick="sendMessage()">Register</button> -->
-            <!-- <button class="btn py-3 px-4 btn-primary" onsubmit="return sendMessage();">Register</button> -->
+        <!-- <div class="form-group">
+            <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+            <button type="submit" class="btn py-3 px-4 btn-primary" sendMessage()>Register</button>
+            <button class="btn py-3 px-4 btn-primary" onclick="sendMessage()">Register</button>
+            <button class="btn py-3 px-4 btn-primary" onsubmit="return sendMessage();">Register</button>
             <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
         </div>
     </form>
-
-</div>
+</div> -->
 
 <!-- <script src="../js/register_surshastra.js"></script> -->
 <script>
@@ -101,12 +167,12 @@
                 console.log("success");
                 window.location.href="/iris/competitions.php";
             },
-            error: function(x, y, z) 
+            error: function(x, y, z)
                 console.log("error");
                 window.location.href="/iris/competitions.php";
             }
         });
-        return true;   
+        return true;
     }
 
 </script>
