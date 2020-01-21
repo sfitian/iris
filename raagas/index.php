@@ -302,7 +302,7 @@
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li ><a href="https://www.facebook.com/St-Francis-Institute-of-Technology-SFIT-114770585286904"><span class="fa fa-facebook-square"></span></a></li>
                 <li ><a href="https://www.instagram.com/raagassfit"><span class="fa fa-instagram"></span></a></li>
-                <li ><a href="https://www.youtube.com/channel/UCGMYAX-qClB5KJw3zi_WYIg"><span class="fa fa-youtube-play"></span></a></li>
+                <li ><a href="https://www.youtube.com/channel/UCqQuxnGrM_9_gRkiT6UKEnw/"><span class="fa fa-youtube-play"></span></a></li>
               </ul>
 
               
