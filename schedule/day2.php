@@ -19,11 +19,11 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/dance.jpg);"></div>
+                          <div class="img speaker-img" style="background-image: url(images/isc.jpg);"></div>
                           <div class="text pl-md-5">
-                              <span class="time">01:00PM- 03:00PM</span>
-                              <h2><a href="#">Intercollege Dance</a></h2>
-                              <p></p>
+                              <span class="time">03:00PM - 04:30PM</span>
+                              <h2><a href="#">Intercollege Singing Competition</a></h2>
+                              <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
