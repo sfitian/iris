@@ -1,72 +1,74 @@
-<?php include("header.php"); ?>
+<?php include("header.php") ?>
 
 <div id="wrapper">
     <div class="form-container">
-    <div class="form-heading">SURSHASTRA</div>
-    <div class="form-subheading mb-5">Intercollege singing competition</div>
-    <form action="">
-        <!-- name -->
-        <div class="input-group">
-            <!-- <label for="input" class="control-label">Username</label> -->
-            <b class="bold">Name</b>
-            <input id="name" name="entry.1242131349" type="text" placeholder="Full name" required>
-            <span class="bar"></span>
-        </div>
-        <!-- college -->
-        <div class="input-group">
-            <b class="bold">College</b>
-            <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()" placeholder="College name" required>
-            <span class="bar"></span>
-            <datalist id="colleges">
-                <option>St. Francis Institute of Technology</option>
-            </datalist>
-		</div>
-        <div class="input-group">
-        <b class="bold">Year  </b><br />
-        <select class="form-control input-list" name="entry.1864115645" id="year">
+        <div class="form-heading">SURSHASTRA</div>
+        <div class="form-subheading mb-5">Intercollege singing competition</div>
+        <form action="">
+            <!-- name -->
+            <div class="input-group">
+                <!-- <label for="input" class="control-label">Username</label> -->
+                <b class="bold">Name</b>
+                <input id="name" name="entry.1242131349" type="text" placeholder="Full name" required>
+                <span class="bar"></span>
+            </div>
+            <!-- college -->
+            <div class="input-group">
+                <b class="bold">College</b>
+                <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
+                    placeholder="College name" required>
+                <span class="bar"></span>
+                <datalist id="colleges">
+                    <option>St. Francis Institute of Technology</option>
+                </datalist>
+            </div>
+            <div class="input-group">
+                <b class="bold">Year </b><br />
+                <select class="form-control input-list" name="entry.1864115645" id="year">
                     <option value="fe">First Year</option>
                     <option value="se">Second Year</option>
                     <option value="te">Third Year</option>
                     <option value="be">Fourth Year</option>
                 </select>
-        </div>
-        <div id="sfitian">
-			<div class="form-group dropdown">
-                <div class="input-group">
-                <b class="bold">Department</b>
-                <select class="form-control" name="entry.1944219620" id="dept">
-                    <option value="comp">COMPUTER</option>
-                    <option value="it">IT</option>
-                    <option value="extc">EXTC</option>
-                    <option value="elec">Electrical</option>
-                    <option value="mech">Mechanical</option>
-				</select>
+            </div>
+            <div id="sfitian">
+                <div class="form-group dropdown">
+                    <div class="input-group">
+                        <b class="bold">Department</b>
+                        <select class="form-control" name="entry.1944219620" id="dept">
+                            <option value="comp">COMPUTER</option>
+                            <option value="it">IT</option>
+                            <option value="extc">EXTC</option>
+                            <option value="elec">Electrical</option>
+                            <option value="mech">Mechanical</option>
+                        </select>
+                    </div>
                 </div>
-			</div>
-            <div class="input-group">
-                <b class="bold">Pid</b>
-                <input type="number" id="pid" name="entry.167761393">
-                <span class="bar"></span>
-			</div>
+                <div class="input-group">
+                    <b class="bold">Pid</b>
+                    <input type="number" id="pid" name="entry.167761393">
+                    <span class="bar"></span>
+                </div>
             </div>
             <div class="input-group">
-              <b class="bold">Participation</b>
+                <b class="bold">Participation</b>
                 <select class="form-control" name="entry.1299802954" id="participation">
-                  <option value="solo">Solo</option>
+                    <option value="solo">Solo</option>
                 </select>
-			</div>
-			<div class="input-group">
-              <b class="bold">Phone Number</b>
-                  <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="12" id="contact" name="entry.1586680497"  required>
+            </div>
+            <div class="input-group">
+                <b class="bold">Phone Number</b>
+                <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="12" id="contact" name="entry.1586680497"
+                    required>
                 <span class="bar"></span>
-			</div>
-        <!-- submit -->
-        <div class="input-group">
-            <!--<button>Register</button>-->
-            <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
-		</div>
-    </form>
-</div>
+            </div>
+            <!-- submit -->
+            <div class="input-group">
+                <!--<button>Register</button>-->
+                <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+            </div>
+        </form>
+    </div>
 </div>
 
 
@@ -135,7 +137,7 @@
             <label for="message">Message</label>
             <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
         </div> -->
-        <!-- <div class="form-group">
+<!-- <div class="form-group">
             <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
             <button type="submit" class="btn py-3 px-4 btn-primary" sendMessage()>Register</button>
             <button class="btn py-3 px-4 btn-primary" onclick="sendMessage()">Register</button>
@@ -160,19 +162,19 @@
 
         $.ajax({
             url: "https://docs.google.com/forms/d/e/1FAIpQLSfv7OKaoV_J0uh_xIRQEX5K-HGsw9ZZyEK5xuDq-C1J3KQqyg/formResponse?",
-            data: {"entry.1242131349": name, "entry.1957620844": college, "entry.1864115645": year, "entry.1944219620": dept, "entry.167761393":pid, "entry.1299802954":participation, "entry.1586680497":phoneNumber},
+            data: { "entry.1242131349": name, "entry.1957620844": college, "entry.1864115645": year, "entry.1944219620": dept, "entry.167761393": pid, "entry.1299802954": participation, "entry.1586680497": phoneNumber },
             type: "POST",
             dataType: "xml",
-            success: function(d){
+            success: function (d) {
                 console.log("success");
-                window.location.href="/iris/competitions.php";
+                window.location.href = "/iris/competitions.php";
             },
-            error: function(x, y, z)
+            error: function (x, y, z) {
                 console.log("error");
-                window.location.href="/iris/competitions.php";
+                window.location.href = "/iris/competitions.php";
             }
         });
-        return true;
+    return false;
     }
 
 </script>
