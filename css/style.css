@@ -9807,6 +9807,15 @@ padding:10px;
   border: 1px solid #EEE04A !important;
 }
 
+.gallery-box {
+  
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
 .carousel-slider-box{
   width: 100%;
   padding-left: 0px;
