@@ -83,7 +83,7 @@
                 console.log("error");
             }
         });
-        return false;   
+        return true;   
     }
 </script>
 
