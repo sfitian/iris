@@ -8243,7 +8243,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     z-index: -1;
-    background: #033fff;
+    background: #ffffff;
     opacity: 1; }
     @media (max-width: 1199.98px) {
       .hero:after {
