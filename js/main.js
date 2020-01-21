@@ -322,9 +322,9 @@
     $('nav').addClass('scrolled awake');
  }
 
-document.getElementById('contact').addEventListener("keyup", function(){
-   txt=this.value;
-   if (txt.length==3 || txt.length==7)
-    this.value=this.value+"-";
+// document.getElementById('contact').addEventListener("keyup", function(){
+//    txt=this.value;
+//    if (txt.length==3 || txt.length==7)
+//     this.value=this.value+"-";
 
-});
+// });
