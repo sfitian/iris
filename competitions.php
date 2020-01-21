@@ -86,7 +86,7 @@
 						
 					</div>
 					<ul style="margin-bottom: 48px">
-						<li>Cash prize: </li>
+						<li>Exciting Cash Prize!</li>
 						<li>Entry fee: 30</li>
 					</ul>
 					<p class="button text-center"><a href="forms/contrasto.php" class="btn btn-primary px-4 py-3">Register</a></p>
