@@ -9785,25 +9785,19 @@ padding:20px;
   height: fit-content;
 }
 .card1{
-  /* align-self: center; */
 width: 80%;
 height:100%;
 display: block;
 box-shadow: 2px 2px 10px blueviolet;
 border-radius: 2px;
-margin: auto 0;
 padding:auto ;
 transition: 0.3s;
 }
 .card1:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-#margin{
-  margin:10px;
-}
 .image1 img{
   width: 100%;
-  margin:auto 0;
   vertical-align: middle;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
