@@ -6,8 +6,6 @@
               <h2 class="ftco-heading-2">IRIS</h2>
               <p>IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. Coupled with the legacy of grandiosity and celebration, IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/irisfest/"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
