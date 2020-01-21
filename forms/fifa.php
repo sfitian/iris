@@ -24,7 +24,7 @@
         <div id="sfitian">
             <div class="form-group">
                 <label for="year">Year *</label>
-                <select class="form-control" name="entry.1035370944" id="dept">
+                <select class="form-control" name="entry.1035370944" id="year">
                     <option value="fe">FE</option>
                     <option value="se">SE</option>
                     <option value="te">TE</option>
