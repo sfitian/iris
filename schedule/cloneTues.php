@@ -14,7 +14,7 @@
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">11:00AM - 01:00PM</span> -->
 	              			<h2><a href="#">Hit songs of the South</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	              			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
 	              	</div>
@@ -23,7 +23,7 @@
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">03:00PM - 04:30PM</span> -->
 	              			<h2><a href="#">Tug of war FE</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	              			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
 	              	</div>
@@ -32,7 +32,7 @@
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">04:30PM</span> -->
 	              			<h2><a href="#">Rasamvada/mendu wada/ dosa/ filter coffee/ tea</a></h2>
-	              			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	              			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
                     </div>
