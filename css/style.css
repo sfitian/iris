@@ -8023,7 +8023,12 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.9);
+  /* color: rgba(255, 255, 255, 0.9); */
   font-weight: 400; }
+
+#whiteCol {
+  color: white; 
+}
 
 .text-primary {
   color: #033fff !important; }
@@ -8798,6 +8803,10 @@ h1, h2, h3, h4, h5,
 
 .ftco-speakers {
   background: #0d0cb5; }
+
+white {
+  color: rgba(255, 255, 255) !important;
+}
 
 .staff {
   width: 100%;
