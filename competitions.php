@@ -104,7 +104,7 @@
 							<li>Cash prize: TBD</li>
 							<li>Entry fee: TBD</li>
 					</ul>
-					<p class="button text-center"><a href="forms/openmic.php" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
+					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -137,7 +137,7 @@
 								<!-- <li>Cash prize: 2000</li> -->
 								<li>Free for all</li>
 							</ul>
-							<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
+							<p class="button text-center"><a href="forms/openmic.php" class="btn btn-primary px-4 py-3">Register</a></p>
 						</div>
 					</div>
 				</div>
