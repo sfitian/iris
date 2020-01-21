@@ -72,7 +72,7 @@
 						<li>Runner-up: 8,000</li>
 						<li>Entry: 800</li>
 					</ul>
-					<p class="button text-center"><a href="../iris/raagas" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="raagas/" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
         </div>
@@ -97,14 +97,14 @@
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">CS:GO</span></h3>
+						<h5 class="mb-0">A LAN gaming competition</h5>
 						
 					</div>
-					<ul style="margin-bottom: 30px">
-						<li>Cash prize: </li>
-						<li>Group of 5</li>
-						<li>Entry fee: </li>
+					<ul style="margin-bottom: 48px">
+						<li>Cash prize: To be declared</li>
+						<li>Entry fee: To be declared</li>
 					</ul>
-					<p class="button text-center"><a href="forms/csGo.php" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -112,14 +112,14 @@
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">FIFA</span></h3>
+						<h5 class="mb-0">A LAN gaming competition</h5>
 						
 					</div>
-					<ul style="margin-bottom: 30px">
-						<li>Cash prize: </li>
-						<li>1v1</li>
-						<li>Entry fee: </li>
+					<ul style="margin-bottom: 48px">
+						<li>Cash prize: To be declared</li>
+						<li>Entry fee: To be declared</li>
 					</ul>
-					<p class="button text-center"><a href="forms/fifa.php" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
 			</div>
 		
@@ -175,12 +175,11 @@
 							<h3><p><span class="price">PUBG</span></h3>
 							
 						</div>
-						<ul>
-							<li>Cash prize: </li>
-							<li>Group of 4</li>
-							<li>Entry fee: </li>
+						<ul style="margin-bottom: 48px">
+							<li>Cash prize: TBD</li>
+							<li>Entry fee: TBD</li>
 						</ul>
-						<p class="button text-center"><a href="forms/pubg.php" class="btn btn-primary px-4 py-3">Register</a></p>
+						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 ftco-animate"></div>
