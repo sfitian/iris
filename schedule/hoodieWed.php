@@ -10,7 +10,7 @@
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/icons/themeLogo-min2.png);"></div>
+	              		<div class="img speaker-img" style="background-image: url(images/Koli.jpg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">11:00AM - 01:00PM</span> -->
 	              			<h2><a href="#">Koli dance</a></h2>
@@ -37,7 +37,7 @@
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/Misal.jpg);"></div>
+	              		<div class="img speaker-img" style="background-image: url(images/Misal.jpeg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">04:30PM</span> -->
 	              			<h2><a href="#">Food: Misal/ kothimbirwadi and solkadi</a></h2>
