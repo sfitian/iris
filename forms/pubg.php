@@ -9,13 +9,13 @@
         <!-- Name -->
         <div class="form-group">
             <label for="name">Name *</label>
-            <input type="text" class="form-control" id="name" name="name" required>
+            <input type="text" class="form-control" id="name" name="entry.1577363981" required>
         </div>
 
         <!-- Number -->
         <div class="form-group">
             <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="contact"  required>
+            <input type="number" class="form-control" id="contact" name="entry.656693241"  required>
         </div>
 
          <!-- College 
@@ -29,7 +29,7 @@
 
         <div class="form-group">
             <label for="year">Year *</label>
-            <select class="form-control" name="dept" id="dept">
+            <select class="form-control" name="entry.1621489230" id="year">
                 <option value="fe">FE</option>
                 <option value="se">SE</option>
                 <option value="te">TE</option>
@@ -38,7 +38,7 @@
         </div>
         <div class="form-group">
             <label for="department">Department *</label>
-            <select class="form-control" name="dept" id="dept">
+            <select class="form-control" name="entry.1151954041" id="dept">
                 <option value="comp">COMPUTER</option>
                 <option value="it">IT</option>
                 <option value="extc">EXTC</option>
@@ -48,14 +48,41 @@
         </div>
         <div class="form-group">
             <label for="pid">PID *</label>
-            <input type="number" class="form-control" id="pid" name="pid"  required>
+            <input type="number" class="form-control" id="pid" name="entry.235261680"  required>
         </div>
        <div class="form-group">
-            <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+       <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
         </div>
     </form>
 </div>
 
 
+<script>
+    function sendMessage() {
+        let name = document.querySelector('#name').value;
+        //let college = document.querySelector('#interCollege').value;
+        let year = $("#year option:selected").text();
+        let dept = $("#dept option:selected").text();
+        let pid = document.querySelector('#pid').value;
+        //let groupCount = document.querySelector('#pid').value;
+        let phoneNumber = document.querySelector('#contact').value;
+
+        console.log('hi');
+
+        $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSfJAJZxVh53m-FMkT-cJoOQj2kS910mLYg-WPT3JUaTjRqeWA/formResponse?",
+            data: {"entry.1577363981": name,"entry.656693241":phoneNumber, "entry.1621489230": year,"entry.1151954041": dept, 
+            "entry.235261680":pid,},
+            type: "POST",
+            dataType: "xml",
+            success: function(d){
+                console.log("success");
+            },
+            error: function(x, y, z) {
+                console.log("error");
+            }
+        });
+        return false;   
+    }
 
 <?php include("footer.php") ?>
