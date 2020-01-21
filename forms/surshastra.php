@@ -73,9 +73,9 @@
             <!-- <button type="submit" class="btn py-3 px-4 btn-primary" sendMessage()>Register</button> -->
             <!-- <button class="btn py-3 px-4 btn-primary" onclick="sendMessage()">Register</button> -->
             <!-- <button class="btn py-3 px-4 btn-primary" onsubmit="return sendMessage();">Register</button> -->
+            <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
         </div>
     </form>
-    <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
 
 </div>
 
@@ -103,9 +103,8 @@
             error: function(x, y, z) {
                 console.log("error");
             }
-            });
-            return false;
-        
+        });
+        return false;   
     }
 
 </script>

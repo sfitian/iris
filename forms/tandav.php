@@ -9,13 +9,13 @@
         <!-- Name -->
         <div class="form-group">
             <label for="name">Name (Group Leader) *</label>
-            <input type="text" class="form-control" id="name" name="name" required>
+            <input type="text" class="form-control" id="name" name="entry.149299452" required>
         </div>
 
         <!--  College  -->
         <div class="form-group">
             <label for="college">College *</label>
-            <input type="text" class="form-control" list="colleges" id="interCollege" name="college" onchange="setVisibility()" required />
+            <input type="text" class="form-control" list="colleges" id="interCollege" name="entry.1016439583" onchange="setVisibility()" required />
             <datalist id="colleges">
                 <option>St. Francis Institute of Technology</option>
             </datalist>
@@ -24,7 +24,7 @@
         <div id="sfitian">
             <div class="form-group">
                 <label for="year">Year *</label>
-                <select class="form-control" name="dept" id="dept">
+                <select class="form-control" name="entry.1051641819" id="dept">
                     <option value="fe">FE</option>
                     <option value="se">SE</option>
                     <option value="te">TE</option>
@@ -33,7 +33,7 @@
             </div>
             <div class="form-group">
                 <label for="department">Department *</label>
-                <select class="form-control" name="dept" id="dept">
+                <select class="form-control" name="entry.408051107" id="dept">
                     <option value="comp">COMPUTER</option>
                     <option value="it">IT</option>
                     <option value="extc">EXTC</option>
@@ -43,35 +43,54 @@
             </div>
             <div class="form-group">
                 <label for="pid">PID *</label>
-                <input type="number" class="form-control" id="pid" name="pid"  required>
+                <input type="number" class="form-control" id="pid" name="entry.569083526"  required>
             </div>
         </div>
 
         <div class="form-group">
             <label for="type">Group Count *</label>
-            <input type="number" class="form-control" name="groupCount" id="groupCount" required>
+            <input type="number" class="form-control" name="entry.1247419668" id="groupCount" required>
         </div>
 
         <!-- Number  -->
         <div class="form-group">
             <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="contact" required>
-        </div>
-
-        <!-- <div class="form-group">
-            <label for="website">Website</label>
-            <input type="url" class="form-control" id="website">
+            <input type="number" class="form-control" id="contact" name="entry.1489845891" required>
         </div>
         <div class="form-group">
-            <label for="message">Message</label>
-            <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
-        </div> -->
-            <div class="form-group">
-            <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+            <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
         </div>
     </form>
 </div>
 
+<script>
+    function sendMessage() {
+        let name = document.querySelector('#name').value;
+        let college = document.querySelector('#interCollege').value;
+        let year = $("#year option:selected").text();
+        let dept = $("#dept option:selected").text();
+        let pid = document.querySelector('#pid').value;
+        let groupCount = document.querySelector('#pid').value;
+        let phoneNumber = document.querySelector('#contact').value;
 
+        console.log('hi');
+
+        $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSctlIpCWHSESUg0b3Zdw0surs8v4FjjQmy8-W43omb-wDJpKw/formResponse?",
+            data: {"entry.149299452": name, "entry.1016439583": college, "entry.1051641819": year,
+             "entry.408051107": dept, "entry.569083526":pid,
+              "entry.1247419668":groupCount, "entry.1489845891":phoneNumber},
+            type: "POST",
+            dataType: "xml",
+            success: function(d){
+                console.log("success");
+            },
+            error: function(x, y, z) {
+                console.log("error");
+            }
+        });
+        return false;   
+    }
+</script>
 
 <?php include("footer.php") ?>
