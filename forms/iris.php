@@ -79,6 +79,7 @@
                 console.log("error");
             }
         });
+        alert("Form Submmitted");
         return true;   
     }
 </script>
