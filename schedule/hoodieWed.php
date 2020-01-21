@@ -19,7 +19,7 @@
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/Rangoli.jpeg);"></div>
+	              		<div class="img speaker-img" style="background-image: url(images/Rangoli.jpg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">01:00PM - 03:00PM</span> -->
 	              			<h2><a href="#">Rangoli Panja</a></h2>
@@ -37,7 +37,7 @@
 	              		</div>
 	              	</div>
 	              	<div class="speaker-wrap ftco-animate d-flex">
-	              		<div class="img speaker-img" style="background-image: url(images/icons/themeLogo-min2.png);"></div>
+	              		<div class="img speaker-img" style="background-image: url(images/Misal.jpg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">04:30PM</span> -->
 	              			<h2><a href="#">Misal/ kothimbirwadi and solkadi</a></h2>
