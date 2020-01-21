@@ -70,7 +70,7 @@
 						<li>Cash prize: 20,000</li>
 						<li>Group </li>
 					</ul>
-					<p class="button text-center"><a href="../iris/raagas" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="raagas/" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
         </div>
