@@ -51,7 +51,7 @@
             <input type="number" class="form-control" id="pid" name="entry.235261680"  required>
         </div>
        <div class="form-group">
-       <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+        <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
         </div>
     </form>
 </div>
@@ -84,5 +84,5 @@
         });
         return false;   
     }
-
+</script>
 <?php include("footer.php") ?>
