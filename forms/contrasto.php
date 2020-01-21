@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+  <?php include("header.php"); ?>
 
 <div class="comment-form-wrap pt-5">
     <div style="margin-top:35px; margin-left:20px">
@@ -78,11 +78,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
-                window.location.href="/iris/competitions.php";
+                window.location.href="../competitions.php";
             },
             error: function(x, y, z) {
                 console.log("error");
-                window.location.href="/iris/competitions.php";
+                window.location.href="../competitions.php";
             }
         });
         

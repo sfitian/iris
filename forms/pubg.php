@@ -77,9 +77,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
+                window.location.href="../competitions.php";
             },
             error: function(x, y, z) {
                 console.log("error");
+                window.location.href="../competitions.php";
             }
         });
         return false;   
