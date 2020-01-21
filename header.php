@@ -59,6 +59,7 @@
 -->            
                 <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
+                <li class="nav-item"><a href="gallery.php" class="nav-link"><span>Gallery</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>
             </ul>
