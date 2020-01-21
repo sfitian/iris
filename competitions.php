@@ -19,7 +19,7 @@
 					</div>
 					<ul style="margin-bottom:96px">
 						<li>Cash prize: 1000</li>
-						<li>Single: 100</li>
+						<li>Entry Fee (Single): 100</li>
 						<!-- <li>Duet: 200</li> -->
 					</ul>
 					<p class="button text-center"><a href="forms/surshastra.php" class="btn btn-primary px-4 py-3">Register</a></p>
@@ -36,8 +36,8 @@
 					<ul>
 						<li>Cash prize(Group): 5000</li>
 						<li>Cash prize(Single): 1000</li>
-						<li>Group: 500</li>
-						<li>Single: 100</li>
+						<li>Entry Fee(Group): 500</li>
+						<li>Entry Fee (Single): 100</li>
 					</ul>
 					<p class="button text-center"><a href="forms/tandav.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
