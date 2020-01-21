@@ -100,10 +100,11 @@
             success: function(d){
                 console.log("success");
             },
-            error: function(x, y, z) {
+            error: function(x, y, z) 
                 console.log("error");
             }
         });
+        alert("Form Submmitted");
         return true;   
     }
 
