@@ -64,7 +64,7 @@
 				<div class="pricing-entry pb-5 text-center">
 					<div>
 						<h3><p><span class="price">Raagas</span></h3>
-						<h5 class="mb-0">A Band Contest</h5>
+						<h5 class="mb-0">Battle of Bands</h5>
 						
 					</div>
 					<ul style="margin-bottom: 48px">
@@ -72,7 +72,7 @@
 						<li>Runner-up: 8,000</li>
 						<li>Entry: 800</li>
 					</ul>
-					<p class="button text-center"><a href="raagas/" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="raagas#signup" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
         </div>
