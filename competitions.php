@@ -17,7 +17,7 @@
 						<h5 class="mb-0">A Singing Competition</h5>
 						
 					</div>
-					<ul style="margin-bottom:48px">
+					<ul style="margin-bottom:96px">
 						<li>Cash prize: 1000</li>
 						<li>Single: 100</li>
 						<!-- <li>Duet: 200</li> -->
@@ -50,7 +50,7 @@
 						
 					</div>
 					<ul style="margin-bottom: 96px">
-						<li>Cash prize: </li>
+						<li>Exciting Cash Prize!</li>
 						<li>Entry fee: 50</li>
 					</ul>
 					<p class="button text-center"><a href="forms/shutterUp.php" class="btn btn-primary px-4 py-3">Register</a></p>
@@ -101,8 +101,8 @@
 						
 					</div>
 					<ul style="margin-bottom: 48px">
-						<li>Cash prize: To be declared</li>
-						<li>Entry fee: To be declared</li>
+							<li>Cash prize: TBD</li>
+							<li>Entry fee: TBD</li>
 					</ul>
 					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
@@ -112,12 +112,12 @@
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">FIFA</span></h3>
-						<h5 class="mb-0">A LAN gaming competition</h5>
+						<h5 class="mb-0">PS gaming</h5>
 						
 					</div>
 					<ul style="margin-bottom: 48px">
-						<li>Cash prize: To be declared</li>
-						<li>Entry fee: To be declared</li>
+						<li>Cash prize: TBD</li>
+						<li>Entry fee: TBD</li>
 					</ul>
 					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
@@ -137,7 +137,7 @@
 								<!-- <li>Cash prize: 2000</li> -->
 								<li>Free for all</li>
 							</ul>
-							<p class="button text-center"><a href="forms/surshastra.php" class="btn btn-primary px-4 py-3">Register</a></p>
+							<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Register</a></p>
 						</div>
 					</div>
 				</div>
