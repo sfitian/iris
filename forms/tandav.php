@@ -5,7 +5,7 @@
         <h1 style="color:rgb(3,63,255); font-weight: bolder">TANDAV.</h1>
         <h4 class="mb-5" style="margin-left: 20px">InterCollege Singing Competition</h4>
     </div>
-    <form action="#" class="p-5 bg-light">
+    <form action="../competitions.php" class="p-5 bg-light">
         <!-- Name -->
         <div class="form-group">
             <label for="name">Name (Group Leader) *</label>
@@ -84,9 +84,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
+                window.location.href="/iris/competitions.php";
             },
             error: function(x, y, z) {
                 console.log("error");
+                window.location.href="/iris/competitions.php";
             }
         });
         return false;   
