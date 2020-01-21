@@ -3,6 +3,41 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
+
+            <div class="container">
+                <div id="myslideshow" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                      <li data-target="#myslideshow" data-slide-to="0" class="active"></li>
+                      <li data-target="#myslideshow" data-slide-to="1"></li>
+                      <li data-target="#myslideshow" data-slide-to="2"></li>
+                      <li data-target="#myslideshow" data-slide-to="3"></li>
+                </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="images/iris1.jpeg" class="d-block w-100">
+                          </div>
+                         <div class="carousel-item">
+                            <img src="images/iris2.jpeg" class="d-block w-100">
+                         </div>
+                         <div class="carousel-item">
+                            <img src="images/iris3.jpg" class="d-block w-100">
+                         </div>
+                         <div class="carousel-item">
+                            <img src="images/iris4.jpg" class="d-block w-100">
+                         </div>
+                    </div>
+                    <a class="left carousel-control" href="#myslideshow" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myslideshow" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+            </div>
+
               <h2 class="ftco-heading-2">IRIS</h2>
               <p>IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. Coupled with the legacy of grandiosity and celebration, IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
@@ -12,6 +47,7 @@
               </ul>
             </div>
           </div>
+
           <!-- <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
