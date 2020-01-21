@@ -18,20 +18,22 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex">
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/iris.php';">
                           <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">01:00PM - 03:00PM</span>
-                              <h2><a href="#">Mr & Ms Iris </a></h2>
+                              <h2><a href="forms/iris.php">Mr & Ms Iris </a></h2>
+                              <span class="time">Register Now</span>
                               <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex">
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/tandav.php';">
                           <div class="img speaker-img" style="background-image: url(images/dance.jpg);"></div>
                           <div class="text pl-md-5">
                               <span class="time">01:00PM- 03:00PM</span>
-                              <h2><a href="#">Intercollege Dance</a></h2>
+                              <h2><a href="forms/tandav.php">Intercollege Dance</a></h2>
+                              <span class="time">Register Now</span>
                               <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
@@ -45,11 +47,13 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex">
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/surshastra.php';">
                           <div class="img speaker-img" style="background-image: url(images/raagas.jpg);"></div>
                           <div class="text pl-md-5">
                               <span class="time">06:30PM - 09:00PM</span>
                               <h2><a href="#">Raagas Competition</a></h2>
+                              <span class="time">Register Now</span>
+
                               <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
