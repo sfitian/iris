@@ -84,13 +84,14 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
+                window.location.href="/iris/competitions.php";
             },
             error: function(x, y, z) {
                 console.log("error");
+                window.location.href="/iris/competitions.php";
             }
         });
-        alert("Form Submmitted");
-        return true;   
+        return false;   
     }
 </script>
 
