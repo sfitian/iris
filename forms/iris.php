@@ -28,6 +28,7 @@
                 <div class="input-group">
                     <b class="bold">Year </b><br />
                     <select class="form-control input-list" name="entry.1960341028" id="year">
+                        <option value="none">&nbsp;</option>
                         <option value="fe">First Year</option>
                         <option value="se">Second Year</option>
                         <option value="te">Third Year</option>
@@ -38,6 +39,7 @@
                     <div class="input-group">
                         <b class="bold">Department</b>
                         <select class="form-control" name="entry.433383431" id="dept">
+                            <option value="none">&nbsp;</option>
                             <option value="comp">COMPUTER</option>
                             <option value="it">IT</option>
                             <option value="extc">EXTC</option>
