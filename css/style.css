@@ -8003,7 +8003,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #b3b3b3; }
+  color: #343a40; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -9850,3 +9850,4 @@ input {
   margin-right: auto;
   margin-left: auto;
 }
+

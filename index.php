@@ -36,6 +36,23 @@
 	</div>
 </section>
 
+<div class="col-md-6 col-lg-7 pl-lg-5 pt-5">
+<div class="row justify-content-start pb-3">
+<div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
+<span class="subheading">Welcome</span>
+<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About IRIS</h2>
+<p>IRIS, the annual cultural festival of SFIT, being held in the first week of February, is one of the most eagerly anticipated events in the college calender.Coupled with the legacy of grandiosity snd celebration,IRIS provides students a golden opportunity to dive into its varied events and exhibit their talents.</p>
+<p>Showcasing a plethora of events, from electrifying DJ nights to the eye
+catching dance performances, IRIS unites the entire college and
+provides an unforgettable experience for everyone involved.</p>
+<p>Being an emanation of efforts of the students and faculty , we hope to rise higher than this year ,IRIS 2020</p>
+</div>
+</div>
+</p>
+</div>
+</div>
+</div>
+
 	<div class="carousel-slider-box">
                 <div id="myslideshow" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
