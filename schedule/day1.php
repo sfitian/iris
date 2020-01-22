@@ -23,7 +23,8 @@
                           <div class="text pl-md-5">
                               <span class="time">01:00PM - 03:00PM</span>
                               <h2><a href="forms/iris.php">Mr & Ms Iris </a></h2>
-                              <span class="time">Register Now</span>
+                              <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
+                              
                               <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
@@ -33,7 +34,7 @@
                           <div class="text pl-md-5">
                               <span class="time">01:00PM- 03:00PM</span>
                               <h2><a href="forms/tandav.php">Intercollege Dance</a></h2>
-                              <span class="time">Register Now</span>
+                              <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
                               <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
@@ -52,7 +53,7 @@
                           <div class="text pl-md-5">
                               <span class="time">06:30PM - 09:00PM</span>
                               <h2><a href="#">Raagas Competition</a></h2>
-                              <span class="time">Register Now</span>
+                              <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
 
                               <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
