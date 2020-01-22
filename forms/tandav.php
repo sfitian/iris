@@ -3,7 +3,7 @@
 
 <div id="wrapper">
     <div class="form-container">
-        <div class="form-heading">TANDAV</div>
+        <div class="form-heading">INSYNC</div>
         <div class="form-subheading mb-5">Intercollege Dancing Competition</div>
         <form action="">
             <!-- name -->
@@ -16,13 +16,17 @@
             <!-- college -->
             <div class="input-group">
                 <b class="bold">College</b>
-                <input type="text" list="colleges" id="interCollege" name="entry.1016439583" onchange="setVisibility()"
+                <!--<input type="text" list="colleges" id="interCollege" name="entry.1016439583" onchange="setVisibility()"
                     placeholder="College name" required>
                 <span class="bar"></span>
                 <datalist id="colleges">
                     <option>St. Francis Institute of Technology</option>
-                </datalist>
+                </datalist>-->
+                <b class="bold"><input class="custom-radio" type="radio" name="entry.1957620844" value="SFIT" id="sfit">SFIT</b>
+                <b class="bold"><input type="radio" name="entry.1957620844" value="Other" id="other">Other</b>
+
             </div>
+            <div id="sfitian">
             <div class="input-group">
                 <b class="bold">Year </b><br />
                 <select class="form-control input-list" name="entry.1051641819" id="year">
@@ -32,7 +36,6 @@
                     <option value="be">Fourth Year</option>
                 </select>
             </div>
-            <div id="sfitian">
                 <div class="form-group dropdown">
                     <div class="input-group">
                         <b class="bold">Department</b>
@@ -53,7 +56,7 @@
             </div>
             <div class="input-group">
                 <b class="bold">Group Count</b>
-                <input type="number" placeholder="Number of people in your group"  id="groupCount" name="entry.1247419668"
+                <input type="number" placeholder="Min: 2 - Max: 10"  id="groupCount" name="entry.1247419668"
                     required>
                 <span class="bar"></span>
             </div>

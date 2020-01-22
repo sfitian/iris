@@ -15,13 +15,17 @@
             <!-- college -->
             <div class="input-group">
                 <b class="bold">College</b>
-                <input type="text" list="colleges" id="interCollege" name="entry.861199831" onchange="setVisibility()"
+                <!--<input type="text" list="colleges" id="interCollege" name="entry.861199831" onchange="setVisibility()"
                     placeholder="College name" required>
                 <span class="bar"></span>
                 <datalist id="colleges">
                     <option>St. Francis Institute of Technology</option>
-                </datalist>
+                </datalist> -->
+                <b class="bold"><input class="custom-radio" type="radio" name="entry.1957620844" value="SFIT" id="sfit">SFIT</b>
+                <b class="bold"><input type="radio" name="entry.1957620844" value="Other" id="other">Other</b>
+
             </div>
+            <div id="sfitian">
             <div class="input-group">
                 <b class="bold">Year </b><br />
                 <select class="form-control input-list" name="entry.1767687659" id="year">
@@ -31,7 +35,6 @@
                     <option value="be">Fourth Year</option>
                 </select>
             </div>
-            <div id="sfitian">
                 <div class="form-group dropdown">
                     <div class="input-group">
                         <b class="bold">Department</b>
