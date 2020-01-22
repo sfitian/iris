@@ -54,8 +54,8 @@
                     <span class="bar"></span>
                 </div>
             <div class="input-group">
-                    <b class="bold">Year </b><br />
-                    <select class="form-control input-list" name="entry.1275666766" id="year">
+                    <b class="bold">Post </b><br />
+                    <select class="form-control input-list" name="entry.1275666766" id="iris">
                         <option value="Mr">Mr. IRIS</option>
                         <option value="Ms">Ms. IRIS</option>                        
                     </select>
