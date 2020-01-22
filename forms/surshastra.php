@@ -51,12 +51,6 @@
                 </div>
             </div>
             <div class="input-group">
-                <b class="bold">Participation</b>
-                <select class="form-control" name="entry.1299802954" id="participation">
-                    <option value="solo">Solo</option>
-                </select>
-            </div>
-            <div class="input-group">
                 <b class="bold">Phone Number</b>
                 <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="10" id="contact" name="entry.1586680497"
                     required>
