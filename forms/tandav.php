@@ -30,6 +30,7 @@
             <div class="input-group">
                 <b class="bold">Year </b><br />
                 <select class="form-control input-list" name="entry.1051641819" id="year">
+                    <option value="none">&nbsp;</option>
                     <option value="fe">First Year</option>
                     <option value="se">Second Year</option>
                     <option value="te">Third Year</option>
@@ -40,6 +41,7 @@
                     <div class="input-group">
                         <b class="bold">Department</b>
                         <select class="form-control" name="entry.408051107" id="dept">
+                            <option value="none">&nbsp;</option>
                             <option value="comp">COMPUTER</option>
                             <option value="it">IT</option>
                             <option value="extc">EXTC</option>
@@ -51,6 +53,13 @@
                 <div class="input-group">
                     <b class="bold">Pid</b>
                     <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.569083526">
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div id="nonSfitian">
+                <div class="input-group">
+                    <b class="bold">Enter College Name: </b>
+                    <input id="collegeName" name="entry.1242131349" type="text" placeholder="College name" required>
                     <span class="bar"></span>
                 </div>
             </div>
@@ -80,12 +89,16 @@
 <script>
     function sendMessage() {
         let name = document.querySelector('#name').value;
-        let college = document.querySelector('#interCollege').value;
+        let college = "SFIT";
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
-        let groupCount = document.querySelector('#pid').value;
+        let groupCount = document.querySelector('#groupCount').value;
         let phoneNumber = document.querySelector('#contact').value;
+
+        if(document.getElementById("other").checked){
+        college = document.querySelector('#collegeName').value;
+        }
 
         console.log('hi');
 
