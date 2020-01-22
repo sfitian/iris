@@ -20,7 +20,7 @@
 
                         <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hoodie Wednesday<span>22 January 2020</span></a>
                         
-                            <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-content" id="v-pills-tabContent-1">
                                 <?php
                                 include("schedule/hoodieWed.php");
                                 ?>
@@ -28,28 +28,28 @@
                         
 
                         <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false">Traffic Thursday & Rose day<span>23 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-content" id="v-pills-tabContent-2">
                                 <?php
                                 include("schedule/trafficRoseThurs.php");
                                 ?>
                         </div>
 
                         <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Black Friday<span>24 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-content" id="v-pills-tabContent-3">
                                 <?php
                                 include("schedule/blackFri.php");
                                 ?>
                         </div>
                      
                         <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">High Fashion Monday<span>27 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-content" id="v-pills-tabContent-4">
                                 <?php
                                 include("schedule/highFasMon.php");
                                 ?>
                             </div>
 
                         <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Clone Tuesday<span>28 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-content" id="v-pills-tabContent-5">
                                 <?php
                                 include("schedule/cloneTues.php");
                                 ?>
