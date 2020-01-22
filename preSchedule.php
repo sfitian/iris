@@ -18,7 +18,7 @@
 
                         <a  class="nav-link ftco-animate" href="schedule.php">IRIS Events</a>
 
-                        <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hoodie Wednesday<span>22 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><strike> Hoodie Wednesday</strike><span>22 January 2020</span></a>
                         
                             <div class="tab-content" id="v-pills-tabContent-1" style="display: none;">
                                 <?php
