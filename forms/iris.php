@@ -14,7 +14,7 @@
             </div>
             <!-- college -->
             <div class="input-group">
-                <b class="bold">Only for SFITians</b><br>
+                <center><b class="bold">ONLY FOR SFITIANS</b></center><br>
                 <!-- <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
                     placeholder="College name" required>
                 <span class="bar"></span>
