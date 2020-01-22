@@ -301,20 +301,31 @@
 
  })(jQuery);
 
-
- function setVisibility() {
-     $('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',function(){
-         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
-             $("#sfitian").show();
-         }
-     });
- }
+// college check
+$('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',function(){
+    if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
+        $("#sfitian").show();
+    }
+});
 
  $(document).ready(function () {
-     if ($("#interCollege").length > 0) {
-         $("#sfitian").hide()
-     }
+     if (!document.getElementById('sfit').checked) {
+        $("#sfitian").hide(); 
+    }
+    if (!document.getElementById('other').checked) {
+        $("#nonSfitian").hide(); 
+    }
  })
+
+ $('#sfit').on('click', function(){
+    $("#sfitian").show();
+    $("#nonSfitian").hide(); 
+ });
+
+ $('#other').on('click', function(){
+    $("#nonSfitian").show();
+    $("#sfitian").hide(); 
+ });
 
  function makeNavbarTransparent(){
     $('nav').removeClass('scrolled awake');

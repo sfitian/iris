@@ -1,3 +1,5 @@
+<?php include('header.php') ?>
+
 <div id="wrapper">
     <div class="form-container">
         <div class="form-heading">SURSHASTRA</div>
@@ -12,24 +14,27 @@
             </div>
             <!-- college -->
             <div class="input-group">
-                <b class="bold">College</b>
-                <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
+                <b class="bold">College</b><br>
+                <!-- <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
                     placeholder="College name" required>
                 <span class="bar"></span>
                 <datalist id="colleges">
                     <option>St. Francis Institute of Technology</option>
-                </datalist>
-            </div>
-            <div class="input-group">
-                <b class="bold">Year </b><br />
-                <select class="form-control input-list" name="entry.1864115645" id="year">
-                    <option value="fe">First Year</option>
-                    <option value="se">Second Year</option>
-                    <option value="te">Third Year</option>
-                    <option value="be">Fourth Year</option>
-                </select>
+                </datalist> -->
+                <b class="bold"><input class="custom-radio" type="radio" name="entry.1957620844" value="SFIT" id="sfit">SFIT</b>
+                <b class="bold"><input type="radio" name="entry.1957620844" value="Other" id="other">Other</b>
+
             </div>
             <div id="sfitian">
+                <div class="input-group">
+                    <b class="bold">Year </b><br />
+                    <select class="form-control input-list" name="entry.1864115645" id="year">
+                        <option value="fe">First Year</option>
+                        <option value="se">Second Year</option>
+                        <option value="te">Third Year</option>
+                        <option value="be">Fourth Year</option>
+                    </select>
+                </div>
                 <div class="form-group dropdown">
                     <div class="input-group">
                         <b class="bold">Department</b>
@@ -45,6 +50,13 @@
                 <div class="input-group">
                     <b class="bold">Pid</b>
                     <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.167761393">
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div id="nonSfitian">
+                <div class="input-group">
+                    <b class="bold">Enter College Name: </b>
+                    <input id="name" name="entry.1242131349" type="text" placeholder="college name" required>
                     <span class="bar"></span>
                 </div>
             </div>
@@ -68,3 +80,5 @@
         </form>
     </div>
 </div>
+
+<?php include('footer.php') ?>
