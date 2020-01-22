@@ -95,7 +95,6 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
-						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">CS:GO</span></h3>
 						<h5 class="mb-0">A LAN gaming competition</h5>
 						
@@ -110,7 +109,6 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
-						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">FIFA</span></h3>
 						<h5 class="mb-0">PS gaming</h5>
 						
@@ -157,7 +155,6 @@
 				<div class="col-md-4 ftco-animate">
 					<div class="pricing-entry pb-5 text-center">
 						<div>
-							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 							<h3><p><span class="price">MR. & MRS. IRIS</span></h3>
 							
 						</div>
@@ -171,7 +168,6 @@
 				<div class="col-md-4 ftco-animate">
 					<div class="pricing-entry pb-5 text-center">
 						<div>
-							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 							<h3><p><span class="price">PUBG</span></h3>
 							
 						</div>
