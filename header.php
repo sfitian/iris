@@ -58,10 +58,13 @@
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
 -->            
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+                <li class="nav-item"><a href="preSchedule.php" class="nav-link"><span>Pre IRIS Schedule</span></a></li>
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>IRIS Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
-                <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
+                <li class="nav-item"><a href="gallery.php" class="nav-link"><span>Gallery</span></a></li>
+                <li class="nav-item"><a href="raagas/" class="nav-link"><span>Raagas</span></a></li>
                 <!-- <li class="nav-item"><a href="team.php" class="nav-link"><span>Workforce</span></a></li> -->
+                <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>
             </ul>
             </div>
