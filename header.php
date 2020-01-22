@@ -10,13 +10,11 @@
     <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min2-min.png"/>
     <meta property="og:url" content="https://iris.sfit.ac.in"/>
     <meta property="og:description" content="New year,new site! IRIS is back and better and now online!">
- 
-    
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -24,10 +22,11 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
 
 <!--      Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
@@ -59,11 +58,8 @@
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
 -->            
-                <li class="nav-item"><a href="preSchedule.php" class="nav-link"><span>Pre IRIS Schedule</span></a></li>
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>IRIS Schedule</span></a></li>                
-                <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>            
-                <li class="nav-item"><a href="raagas/" class="nav-link"><span>Raagas</span></a></li>
-                <li class="nav-item"><a href="gallery.php" class="nav-link"><span>Gallery</span></a></li>
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+                <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>
             </ul>

@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../css/flaticon.css">
     <link rel="stylesheet" href="../css/icomoon.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
 
 <!--      Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
