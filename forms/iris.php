@@ -51,14 +51,13 @@
                     <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.982916234">
                     <span class="bar"></span>
                 </div>
-            
-            <div class="form-group">
-            <b class="bold">Applying for</b>
-            <select class="form-control input-list" name="entry.1275666766" id="iris">
-                <option value="mr">Mr. IRIS</option>
-                <option value="mrs">Ms. IRIS</option>
-            </select>
-            </div>
+            <div class="input-group">
+                    <b class="bold">Year </b><br />
+                    <select class="form-control input-list" name="entry.1275666766" id="year">
+                        <option value="Mr">Mr. IRIS</option>
+                        <option value="Ms">Ms. IRIS</option>                        
+                    </select>
+                </div>
             
             <div class="input-group">
                 <b class="bold">Phone Number</b>
