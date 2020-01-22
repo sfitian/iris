@@ -53,7 +53,7 @@
                 </div>
             
             <div class="form-group">
-            <label for="iris">Applying for *</label>
+            <b class="bold">Applying for</b>
             <select class="form-control" name="entry.1275666766" id="iris">
                 <option value="mr">Mr. IRIS</option>
                 <option value="mrs">Ms. IRIS</option>
