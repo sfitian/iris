@@ -172,7 +172,8 @@
              }
          });
      };
-     scrollWindow();
+    //  scrollWindow();
+    // Adds transparent navbar
 
 
 
@@ -302,8 +303,8 @@
 
 
  function setVisibility() {
-     $('#interCollege').on('blur',function(){
-         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT"){
+     $('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',function(){
+         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
              $("#sfitian").show();
          }
      });
@@ -323,6 +324,13 @@
     $('nav').addClass('scrolled awake');
  }
 
+// document.getElementById('contact').addEventListener("keyup", function(){
+//    txt=this.value;
+//    if (txt.length==3 || txt.length==7)
+//     this.value=this.value+"-";
+
+// });
+
 function displayDiv(divName) {
   var x = document.getElementById(divName);
   if (x.style.display === "none") {
@@ -330,4 +338,43 @@ function displayDiv(divName) {
   } else {
     x.style.display = "none";
   }
-} 
+}
+
+$(document).ready(function() {
+    $("#v-pills-1-tab").click(function() {
+         $("#v-pills-tabContent-1").toggle();
+         console.log("hi there");
+    });
+});
+
+
+$(document).ready(function() {
+    $("#v-pills-1-tab").click(function() {
+         $("#v-pills-tabContent-2").toggle();
+         console.log("hi there");
+    });
+});
+
+
+$(document).ready(function() {
+    $("#v-pills-1-tab").click(function() {
+         $("#v-pills-tabContent-3").toggle();
+         console.log("hi there");
+    });
+});
+
+
+$(document).ready(function() {
+    $("#v-pills-1-tab").click(function() {
+         $("#v-pills-tabContent-4").toggle();
+         console.log("hi there");
+    });
+});
+
+
+$(document).ready(function() {
+    $("#v-pills-1-tab").click(function() {
+         $("#v-pills-tabContent-5").toggle();
+         console.log("hi there");
+    });
+});

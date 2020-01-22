@@ -1,0 +1,147 @@
+body {
+    /* background-color: red !important; */
+}
+
+.form-heading {
+    color: rgba(3,63,255);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 8px;
+}
+
+.form-subheading {
+    color: black;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+#wrapper {
+    width: 95%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cyan; */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    z-index: 1;
+    /* background-color: red; */
+}
+
+form {
+    /* transform: translateX(10rem); */
+    padding: 1rem 0;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1.5rem rgba(0,0,0,0.1);
+}
+
+.input-group {
+    width: 90%;
+    margin: 1rem auto;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.input-group input {
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 0rem;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    /* color: #033fff; */
+    color: black;
+}
+
+.input-group .bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 1px;
+}
+
+.bold {
+    /* width: 30%; */
+    color: #033fff;
+    padding-right: 10px;
+    /* color: black; */
+}
+
+.input-group .bar::before {
+    content: '';
+    position: absolute;
+    background-color: #033fff;
+    width: 0;
+    height: 2px;
+    transition: width 650ms;
+}
+
+.input-group input:focus + .bar::before {
+    width: 100%;
+}
+
+.input-group .control-label {
+    position: absolute;
+    top: 0.25rem;
+    pointer-events: none;
+    padding-left: 0.125rem;
+    z-index: 1;
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: normal;
+    -webkit-transition: all 0.28s ease;
+    transition: all 0.28s ease;
+}
+.input-group select ~ .control-label,
+.input-group input:focus ~ .control-label,
+.input-group input:valid ~ .control-label,
+.input-group input.form-file ~ .control-label,
+.input-group input.has-value ~ .control-label,
+.input-group textarea:focus ~ .control-label,
+.input-group textarea:valid ~ .control-label,
+.input-group textarea.form-file ~ .control-label,
+.input-group textarea.has-value ~ .control-label {
+  font-size: 0.8rem;
+  color: gray;
+  top: -1rem;
+  left: 0;
+}
+
+.input-group select:focus ~ .control-label,
+.input-group input:focus ~ .control-label,
+.input-group textarea:focus ~ .control-label {
+  color: #337ab7;
+}
+
+.input-group button {
+    margin: 1rem auto;
+    padding: 1rem 5rem;
+    background-color: #033fff;
+    border: none;
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.input-list {
+    /* width: 50% !important; */
+    margin-left: 55px;
+}
