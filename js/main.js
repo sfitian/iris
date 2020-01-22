@@ -327,7 +327,6 @@
 $(document).ready(function() {  
     $("#v-pills-1-tab").click(function() {  
          $("#v-pills-tabContent-1").toggle(); 
-         console.log("hi there");
     });  
 });
 
@@ -335,7 +334,6 @@ $(document).ready(function() {
 $(document).ready(function() {  
     $("#v-pills-1-tab").click(function() {  
          $("#v-pills-tabContent-2").toggle(); 
-         console.log("hi there");
     });  
 });
 
@@ -343,7 +341,6 @@ $(document).ready(function() {
 $(document).ready(function() {  
     $("#v-pills-1-tab").click(function() {  
          $("#v-pills-tabContent-3").toggle(); 
-         console.log("hi there");
     });  
 });
 
@@ -351,7 +348,6 @@ $(document).ready(function() {
 $(document).ready(function() {  
     $("#v-pills-1-tab").click(function() {  
          $("#v-pills-tabContent-4").toggle(); 
-         console.log("hi there");
     });  
 });
 
@@ -359,6 +355,5 @@ $(document).ready(function() {
 $(document).ready(function() {  
     $("#v-pills-1-tab").click(function() {  
          $("#v-pills-tabContent-5").toggle(); 
-         console.log("hi there");
     });  
 });
