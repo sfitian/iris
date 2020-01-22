@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta property="og:title" content="IRIS-SFIT 2020"/>
-    <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min.png"/>
+    <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min2-min.png"/>
     <meta property="og:url" content="https://iris.sfit.ac.in"/>
-
+    <meta property="og:description" content="New year,new site! IRIS is back and better and now online!">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -33,7 +33,7 @@
       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
       <link rel="manifest" href="images/favicon/site.webmanifest">
-
+    
       <style>
           .irisLogo {
               display:inline;
@@ -44,7 +44,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target scrolled awake" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.php"> <img src="images/icons/irisLogo.png" class="irisLogo"></a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +57,8 @@
 <!--
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
--->
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>
+-->            
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>                
                 <li class="nav-item"><a href="competitions.php" class="nav-link"><span>Competitions</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Register</a></li>

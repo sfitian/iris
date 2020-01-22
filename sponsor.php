@@ -15,7 +15,7 @@
 <style>
 	.IOlogo{
 		width:75%;
-		height:130px;
+		height:100%;
 	}
 	</style>
     <div class="row no-gutters supporters-wrap clearfix">

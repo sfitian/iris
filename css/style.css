@@ -8244,7 +8244,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     z-index: -1;
-    background: #033fff;
+    background: #ffffff;
     opacity: 1; }
     @media (max-width: 1199.98px) {
       .hero:after {
@@ -9832,5 +9832,21 @@ input {
   outline: none !important;
   /* border: none !important; */
   /* border: 5px solid transparent !important; */
+}
 
+.gallery-box {
+
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.carousel-slider-box{
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }

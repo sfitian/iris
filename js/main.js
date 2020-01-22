@@ -91,6 +91,7 @@
              animateOut: 'fadeOut',
              animateIn: 'fadeIn',
              nav: false,
+             mouseDrag: false,
              autoplayHoverPause: false,
              items: 1,
              navText: ["<span class='ion-md-arrow-back'></span>", "<span class='ion-chevron-right'></span>"],
@@ -171,7 +172,8 @@
              }
          });
      };
-     scrollWindow();
+    //  scrollWindow();
+    // Adds transparent navbar
 
 
 
@@ -328,3 +330,12 @@
 //     this.value=this.value+"-";
 
 // });
+
+function displayDiv(divName) {
+  var x = document.getElementById(divName);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

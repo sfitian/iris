@@ -10,7 +10,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">11:00AM - 01:00PM</span>
                               <h2><a href="#">Catch Up With Divya Khosla Kumar</a></h2>
@@ -19,7 +19,7 @@
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
+                          <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">01:00PM - 03:00PM</span>
                               <h2><a href="#">Mr & Ms Iris </a></h2>
@@ -27,12 +27,12 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                    <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/isc.jpg);"></div>
+                      <div class="speaker-wrap ftco-animate d-flex">
+                          <div class="img speaker-img" style="background-image: url(images/dance.jpg);"></div>
                           <div class="text pl-md-5">
-                              <span class="time">03:00PM - 04:30PM</span>
-                              <h2><a href="#">Intercollege Singing Competition</a></h2>
-                              <p>.</p>
+                              <span class="time">01:00PM- 03:00PM</span>
+                              <h2><a href="#">Intercollege Dance</a></h2>
+                              <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
@@ -41,15 +41,6 @@
                           <div class="text pl-md-5">
                               <span class="time">05:00PM</span>
                               <h2><a href="#">Welcome Back</a></h2>
-                              <p>.</p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
-                          </div>
-                      </div>
-                      <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/dharavi.jpg);"></div>
-                          <div class="text pl-md-5">
-                              <span class="time">05:30PM - 06:30PM</span>
-                              <h2><a href="#">The Dharavi Project</a></h2>
                               <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>

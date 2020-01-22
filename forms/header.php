@@ -29,7 +29,7 @@
       <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
       <link rel="manifest" href="../images/favicon/site.webmanifest">
-
+    
       <style>
           .irisLogo {
               display:inline;
@@ -40,7 +40,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target scrolled awake" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="../index.php"> <img src="../images/icons/irisLogo.png" class="irisLogo"></a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,8 @@
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
 -->            
                 <li class="nav-item"><a href="../schedule.php" class="nav-link"><span>Schedule</span></a></li>                
-                <li class="nav-item"><a href="../competitions.php" class="nav-link"><span>Competitions</span></a></li>
+                <li class="nav-item"><a href="../competitions.php" class="nav-link"><span>Competitions</span></a></li>         
+                <li class="nav-item"><a href="raagas/" class="nav-link"><span>Raagas</span></a></li>
                 <li class="nav-item"><a href="../sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="../competitions.php" class="nav-link">Register</a></li>
             </ul>
