@@ -13,18 +13,24 @@
         </div>
 
         <!--  College  -->
-        <div class="form-group">
-            <label for="college">College *</label>
-            <input type="text" class="form-control" list="colleges" id="interCollege" name="entry.1367964555" onchange="setVisibility()"  required/>
-            <datalist id="colleges">
-                <option>St. Francis Institute of Technology</option>
-            </datalist>
-        </div>
+        <div class="input-group">
+                <b class="bold">College</b><br>
+                <!-- <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
+                    placeholder="College name" required>
+                <span class="bar"></span>
+                <datalist id="colleges">
+                    <option>St. Francis Institute of Technology</option>
+                </datalist> -->
+                <b class="bold"><input class="custom-radio" type="radio" name="entry.1957620844" value="SFIT" id="sfit">SFIT</b>
+                <b class="bold"><input type="radio" name="entry.1957620844" value="Other" id="other">Other</b>
+
+            </div>
 
         <div id="sfitian">
             <div class="form-group">
                 <label for="year">Year *</label>
                 <select class="form-control" name="entry.1639723399" id="year">
+                    <option value="none">&nbsp</option>
                     <option value="fe">FE</option>
                     <option value="se">SE</option>
                     <option value="te">TE</option>
@@ -34,6 +40,7 @@
             <div class="form-group">
                 <label for="department">Department *</label>
                 <select class="form-control" name="entry.579071568" id="dept">
+                    <option value="none">&nbsp</option>
                     <option value="comp">COMPUTER</option>
                     <option value="it">IT</option>
                     <option value="extc">EXTC</option>
@@ -70,14 +77,18 @@
 <script>
     function sendMessage() {
         let name = document.querySelector('#name').value;
-        let college = document.querySelector('#interCollege').value;
+        let college = "SFIT";
         let year = $("#year option:selected").text();
-        let perform = $("#perform option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
+        let participation = $("#participation option:selected").text();
         let phoneNumber = document.querySelector('#contact').value;
 
-        console.log('hi');
+
+        if(document.getElementById("other").checked){
+        college = document.querySelector('#collegeName').value;
+        }
+
 
          $.ajax({
             url: "https://docs.google.com/forms/d/e/1FAIpQLSdfEKiyPPvNubNA9gMAHSMaIiR9fg-ZyAr0peWy9qAnjGZP6A/formResponse?",
