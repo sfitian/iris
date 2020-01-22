@@ -9806,3 +9806,7 @@ padding:10px;
   background: #EEE04A;
   border: 1px solid #EEE04A !important;
 }
+#visit{
+  font-size:150%;
+  display:none;
+}

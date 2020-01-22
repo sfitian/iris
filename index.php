@@ -1,4 +1,6 @@
- <?php include("header.php") ?>	  
+ <?php include("header.php") ;
+
+ ?>	  
   
 	  <section id="home-section" class="hero js-fullheight">
 	  	<h3 class="vr"><span>Welcome</span> to IRIS.</h3>
@@ -6,8 +8,11 @@
 			  <div class="time" id="days"></div>
 			  <div class="time" id="hours"></div>
 			  <div class="time" id="minutes"></div>
-			  <div class="time" id="seconds"></div>
+			  <div class="time" id="seconds"></div>		
+			  
 			</div>
+
+			
 		  <div class="home-slider owl-carousel js-fullheight">
 	      <div class="slider-item js-fullheight">
 	      	<div class="overlay"></div>
@@ -26,7 +31,7 @@
 	        	</div>
 	        </div>
 	      </div>
-
+ 		
 	    </div>
     </section>
 

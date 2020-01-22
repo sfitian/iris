@@ -61,7 +61,7 @@
           <div class="col-md-12 text-center">
 
             <p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p><p id="visit"><?php echo 'Visitors '.$val; ?></p>
           </div>
         </div>
       </div>
@@ -86,6 +86,8 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+
   
 </body>
 </html>
+
