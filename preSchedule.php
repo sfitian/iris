@@ -20,7 +20,7 @@
 
                         <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hoodie Wednesday<span>22 January 2020</span></a>
                         
-                            <div class="tab-content" id="v-pills-tabContent-1">
+                            <div class="tab-content" id="v-pills-tabContent-1" style="display: none;">
                                 <?php
                                 include("schedule/hoodieWed.php");
                                 ?>
