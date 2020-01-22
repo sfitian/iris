@@ -172,7 +172,7 @@
              }
          });
      };
-    //  scrollWindow();
+     scrollWindow();
     // Adds transparent navbar
 
 
