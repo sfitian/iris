@@ -8009,6 +8009,12 @@ body {
     height: 100%;
     width: 100%; }
 
+    @media (min-width: 768px)  {
+      body{
+                padding-top:91px;
+            }
+        }
+  
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
