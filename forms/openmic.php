@@ -81,7 +81,6 @@
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
-        let participation = $("#participation option:selected").text();
         let phoneNumber = document.querySelector('#contact').value;
 
 
