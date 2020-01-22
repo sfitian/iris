@@ -89,10 +89,10 @@ Student Council
 									<h3 class="mb-2 team">Joshua<br>Fernandes</h3>
 									<span class="position mb-4">President</span>
 									<ul class="ftco-social">
-		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/joshua-raymond-fernandes-29a686176/"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/joshua251999"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/just0_0josh/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -108,10 +108,10 @@ Student Council
 									<h3 class="mb-2 team">Steve<br>Mendonca</h3>
 									<span class="position mb-4">Sports Secretary</span>
 									<ul class="ftco-social">
-		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
 		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/mendoncasteve/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/mendonca.steve"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -127,10 +127,10 @@ Student Council
 									<h3 class="mb-2 team">Komal <br>Torlikonda<br></h3>
 									<span class="position mb-4">Cultural Secretary</span>
 									<ul class="ftco-social">
-		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
 		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009522706346"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/komal_99_/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -146,10 +146,10 @@ Student Council
 									<h3 class="mb-2 team">Aditya <br>Kolte</h3>
 									<span class="position mb-4">General Secretary</span>
 					    <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
 		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/aditya.kolte.7"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/aditya.kolte/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -165,10 +165,10 @@ Student Council
 									<h3 class="mb-2 team">Yash <br>Solanki</h3>
 									<span class="position mb-4">Representative of Reserved Category</span>
 					    <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/yash-solanki-453aaa178/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/yash.solanki.9066"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/solankiyash6499/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -184,10 +184,10 @@ Student Council
 									<h3 class="mb-2 team">Manas <br>Acharya</h3>
 									<span class="position mb-4">Jt. Cultural Secretary</span>
 					    <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/manas-acharya/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/manas.acharya.9"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/mango_achar_/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -222,10 +222,10 @@ Student Council
 									<h3 class="mb-2 team">Ryan <br>Crasta</h3>
 									<span class="position mb-4">NSS Representative</span>
 					    <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/ryan-crasta-265036195/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009399701041"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/crastaryan/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -241,10 +241,10 @@ Student Council
 									<h3 class="mb-2 team">Saisha <br>Vartak</h3>
 									<span class="position mb-4">Ladies Representative</span>
 									<ul class="ftco-social">
-		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
 		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/saisha.sachin"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/saysha_vartak/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -322,7 +322,7 @@ Student Council
                             <li class="ftco-animate"><a href="https://github.com/jesdin"><span class="icon-github"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/jesdin-raphael-776b02194/"><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/jesdinraphael/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -339,10 +339,10 @@ Student Council
 									<h3 class="mb-2 team">Ansel <br>Dsouza</h3>
 									<span class="position mb-4">Technical Executive</span>
                        <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://github.com/ansel2000"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/ansel-dsouza-78819462/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/ansel.dsouza.71"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/ansel2000/"><span class="icon-instagram"></span></a></li>
                       </ul>     
                     </div>
 							</div>
@@ -377,10 +377,10 @@ Student Council
 									<h3 class="mb-2 team">Prasad <br>Kamath</h3>
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/kamathprasad9"><span class="icon-github"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/prasad.kamath.77"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/kamathprasad9/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
