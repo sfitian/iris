@@ -1,19 +1,18 @@
 <?php include("header.php"); ?>
 
-<div class="comment-form-wrap pt-5">
-    <div style="margin-top:35px; margin-left:20px">
-        <h1 style="color:rgb(3,63,255); font-weight: bolder">Open Mic.</h1>
-        <h4 class="mb-5" style="margin-left: 20px">InterCollege Doodling Contest</h4>
-    </div>
-    <form action="../competitions.php" class="p-5 bg-light">
-        <!-- Name -->
-        <div class="form-group">
-            <label for="name">Name *</label>
-            <input type="text" class="form-control" id="name" name="entry.1789825728" required>
-        </div>
-
-        <!--  College  -->
-        <div class="input-group">
+<div id="wrapper">
+    <div class="form-container">
+        <div class="form-heading">Open Mic</div>
+        <form action="">
+            <!-- name -->
+            <div class="input-group">
+                <!-- <label for="input" class="control-label">Username</label> -->
+                <b class="bold">Name</b>
+                <input id="name" name="entry.1242131349" type="text" placeholder="Full name" required>
+                <span class="bar"></span>
+            </div>
+            <!-- college -->
+            <div class="input-group">
                 <b class="bold">College</b><br>
                 <!-- <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
                     placeholder="College name" required>
@@ -25,54 +24,90 @@
                 <b class="bold"><input type="radio" name="entry.1957620844" value="Other" id="other">Other</b>
 
             </div>
-
-        <div id="sfitian">
-            <div class="form-group">
-                <label for="year">Year *</label>
-                <select class="form-control" name="entry.1639723399" id="year">
+            <div id="sfitian">
+                <div class="input-group">
+                    <b class="bold">Year </b><br />
+                    <select class="form-control input-list" name="entry.1864115645" id="year">
                     <option value="none">&nbsp</option>
-                    <option value="fe">FE</option>
-                    <option value="se">SE</option>
-                    <option value="te">TE</option>
-                    <option value="be">BE</option>
-                </select>
+                        <option value="fe">First Year</option>
+                        <option value="se">Second Year</option>
+                        <option value="te">Third Year</option>
+                        <option value="be">Fourth Year</option>
+                    </select>
+                </div>
+                <div class="form-group dropdown">
+                    <div class="input-group">
+                        <b class="bold">Department</b>
+                        <select class="form-control" name="entry.1944219620" id="dept">
+                            <option value="none">&nbsp</option>
+                            <option value="comp">COMPUTER</option>
+                            <option value="it">IT</option>
+                            <option value="extc">EXTC</option>
+                            <option value="elec">Electrical</option>
+                            <option value="mech">Mechanical</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <b class="bold">Pid</b>
+                    <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.167761393">
+                    <span class="bar"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="department">Department *</label>
-                <select class="form-control" name="entry.579071568" id="dept">
-                    <option value="none">&nbsp</option>
-                    <option value="comp">COMPUTER</option>
-                    <option value="it">IT</option>
-                    <option value="extc">EXTC</option>
-                    <option value="elec">Electrical</option>
-                    <option value="mech">Mechanical</option>
-                </select>
+            <div id="nonSfitian">
+                <div class="input-group">
+                    <b class="bold">Enter College Name: </b>
+                    <input id="collegeName" name="entry.1242131349" type="text" placeholder="college name" required>
+                    <span class="bar"></span>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="pid">PID *</label>
-                <input type="number" class="form-control" id="pid" name="entry.1776986425">
+            <div class="input-group">
+                <b class="bold">What are you performing</b>
+                    <input id="perform" type = "text" list = "entry970268507" name="entry.970268507"> 
+                    <datalist id = "entry970268507">
+                        <option value = "Singing">
+                        <option value = "Beat Boxing">
+                        <option value = "Rap">
+                    </datalist>
+                <span class="bar"></span>
+                    
+                    <!--
+                    <select class="form-control" name="entry.970268507" id="perform">
+                        <option value="comp">Singing</option>
+                        <option value="it">Beat Boxing</option>
+                        <option value="extc">Rap</option>
+                    </select>
+                        -->
             </div>
-        </div>
-        <div class="form-group">
-                <label for="department">What are you performing *</label>
-                <select class="form-control" name="entry.970268507" id="perform">
-                    <option value="comp">Singing</option>
-                    <option value="it">Beat Boxing</option>
-                    <option value="extc">Rap</option>
-                </select>
+            <div class="input-group">
+                <b class="bold">Phone Number</b>
+                <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="10" id="contact" name="entry.1586680497"
+                    required>
+                <span class="bar"></span>
             </div>
-        
-        <!-- Number -->
-        <div class="form-group">
-            <label for="contact">Number *</label>
-            <input type="number" class="form-control" id="contact" name="entry.134291980"  required>
-        </div>
-        
-        <div class="form-group">
-            <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
-        </div>
-    </form>
+            <!-- submit -->
+            <div class="input-group">
+                <!--<button>Register</button>-->
+                <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+            </div>
+        </form>
+    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
     function sendMessage() {
@@ -81,6 +116,7 @@
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
+        let perform = document.querySelector('#perform').value;
         let phoneNumber = document.querySelector('#contact').value;
 
 
