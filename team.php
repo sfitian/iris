@@ -1,11 +1,10 @@
 <?php include("header.php") ?>
- <!--==========================
-      Sponsors Section
-    ============================-->
-
-    <section class="ftco-section ftco-speakers" id="speakers-section">
+<!--===========================
+Student Council
+============================-->
+<section class="ftco-section ftco-speakers" id="speakers-section">
 			<div class="container">
-				<div class="row justify-content-center pb-5">
+			<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
           	<span class="subheading">IRIS Committee</span>
             <h2 class="mb-4">Our Workforce</h2>
@@ -15,19 +14,189 @@
         <style>
             .team{
                 text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
-            }
+			}
+			@media (min-width: 768px){
+				.staff1 {
+					width: 100% !important;
+					height: 100% !important;
+				}
+				.staff1 .img
+				{
+					width: 350px;
+					height: 250px;
+					max-width: 400px;
+					max-height: 250px;
+					display: block;
+					background-position: top center;
+					-moz-transition: all 0.3s ease;
+					-o-transition: all 0.3s ease;
+					-webkit-transition: all 0.3s ease;
+					-ms-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+					position: relative;
+				}
+				
+			}
+			@media(min-width:1200px)
+			{
+			.staff1 .img
+			{
+					width:900px;
+					 max-width:400% !important;
+					 height:500px;
+					 max-height:400% !important;
+			}
+			.staff1{
+				width: 250% !important;
+				height: 250% !important;
+			}
+		}
         </style>
 				<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
-            <h3 class="mb-4" id="whiteCol">Website Developers</h3>
+            <h3 class="mb-4" id="whiteCol">Our Student Council</h3>
             <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
           </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class=" staff staff1 justify-items-center">
+							<div class="img-wrap d-flex align-items-stretch justify-content-center">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/student_council.jpg); max-width:350px; "></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Sanket<br>Dalvi</h3>
+									<span class="position mb-4">Technical Secretary</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="https://github.com/sank8dalvi"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/sank8dalvi/"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/sank8dalvi/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div> -->
+					<div class="row">
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/Sanket.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/joshua.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Joshua<br>Fernandes</h3>
+									<span class="position mb-4">President</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/steve.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Steve<br>Mendonca</h3>
+									<span class="position mb-4">Sports Secretary</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/komal.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Komal <br>Torlikonda<br></h3>
+									<span class="position mb-4">Cultural Secretary</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/aditya.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Aditya <br>Kolte</h3>
+									<span class="position mb-4">General Secretary</span>
+					    <ul class="ftco-social">
+                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/5.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Yash <br>Solanki</h3>
+									<span class="position mb-4">Representative of Reserved Category</span>
+					    <ul class="ftco-social">
+                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/manas.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Manas <br>Acharya</h3>
+									<span class="position mb-4">Jt. Cultural Secretary</span>
+					    <ul class="ftco-social">
+                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/sanket1.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -43,6 +212,65 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/nss.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Ryan <br>Crasta</h3>
+									<span class="position mb-4">NSS Representative</span>
+					    <ul class="ftco-social">
+                            <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/saisha.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Saisha <br>Vartak</h3>
+									<span class="position mb-4">Ladies Representative</span>
+									<ul class="ftco-social">
+		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+		</section>
+
+ <!--==========================
+      TECH TEAM
+    ============================-->
+
+    <section class="ftco-section ftco-speakers" id="speakers-section">
+			<div class="container">
+				
+        <style>
+            .team{
+                text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+            }
+        </style>
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h3 class="mb-4" id="whiteCol">Website Developers</h3>
+            <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+          </div>
+        </div>
+					<div class="row">
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
@@ -168,10 +396,10 @@
 									<h3 class="mb-2 team">Ashley <br>Dsouza</h3>
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/ashleydsouza639"><span class="icon-github"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/aas.hookups/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
