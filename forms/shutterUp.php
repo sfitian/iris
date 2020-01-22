@@ -3,7 +3,7 @@
 <div id="wrapper">
     <div class="form-container">
         <div class="form-heading">SHUTTER UP</div>
-        <div class="form-subheading mb-5">Intercollege photography competition</div>
+        <div class="form-subheading mb-5">Intercollege Photography Competition</div>
         <form action="">
             <!-- name -->
             <div class="input-group">

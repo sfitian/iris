@@ -4,7 +4,7 @@
 <div id="wrapper">
     <div class="form-container">
         <div class="form-heading">TANDAV</div>
-        <div class="form-subheading mb-5">Intercollege dancing competition</div>
+        <div class="form-subheading mb-5">Intercollege Dancing Competition</div>
         <form action="">
             <!-- name -->
             <div class="input-group">
