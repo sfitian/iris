@@ -49,11 +49,12 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                        <div class="speaker-wrap ftco-animate d-flex">
+                        <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='https:/www.instagram.com/thisisenkore/'">
                           <div class="img speaker-img" style="background-image: url(images/enkore.jpg);"></div>
                           <div class="text pl-md-5">
                               <span class="time">05:30PM - 09:30PM</span>
                               <h2><a href="#">Enjoy Music with Enkore</a></h2>
+                              <span class="time"> <button type="button" class="btn btn-primary">Know More</button></span>
                               <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
