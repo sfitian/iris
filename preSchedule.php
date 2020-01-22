@@ -1,65 +1,98 @@
-<?php include ("header.php"); ?>
-
-<section class="ftco-section bg-light" id="schedule-section">
-    <div class="container">
-
-        <div class="row justify-content-center pb-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <span class="subheading">Schedule</span>
-                <h2 class="mb-4">Pre IRIS Schedule</h2>
-                <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+<?php include("header.php") ?>
+<div id="wrapper">
+    <div class="form-container">
+        <div class="form-heading">ZUMBA WORKSHOP</div>
+        <div class="form-subheading mb-5">Workshop on Zumba</div>
+        <form action="">
+            <!-- name -->
+            <div class="input-group">
+                <!-- <label for="input" class="control-label">Username</label> -->
+                <b class="bold">Name</b>
+                <input id="name" name="entry.1242131349" type="text" placeholder="Full name" required>
+                <span class="bar"></span>
             </div>
-        </div>
-
-        <div class="ftco-schedule">
-            <div class="row">
-                <div class="col-md-4 nav-link-wrap">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-                        <a  class="nav-link ftco-animate" href="schedule.php">IRIS Events</a>
-
-                        <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hoodie Wednesday<span>22 January 2020</span></a>
-                        
-                            <div class="tab-content" id="v-pills-tabContent-1" style="display: none;">
-                                <?php
-                                include("schedule/hoodieWed.php");
-                                ?>
-                            </div>
-                        
-
-                        <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false">Traffic Thursday & Rose day<span>23 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent-2">
-                                <?php
-                                include("schedule/trafficRoseThurs.php");
-                                ?>
-                        </div>
-
-                        <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Black Friday<span>24 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent-3">
-                                <?php
-                                include("schedule/blackFri.php");
-                                ?>
-                        </div>
-                     
-                        <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">High Fashion Monday<span>27 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent-4">
-                                <?php
-                                include("schedule/highFasMon.php");
-                                ?>
-                            </div>
-
-                        <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Clone Tuesday<span>28 January 2020</span></a>
-                        <div class="tab-content" id="v-pills-tabContent-5">
-                                <?php
-                                include("schedule/cloneTues.php");
-                                ?>
-                            </div>
-
+            <!-- college -->
+            <div class="input-group">
+                <b class="bold">College</b>
+                <input type="text" list="colleges" id="interCollege" name="entry.1957620844" onchange="setVisibility()"
+                    placeholder="College name" required>
+                <span class="bar"></span>
+                <datalist id="colleges">
+                    <option>St. Francis Institute of Technology</option>
+                </datalist>
+            </div>
+<div class="input-group">
+            <div class="input-group">
+                <b class="bold">Year </b><br />
+                <select class="form-control input-list" name="entry.1864115645" id="year">
+                    <option value="fe">First Year</option>
+                    <option value="se">Second Year</option>
+                    <option value="te">Third Year</option>
+                </select>
+            </div>
+            <div id="sfitian">
+                <div class="form-group dropdown">
+                    <div class="input-group">
+                        <b class="bold">Department</b>
+                        <select class="form-control" name="entry.1944219620" id="dept">
+                            <option value="comp">COMPUTER</option>
+                            <option value="it">IT</option>
+                            <option value="extc">EXTC</option>
+                            <option value="elec">Electrical</option>
+                            <option value="mech">Mechanical</option>
+                        </select>
                     </div>
-                </div>                
+                </div>
+                <div class="input-group">
+                    <b class="bold">Pid</b>
+                    <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.167761393">
+                    <span class="bar"></span>
+                </div>
             </div>
-        </div>
+            <div class="input-group">
+                <b class="bold">Phone Number</b>
+                <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="10" id="contact" name="entry.1586680497"
+                    required>
+                <span class="bar"></span>
+            </div>
+            <!-- submit -->
+            <div class="input-group">
+                <!--<button>Register</button>-->
+                <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+            </div>
+        </form>
     </div>
-</section>
+</div>
+</div>
+<script>
+    function sendMessage() {
+        let name = document.querySelector('#name').value;
+        let college = document.querySelector('#interCollege').value;
+        let year = $("#year option:selected").text();
+        let dept = $("#dept option:selected").text();
+        let pid = document.querySelector('#pid').value;
+        let participation = $("#participation option:selected").text();
+        let phoneNumber = document.querySelector('#contact').value;
+
+        console.log('hi');
+
+        $.ajax({
+            url: "https://docs.google.com/forms/d/e/1FAIpQLSfv7OKaoV_J0uh_xIRQEX5K-HGsw9ZZyEK5xuDq-C1J3KQqyg/formResponse?",
+            data: { "entry.1242131349": name, "entry.1957620844": college, "entry.1864115645": year, "entry.1944219620": dept, "entry.167761393": pid, "entry.1299802954": participation, "entry.1586680497": phoneNumber },
+            type: "POST",
+            dataType: "xml",
+            success: function (d) {
+                console.log("success");
+                window.location.href="../competitions.php";
+            },
+            error: function (x, y, z) {
+                console.log("error");
+                window.location.href="../competitions.php";
+            }
+        });
+    return false;
+    }
+
+</script>
 
 <?php include("footer.php") ?>
