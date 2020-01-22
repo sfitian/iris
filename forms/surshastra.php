@@ -3,7 +3,7 @@
 <div id="wrapper">
     <div class="form-container">
         <div class="form-heading">SURSHASTRA</div>
-        <div class="form-subheading mb-5">Intercollege singing competition</div>
+        <div class="form-subheading mb-5">Intercollege Singing Competition</div>
         <form action="">
             <!-- name -->
             <div class="input-group">
