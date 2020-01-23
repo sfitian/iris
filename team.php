@@ -8,7 +8,7 @@ Student Council
 			<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
           	<span class="subheading">IRIS Committee</span>
-            <h2 class="mb-4">Our Workforce</h2>
+            <h2 class="mb-4">Our Team</h2>
             <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
           </div>
         </div>
