@@ -9830,3 +9830,20 @@ transition: 0.3s;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.midtest {
+  display: block;
+  width: 100%;
+  
+}
+.grad{
+  background: linear-gradient( to bottom right,blueviolet,rgb(67, 4, 97),blueviolet);
+  /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+.centertest {
+  margin: auto !important;  
+}
+
+.testll {
+  margin-bottom: 200px !important;
+}

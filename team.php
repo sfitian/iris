@@ -2,7 +2,8 @@
 <!--===========================
 Student Council
 ============================-->
-<section class="ftco-section ftco-speakers" id="speakers-section">
+<div class="grad">
+<section class=" grad ftco-section ftco-speakers" id="speakers-section">
 			<div class="container">
 			<div class="row justify-content-center pb-5">
           <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
@@ -79,7 +80,8 @@ Student Council
 						</div>
 					</div> -->
 					<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+					<div class="midtest">
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate centertest">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/tech/joshua.jpg);"></div>
@@ -95,47 +97,11 @@ Student Council
 		                <li class="ftco-animate"><a href="https://www.instagram.com/just0_0josh/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
+					</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/steve1.jpg);"></div>
-							</div>
-							<div class="text d-flex align-items-center pt-3">
-								<div>
-									<h3 class="mb-2 team">Steve<br>Mendonca</h3>
-									<span class="position mb-4">Sports Secretary</span>
-									<ul class="ftco-social">
-		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
-		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.instagram.com/mendoncasteve/"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.facebook.com/mendonca.steve"><span class="icon-instagram"></span></a></li>
-		              </ul>
-		            </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/komal.jpg);"></div>
-							</div>
-							<div class="text d-flex align-items-center pt-3">
-								<div>
-									<h3 class="mb-2 team">Komal <br>Torlikonda<br></h3>
-									<span class="position mb-4">Cultural Secretary</span>
-									<ul class="ftco-social">
-		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
-		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009522706346"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.instagram.com/komal_99_/"><span class="icon-instagram"></span></a></li>
-		              </ul>
-		            </div>
-							</div>
-						</div>
-					</div>
+
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
@@ -158,36 +124,17 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/yash.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/saisha.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
-									<h3 class="mb-2 team">Yash <br>Solanki</h3>
-									<span class="position mb-4">Representative of Reserved Category</span>
-					    <ul class="ftco-social">
-                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
-		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/yash-solanki-453aaa178/"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="https://www.facebook.com/yash.solanki.9066"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="https://www.instagram.com/solankiyash6499/"><span class="icon-instagram"></span></a></li>
-		              </ul>
-		            </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/manas.jpg);"></div>
-							</div>
-							<div class="text d-flex align-items-center pt-3">
-								<div>
-									<h3 class="mb-2 team">Manas <br>Acharya</h3>
-									<span class="position mb-4">Jt. Cultural Secretary</span>
-					    <ul class="ftco-social">
-                            <li class="ftco-animate"><a href="https://github.com/HOD101s"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/manas-acharya/"><span class="icon-linkedin"></span></a></li>
-		                    <li class="ftco-animate"><a href="https://www.facebook.com/manas.acharya.9"><span class="icon-facebook"></span></a></li>
-		                    <li class="ftco-animate"><a href="https://www.instagram.com/mango_achar_/"><span class="icon-instagram"></span></a></li>
+									<h3 class="mb-2 team">Saisha <br>Vartak</h3>
+									<span class="position mb-4">Ladies Representative</span>
+									<ul class="ftco-social">
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/saisha.sachin"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/saysha_vartak/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
@@ -215,6 +162,83 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/komal.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Komal <br>Torlikonda<br></h3>
+									<span class="position mb-4">Cultural Secretary</span>
+									<ul class="ftco-social">
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009522706346"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/komal_99_/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/manas.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Manas <br>Acharya</h3>
+									<span class="position mb-4">Jt. Cultural Secretary</span>
+					    <ul class="ftco-social">
+                            <li class="ftco-animate"><a href="https://github.com/HOD101s"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/manas-acharya/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/manas.acharya.9"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/mango_achar_/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/steve1.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Steve<br>Mendonca</h3>
+									<span class="position mb-4">Sports Secretary</span>
+									<ul class="ftco-social">
+		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/mendoncasteve/"><span class="icon-facebook"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.facebook.com/mendonca.steve"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
+								<div class="img align-self-stretch" style="background-image: url(images/tech/yash.jpg);"></div>
+							</div>
+							<div class="text d-flex align-items-center pt-3">
+								<div>
+									<h3 class="mb-2 team">Yash <br>Solanki</h3>
+									<span class="position mb-4">Representative of Reserved Category</span>
+					    <ul class="ftco-social">
+                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/yash-solanki-453aaa178/"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.facebook.com/yash.solanki.9066"><span class="icon-facebook"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.instagram.com/solankiyash6499/"><span class="icon-instagram"></span></a></li>
+		              </ul>
+		            </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/tech/ryan.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
@@ -231,32 +255,11 @@ Student Council
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
-						<div class="staff">
-							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/saisha.jpg);"></div>
-							</div>
-							<div class="text d-flex align-items-center pt-3">
-								<div>
-									<h3 class="mb-2 team">Saisha <br>Vartak</h3>
-									<span class="position mb-4">Ladies Representative</span>
-									<ul class="ftco-social">
-		                <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
-		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.facebook.com/saisha.sachin"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="https://www.instagram.com/saysha_vartak/"><span class="icon-instagram"></span></a></li>
-		              </ul>
-		            </div>
-							</div>
-						</div>
-					</div>
-		</section>
+
 
  <!--==========================
       TECH TEAM
     ============================-->
-
-    <section class="ftco-section ftco-speakers" id="speakers-section">
 			<div class="container">
 				
         <style>
@@ -378,7 +381,7 @@ Student Council
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
                                     <li class="ftco-animate"><a href="https://github.com/kamathprasad9"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/prasad-k-776b71102/"><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.facebook.com/prasad.kamath.77"><span class="icon-facebook"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.instagram.com/kamathprasad9/"><span class="icon-instagram"></span></a></li>
 		              </ul>
@@ -443,7 +446,7 @@ Student Council
 							</div>
 						</div>
                     </div>
-                    <!-- <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                     <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/tech/.jpg);"></div>
@@ -453,16 +456,16 @@ Student Council
 									<h3 class="mb-2 team">Rohit <br>Choudhari</h3>
 									<span class="position mb-4">Technical Executive</span>
 									<ul class="ftco-social">
-                                    <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                    <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                                    <li class="ftco-animate"><a href="https://github.com/rohitchoudharii"><span class="icon-github"></span></a></li>
+		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/rohit-choudhari-2a76aa194/"><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
 						</div>
-					</div> -->
-					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+					</div> 
+					<!-- <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/tech/Abhishek.jpeg);"></div>
@@ -480,11 +483,12 @@ Student Council
 		            </div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>
-
+</div>
+</div>
 <?php include("footer.php") ?>
 
 
