@@ -15,7 +15,7 @@
 					<div>
 						<h3><p><span class="price">SURSHASTRA</span></h3>
 						<h5 class="mb-0">A Singing Competition</h5>
-						
+
 					</div>
 					<ul style="margin-bottom:96px">
 						<li>Cash prize: 1000</li>
@@ -31,7 +31,7 @@
 					<div>
 						<h3><p><span class="price">INSYNC</span></h3>
 						<h5 class="mb-0">Dance</h5>
-						
+
 					</div>
 					<ul>
 						<li>Cash prize(Group): 5000</li>
@@ -47,7 +47,7 @@
 					<div>
 						<h3><p><span class="price">SHUTTER UP</span></h3>
 						<h5 class="mb-0">Photography Competition</h5>
-						
+
 					</div>
 					<ul style="margin-bottom: 96px">
 						<li>Exciting Cash Prize!</li>
@@ -65,7 +65,7 @@
 					<div>
 						<h3><p><span class="price">Raagas</span></h3>
 						<h5 class="mb-0">Battle of Bands</h5>
-						
+
 					</div>
 					<ul style="margin-bottom: 48px">
 						<li>Winner: 20,000</li>
@@ -83,7 +83,7 @@
 					<div>
 						<h3><p><span class="price">CONTRASTO</span></h3>
 						<h5 class="mb-0">A Doodling Contest</h5>
-						
+
 					</div>
 					<ul style="margin-bottom: 48px">
 						<li>Exciting Cash Prize!</li>
@@ -98,13 +98,13 @@
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">CS:GO</span></h3>
 						<h5 class="mb-0">A LAN gaming competition</h5>
-						
+
 					</div>
 					<ul style="margin-bottom: 48px">
 							<li>Cash prize: TBD</li>
 							<li>Entry fee: TBD</li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
+					<p class="button text-center"><a href="forms/cs.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
@@ -113,7 +113,7 @@
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">FIFA</span></h3>
 						<h5 class="mb-0">PS gaming</h5>
-						
+
 					</div>
 					<ul style="margin-bottom: 48px">
 						<li>Cash prize: TBD</li>
@@ -122,7 +122,7 @@
 					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
 				</div>
 			</div>
-		
+
 		<div class="container" style="margin-top:65px">
 			<div class="row" style="margin-top:45px">
 				<div class="col-md-4 ftco-animate"></div>
@@ -131,7 +131,7 @@
 						<div>
 							<h3><p><span class="price">OPEN MIC</span></h3>
 							<!-- <h5 class="mb-0">A Singing Competition</h5> -->
-							
+
 						</div>
 							<ul style="margin-bottom: 110px">
 								<!-- <li>Cash prize: 2000</li> -->
@@ -159,7 +159,7 @@
 						<div>
 							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 							<h3><p><span class="price">MR. & MRS. IRIS</span></h3>
-							
+
 						</div>
 						<ul style="margin-bottom: 96px">
 							<!-- <li>Exciting prize!</li> -->
@@ -173,7 +173,7 @@
 						<div>
 							<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 							<h3><p><span class="price">PUBG</span></h3>
-							
+
 						</div>
 						<ul style="margin-bottom: 48px">
 							<li>Cash prize: TBD</li>
@@ -184,7 +184,7 @@
 				</div>
 				<div class="col-md-2 ftco-animate"></div>
 
-		
+
 			</div>
 		</div>
 </section>
