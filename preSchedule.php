@@ -18,7 +18,7 @@
 
                         <a  class="nav-link ftco-animate" href="schedule.php">IRIS Events</a>
 
-                        <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Hoodie Wednesday<span>22 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><strike> Hoodie Wednesday</strike><span>22 January 2020</span></a>
                         
                             <div class="tab-content" id="v-pills-tabContent-1" style="display: none;">
                                 <?php
@@ -27,7 +27,7 @@
                             </div>
                         
 
-                        <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false">Traffic Thursday & Rose day<span>23 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false"><strike>Traffic Thursday & Rose day,/strike><span>23 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-2">
                                 <?php
                                 include("schedule/trafficRoseThurs.php");
@@ -72,6 +72,9 @@
     color: #000000;
     font-weight: 400;
     opacity: 1 !important; }
+    @media (max-width: 991.98px) {
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: #fff; } }
 </style>
 
 <?php include("footer.php") ?>

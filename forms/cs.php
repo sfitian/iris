@@ -119,7 +119,6 @@
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
-        //let groupCount = document.querySelector('#pid').value;
         let phoneNumber = document.querySelector('#contact').value;
         console.log('hi');
           if(document.getElementById("other").checked){

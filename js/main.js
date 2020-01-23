@@ -309,15 +309,18 @@ $('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',func
 });
 
  $(document).ready(function () {
-     if (!document.getElementById('sfit').checked) {
+
+     if(document.getElementById('sfit')){
+         if (!document.getElementById('sfit').checked) {
         $("#sfitian").hide(); 
     }
     if (!document.getElementById('other').checked) {
         $("#nonSfitian").hide(); 
-    }
+    }}
  })
 
- $('#sfit').on('click', function(){
+ if(document.getElementById('sfit')){
+    $('#sfit').on('click', function(){
     $("#sfitian").show();
     $("#nonSfitian").hide(); 
  });
@@ -325,7 +328,7 @@ $('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',func
  $('#other').on('click', function(){
     $("#nonSfitian").show();
     $("#sfitian").hide(); 
- });
+ });}
 
  function makeNavbarTransparent(){
     $('nav').removeClass('scrolled awake');
@@ -343,28 +346,28 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {  
-    $("#v-pills-1-tab").click(function() {  
+    $("#v-pills-2-tab").click(function() {  
          $("#v-pills-tabContent-2").toggle(); 
     });  
 });
 
 
 $(document).ready(function() {  
-    $("#v-pills-1-tab").click(function() {  
+    $("#v-pills-3-tab").click(function() {  
          $("#v-pills-tabContent-3").toggle(); 
     });  
 });
 
 
 $(document).ready(function() {  
-    $("#v-pills-1-tab").click(function() {  
+    $("#v-pills-4-tab").click(function() {  
          $("#v-pills-tabContent-4").toggle(); 
     });  
 });
 
 
 $(document).ready(function() {  
-    $("#v-pills-1-tab").click(function() {  
+    $("#v-pills-5-tab").click(function() {  
          $("#v-pills-tabContent-5").toggle(); 
     });  
 });

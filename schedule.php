@@ -20,9 +20,9 @@
 
                         <!-- <a class="nav-link ftco-animate" id="v-pills-8-tab" data-toggle="pill" href="single.html" role="tab" aria-controls="v-pills-8" aria-selected="false">Pre IRIS Events<span></span></a> -->
 
-                        <a class="nav-link ftco-animate active" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="true">Day 01 <span>29 January 2020</span></a>
+                        <a class="nav-link ftco-animate active iris-day-ftco" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="true">Day 01 <span>29 January 2020</span></a>
 
-                        <a class="nav-link ftco-animate" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false">Day 02 <span>30 January 2020</span></a>
+                        <a class="nav-link ftco-animate iris-day-ftco" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false">Day 02 <span>30 January 2020</span></a>
 
                     </div>
                 </div>
@@ -54,6 +54,17 @@
     color: #000000;
     font-weight: 400;
     opacity: 1 !important; }
+
+
+@media (max-width: 768px)  {
+    .iris-day-ftco {
+        width: 50% !important;
+        float: left !important;
+        }
+    }
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #fff; } }
 </style>
 
 <?php

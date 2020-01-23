@@ -80,13 +80,16 @@
 <script>
     function sendMessage() {
         let name = document.querySelector('#name').value;
-        let college = document.querySelector('#interCollege').value;
+        let college = "SFIT";
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
         let groupCount = document.querySelector('#pid').value;
         let phoneNumber = document.querySelector('#contact').value;
 
+        if(document.getElementById("other").checked){
+        college = document.querySelector('#collegeName').value;
+        }
         console.log('hi');
 
         $.ajax({
