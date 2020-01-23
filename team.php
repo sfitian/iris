@@ -184,7 +184,7 @@ Student Council
 									<h3 class="mb-2 team">Manas <br>Acharya</h3>
 									<span class="position mb-4">Jt. Cultural Secretary</span>
 					    <ul class="ftco-social">
-                            <!-- <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li> -->
+                            <li class="ftco-animate"><a href="https://github.com/HOD101s"><span class="icon-github"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/manas-acharya/"><span class="icon-linkedin"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.facebook.com/manas.acharya.9"><span class="icon-facebook"></span></a></li>
 		                    <li class="ftco-animate"><a href="https://www.instagram.com/mango_achar_/"><span class="icon-instagram"></span></a></li>
@@ -196,7 +196,7 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/sanket.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/sanket1.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>

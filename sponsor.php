@@ -35,43 +35,50 @@
                 padding-bottom:13%;
             }
         }
+        /* @media (min-width: 768px){
+            .image2{
+                margin-right:auto !important;
+                margin-left:auto !important;
+            }
+        } */
+    
 	</style>
     <div class="row no-gutters supporters-wrap clearfix">
         <!-- <div  class="col-lg-3 col-md-4 col-xs-6 mb-3"></div> -->
-
+        <div class="row justify-content-center pb-5">
 		<div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
-            <div class="supporter-logo image1 card1 ">
+            <div class="supporter-logo image1 mx-auto card1 ">
                 <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
-            <div class="supporter-logo card1 image1 padddpl">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
                 <img src="images/sponsors/DDPL.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
-            <div class="supporter-logo card1 image1 padvd">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padvd">
                 <img src="images/sponsors/VD.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
-            <div class="supporter-logo card1 image1 padddpl">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
                 <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
-            <div class="supporter-logo card1 image1 padddpl">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
                 <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 ">
-            <div class="supporter-logo card1 padks image1">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
+            <div class="supporter-logo card1 padks mx-auto image1">
                 <img src="images/sponsors/KS.jpg" class="img-fluid" alt="">
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3">
-            <div class=" jutify-content-center padks suppoter-logo card1 image1">
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
+            <div class=" jutify-content-center mx-auto padks suppoter-logo card1 image1">
                 <img src="images/sponsors/AP.jpg" class="img-fluid" alt="">
             </div>
         </div>
