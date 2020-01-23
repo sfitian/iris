@@ -274,15 +274,15 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/shivam.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
 									<h3 class="mb-2 team">Shivam<br>Sinha</h3>
 									<span class="position mb-4">Technical Head</span>
 									<ul class="ftco-social">
-		                <li class="ftco-animate"><a href="#"><span class="icon-github"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+		                <li class="ftco-animate"><a href="https://github.com/sinhashivam09"><span class="icon-github"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/sinhashivam9/"><span class="icon-linkedin"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
 		              </ul>
@@ -312,7 +312,7 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/staff-4.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/jesdin.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -351,7 +351,7 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/person_2.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/alan.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -370,7 +370,7 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/prasad.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -386,7 +386,7 @@ Student Council
 							</div>
 						</div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                    <!-- <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
@@ -404,8 +404,8 @@ Student Council
 		            </div>
 							</div>
 						</div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                    </div> -->
+                    <!-- <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
 								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
@@ -423,11 +423,11 @@ Student Council
 		            </div>
 							</div>
 						</div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/kashyap.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -443,10 +443,10 @@ Student Council
 							</div>
 						</div>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
+                    <!-- <div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/person_3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
@@ -461,7 +461,7 @@ Student Council
 		            </div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
