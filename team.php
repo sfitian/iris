@@ -487,8 +487,23 @@ Student Council
 				</div>
 			</div>
 		</section>
-</div>
-</div>
+
+
+<style>
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    font-weight: 400;
+    opacity: 1 !important; }
+    @media (max-width: 991.98px) {
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: #fff; } }
+</style>
+
 <?php include("footer.php") ?>
 
 

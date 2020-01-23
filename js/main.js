@@ -91,6 +91,7 @@
              animateOut: 'fadeOut',
              animateIn: 'fadeIn',
              nav: false,
+             mouseDrag: false,
              autoplayHoverPause: false,
              items: 1,
              navText: ["<span class='ion-md-arrow-back'></span>", "<span class='ion-chevron-right'></span>"],
@@ -172,6 +173,7 @@
          });
      };
      scrollWindow();
+    // Adds transparent navbar
 
 
 
@@ -299,20 +301,34 @@
 
  })(jQuery);
 
-
- function setVisibility() {
-     $('#interCollege').on('blur',function(){
-         if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT"){
-             $("#sfitian").show();
-         }
-     });
- }
+// college check
+$('#interCollege').on('blur change onkeyup onkeydown mouseenter mouseleave',function(){
+    if( $(this).val()==="St. Francis Institute of Technology" || $(this).val()==="SFIT" || $(this).val()==="sfit"){
+        $("#sfitian").show();
+    }
+});
 
  $(document).ready(function () {
-     if ($("#interCollege").length > 0) {
-         $("#sfitian").hide()
-     }
+
+     if(document.getElementById('sfit')){
+         if (!document.getElementById('sfit').checked) {
+        $("#sfitian").hide(); 
+    }
+    if (!document.getElementById('other').checked) {
+        $("#nonSfitian").hide(); 
+    }}
  })
+
+ if(document.getElementById('sfit')){
+    $('#sfit').on('click', function(){
+    $("#sfitian").show();
+    $("#nonSfitian").hide(); 
+ });
+
+ $('#other').on('click', function(){
+    $("#nonSfitian").show();
+    $("#sfitian").hide(); 
+ });}
 
  function makeNavbarTransparent(){
     $('nav').removeClass('scrolled awake');
@@ -321,3 +337,37 @@
  function makeNavbarOpaque(){
     $('nav').addClass('scrolled awake');
  }
+
+$(document).ready(function() {  
+    $("#v-pills-1-tab").click(function() {  
+         $("#v-pills-tabContent-1").toggle(); 
+    });  
+});
+
+
+$(document).ready(function() {  
+    $("#v-pills-2-tab").click(function() {  
+         $("#v-pills-tabContent-2").toggle(); 
+    });  
+});
+
+
+$(document).ready(function() {  
+    $("#v-pills-3-tab").click(function() {  
+         $("#v-pills-tabContent-3").toggle(); 
+    });  
+});
+
+
+$(document).ready(function() {  
+    $("#v-pills-4-tab").click(function() {  
+         $("#v-pills-tabContent-4").toggle(); 
+    });  
+});
+
+
+$(document).ready(function() {  
+    $("#v-pills-5-tab").click(function() {  
+         $("#v-pills-tabContent-5").toggle(); 
+    });  
+});

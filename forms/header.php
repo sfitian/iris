@@ -5,12 +5,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate.css">
-    
+
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/magnific-popup.css">
@@ -18,10 +18,11 @@
     <link rel="stylesheet" href="../css/aos.css">
 
     <link rel="stylesheet" href="../css/ionicons.min.css">
-    
+
     <link rel="stylesheet" href="../css/flaticon.css">
     <link rel="stylesheet" href="../css/icomoon.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
 
 <!--      Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
@@ -39,6 +40,18 @@
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<style>
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000000;
+    font-weight: 400;
+    opacity: 1 !important; }
+</style>
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="../index.php"> <img src="../images/icons/irisLogo.png" class="irisLogo"></a>
@@ -52,9 +65,13 @@
 <!--
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
--->            
-                <li class="nav-item"><a href="../schedule.php" class="nav-link"><span>Schedule</span></a></li>                
+-->
+                <li class="nav-item"><a href="../preSchedule.php" class="nav-link"><span>Pre IRIS Schedule</span></a></li>
+                <li class="nav-item"><a href="../schedule.php" class="nav-link"><span>IRIS Schedule</span></a></li>                
                 <li class="nav-item"><a href="../competitions.php" class="nav-link"><span>Competitions</span></a></li>
+                <li class="nav-item"><a href="../gallery.php" class="nav-link"><span>Gallery</span></a></li>
+                <li class="nav-item"><a href="../raagas/" class="nav-link"><span>Raagas</span></a></li>
+                <!-- <li class="nav-item"><a href="team.php" class="nav-link"><span>Workforce</span></a></li> -->
                 <li class="nav-item"><a href="../sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="../competitions.php" class="nav-link">Register</a></li>
             </ul>
