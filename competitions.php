@@ -1,4 +1,5 @@
 <?php include("header.php") ?>
+
 <section class="ftco-section" id="pricing-section">
 	<div class="container">
 		<div class="row justify-content-center pb-5">
@@ -77,9 +78,9 @@
 			<div class="col-md ftco-animate">
 				<div class="pricing-entry pb-5 text-center">
 					<div>
+						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
 						<h3><p><span class="price">CS 1.6</span></h3>
-						<h5 class="mb-0">A LAN gaming competition</h5>
-
+						<h5 class="mb-0">LAN Gaming</h5>
 					</div>
 					<ul style="margin-bottom: 48px">
 							<li>Exciting Cash Prize!</li>
@@ -180,7 +181,7 @@
 							<li>150 for a group of 4 (all from sfit)</li>
 							<li class="mb-0">200 for a group of 4 (max 1 person from outside)</li>
 						</ul>
-						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
+						<p class="button text-center"><a href="forms/pubg.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 ftco-animate"></div>
