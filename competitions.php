@@ -1,4 +1,5 @@
 <?php include("header.php") ?>
+
 <section class="ftco-section" id="pricing-section">
 	<div class="container">
 		<div class="row justify-content-center pb-5">
@@ -179,7 +180,7 @@
 							<li>Cash prize: TBD</li>
 							<li>Entry fee: TBD</li>
 						</ul>
-						<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
+						<p class="button text-center"><a href="forms/iris.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 ftco-animate"></div>
