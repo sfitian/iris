@@ -96,8 +96,8 @@
 				<div class="pricing-entry pb-5 text-center">
 					<div>
 						<!-- <h3 class="navbar-brand"><span>Tandav</span></h3> -->
-						<h3><p><span class="price">CS:GO</span></h3>
-						<h5 class="mb-0">A LAN gaming competition</h5>
+						<h3><p><span class="price">CS 1.6</span></h3>
+						<h5 class="mb-0">LAN Gaming</h5>
 
 					</div>
 					<ul style="margin-bottom: 48px">
