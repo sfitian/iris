@@ -119,7 +119,7 @@
 						<li>Cash prize: TBD</li>
 						<li>Entry fee: TBD</li>
 					</ul>
-					<p class="button text-center"><a href="#" class="btn btn-primary px-4 py-3">Coming Soon</a></p>
+					<p class="button text-center"><a href="forms/fifa.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 
