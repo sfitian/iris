@@ -62,6 +62,9 @@
         float: left !important;
         }
     }
+@media (max-width: 991.98px) {
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #fff; } }
 </style>
 
 <?php

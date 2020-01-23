@@ -71,6 +71,9 @@
     color: #000000;
     font-weight: 400;
     opacity: 1 !important; }
+    @media (max-width: 991.98px) {
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        color: #fff; } }
 </style>
 
 <?php include("footer.php") ?>
