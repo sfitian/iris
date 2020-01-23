@@ -16,8 +16,13 @@
 	.IOlogo{
 		width:75%;
 		height:100%;
-	}
-    
+    }
+    @media (min-width: 768px)  {
+        .padks{
+                padding-top:35%;
+                padding-bottom:35%;
+            }
+        }
      @media (min-width: 768px)  {
         .padvd{
                 padding-top:25%;
@@ -49,17 +54,24 @@
                 <img src="images/sponsors/VD.png" class="img-fluid" alt="">
             </div>
         </div>
-
-        
-
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
+            <div class="supporter-logo card1 image1 padddpl">
+                <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3" >
+            <div class="supporter-logo card1 image1 padddpl">
+                <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 ">
-            <div class="supporter-logo card1 padvd image1">
+            <div class="supporter-logo card1 padks image1">
                 <img src="images/sponsors/KS.jpg" class="img-fluid" alt="">
             </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3">
-            <div class=" jutify-content-center suppoter-logo card1 image1">
+            <div class=" jutify-content-center padks suppoter-logo card1 image1">
                 <img src="images/sponsors/AP.jpg" class="img-fluid" alt="">
             </div>
         </div>
