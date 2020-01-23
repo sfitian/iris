@@ -110,13 +110,17 @@
 <script>
     function sendMessage() {
         let name = document.querySelector('#name').value;
+        let name2 = document.querySelector('#name2').value;
+        let name3 = document.querySelector('#name3').value;
+        let name4 = document.querySelector('#name4').value;
+        let name5 = document.querySelector('#name5').value;
+        let team = document.querySelector('#team').value;
         let college = "SFIT";
         let year = $("#year option:selected").text();
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
-        let groupCount = document.querySelector('#pid').value;
+        //let groupCount = document.querySelector('#pid').value;
         let phoneNumber = document.querySelector('#contact').value;
-
         console.log('hi');
           if(document.getElementById("other").checked){
         college = document.querySelector('#collegeName').value;
@@ -124,7 +128,9 @@
 
         $.ajax({
             url: "https://docs.google.com/forms/d/e/1FAIpQLSfvV499yHOOSiM1cjh7Ve9y8UMzNDAAEQbXQ_diO7mP8sMaSA/formResponse?",
-            data: {"entry.558749190": name, "entry.1390789563": name2, "entry.209341018": name3, "entry.977579164": name4, "entry.641781793": name5, "1149899632":team, "entry.1577977678": college, "entry.1591931841": year,
+            data: {"entry.558749190": name, "entry.1390789563": name2, "entry.209341018": name3, 
+            "entry.977579164": name4, "entry.641781793": name5, "entry.1149899632":team, 
+            "entry.1577977678": college, "entry.1591931841": year,
              "entry.941060304": dept, "entry.462139172":pid,"entry.207598181":phoneNumber},
             type: "POST",
             dataType: "xml",
