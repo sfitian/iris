@@ -62,7 +62,7 @@
                 <li class="nav-item"><a href="schedule.php" class="nav-link"><span>IRIS Schedule</span></a></li>      
                 <li class="nav-item"><a href="gallery.php" class="nav-link"><span>Gallery</span></a></li>
                 <li class="nav-item"><a href="raagas/" class="nav-link"><span>Raagas</span></a></li>
-                <!-- <li class="nav-item"><a href="team.php" class="nav-link"><span>Workforce</span></a></li> -->
+                <li class="nav-item"><a href="team.php" class="nav-link"><span>Our Team</span></a></li>
                 <li class="nav-item"><a href="sponsor.php" class="nav-link"><span>Sponsors</span></a></li>
                 <li class="nav-item cta"><a href="competitions.php" class="nav-link">Competitions</a></li>
             </ul>

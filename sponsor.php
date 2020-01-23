@@ -46,7 +46,12 @@
     <div class="row no-gutters supporters-wrap clearfix">
         <!-- <div  class="col-lg-3 col-md-4 col-xs-6 mb-3"></div> -->
         <div class="row justify-content-center pb-5">
-		<div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
+                <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
                 <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
             </div>
@@ -64,11 +69,6 @@
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
                 <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
-            <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
