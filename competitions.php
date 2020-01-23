@@ -180,7 +180,7 @@
 							<li>Cash prize: TBD</li>
 							<li>Entry fee: TBD</li>
 						</ul>
-						<p class="button text-center"><a href="forms/iris.php" class="btn btn-primary px-4 py-3">Register</a></p>
+						<p class="button text-center"><a href="forms/pubg.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
 				</div>
 				<div class="col-md-2 ftco-animate"></div>

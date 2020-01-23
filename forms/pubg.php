@@ -2,7 +2,7 @@
 <div id="wrapper">
     <div class="form-container">
         <div class="form-heading">PUBG</div>
-        <div class="form-subheading mb-5">Clasic Mode</div>
+        <div class="form-subheading mb-5">Classic Mode</div>
         <form action="">
             <!-- name -->
             <div class="input-group">
@@ -52,14 +52,6 @@
                     <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.235261680">
                     <span class="bar"></span>
                 </div>
-            <div class="input-group">
-                    <b class="bold">Year </b><br />
-                    <select class="form-control input-list" name="entry." id="year">
-                        <option value="Mr">Mr. IRIS</option>
-                        <option value="Ms">Ms. IRIS</option>
-                    </select>
-                </div>
-
             <div class="input-group">
                 <b class="bold">Phone Number</b>
                 <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="10" id="contact" name="entry.656693241"
