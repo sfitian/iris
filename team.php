@@ -196,7 +196,7 @@ Student Council
 					<div class="col-sm-6 col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch justify-content-end">
-								<div class="img align-self-stretch" style="background-image: url(images/tech/sanket.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(images/tech/Sanket.jpg);"></div>
 							</div>
 							<div class="text d-flex align-items-center pt-3">
 								<div>
