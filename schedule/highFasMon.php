@@ -22,7 +22,7 @@
 	              		<div class="img speaker-img" style="background-image:  url(images/Kabaddi.png);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">01:00PM - 03:00PM</span> -->
-	              			<h2><a href="#">Games: Dodge ball/ Kabaddi</a></h2>
+	              			<h2><a href="#">Games: Dodge ball</a></h2>
 	              			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
@@ -31,7 +31,7 @@
 	              		<div class="img speaker-img" style="background-image:  url(images/tugOfWar.jpeg);"></div>
 	              		<div class="text pl-md-5">
 	              			<!-- <span class="time">03:00PM - 04:30PM</span> -->
-	              			<h2><a href="#">Game: Tug of war (ELEC & MECH)</a></h2>
+	              			<h2><a href="#">Game: Tug of war (ELEC & MECH) and Teachers</a></h2>
 	              			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 	              			<!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
 	              		</div>
