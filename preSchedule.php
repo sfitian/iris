@@ -19,15 +19,15 @@
                         <a  class="nav-link ftco-animate" href="schedule.php">IRIS Events</a>
 
                         <a class="nav-link ftco-animate" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><strike> Hoodie Wednesday</strike><span>22 January 2020</span></a>
-                        
+
                             <div class="tab-content" id="v-pills-tabContent-1" style="display: none;">
                                 <?php
                                 include("schedule/hoodieWed.php");
                                 ?>
                             </div>
-                        
 
-                        <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false"><strike>Traffic Thursday & Rose day,/strike><span>23 January 2020</span></a>
+
+                        <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2 " aria-selected="false"><strike>Traffic Thursday & Rose day</strike><span>23 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-2">
                                 <?php
                                 include("schedule/trafficRoseThurs.php");
@@ -40,7 +40,7 @@
                                 include("schedule/blackFri.php");
                                 ?>
                         </div>
-                     
+
                         <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">High Fashion Monday<span>27 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-4">
                                 <?php
@@ -56,7 +56,7 @@
                             </div>
 
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </div>
