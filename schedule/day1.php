@@ -9,7 +9,7 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='https:/www.instagram.com/p/B7gNa63n9h7/?utm_source=ig_web_copy_link'">
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='https://www.instagram.com/p/B7gNa63n9h7/?utm_source=ig_web_copy_link'">
                           <div class="img speaker-img" style="background-image:  url(images/icons/themeLogo-min2.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">11:00AM - 01:00PM</span>
