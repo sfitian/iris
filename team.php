@@ -284,7 +284,7 @@ Student Council
 		                <li class="ftco-animate"><a href="https://github.com/sinhashivam09"><span class="icon-github"></span></a></li>
 		                <li class="ftco-animate"><a href="https://www.linkedin.com/in/sinhashivam9/"><span class="icon-linkedin"></span></a></li>
 		                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-		                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+		                <li class="ftco-animate"><a href="https://www.instagram.com/iamsolo09/"><span class="icon-instagram"></span></a></li>
 		              </ul>
 		            </div>
 							</div>
