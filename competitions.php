@@ -35,7 +35,7 @@
 
 					</div>
 					<ul>
-						<li>Cash prize(Group): 5000</li>
+						<li>Cash prize(Group): 3000</li>
 						<li>Cash prize(Single): 1000</li>
 						<li>Entry Fee(Group): 500</li>
 						<li>Entry Fee (Single): 100</li>
