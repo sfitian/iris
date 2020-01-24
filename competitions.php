@@ -49,7 +49,7 @@
 						<li>Entry Fee(Group): 500</li>
 						<li>Entry Fee (Single): 100</li>
 					</ul>
-					<p class="button text-center"><a href="forms/tandav.php" class="btn btn-primary px-4 py-3">Register</a></p>
+					<p class="button text-center"><a href="forms/insync.php" class="btn btn-primary px-4 py-3">Register</a></p>
 				</div>
 			</div>
 			<div class="col-md ftco-animate">
