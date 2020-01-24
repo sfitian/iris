@@ -9867,3 +9867,54 @@ input {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.score-head {
+  text-align: center;
+}
+
+.score-sub-head {
+  text-align: center;
+}
+
+.score-head {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #033fff;
+  margin: 10px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.score-head:hover h1{
+  background-color: #033fff;
+  color: white;
+}
+
+.score-head:hover h6 {
+  background-color: #033fff;
+  color: black;
+}
+
+/* .score-head h6 { */
+  /*  margin: 0px; */
+/* } */
+
+.score-head h1 {
+  margin: 0px;  
+}
+
+.scoreFix {
+  width: 50%;
+  /* padding-bottom: 0px; */
+}
+
+.scoreFix2 {
+  padding-top: 3px !important;
+  padding-bottom: 0px !important;
+  margin: 0px;
+}

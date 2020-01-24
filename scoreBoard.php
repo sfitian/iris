@@ -4,17 +4,19 @@
    <div class="container">
       <!-- FE -->
       <!-- Heading -->
-      <h1 style="text-align:center">FE</h1>
+      <div class="score-head">
+         <h1>FIRST YEAR</h1>
+      </div>
       <p style="text-align:center">BOYS</p>
       <div class="row">
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE CMPN A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE CMPN B</span></p>
                      <h2>0</h2>
                   </div>
