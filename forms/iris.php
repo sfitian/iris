@@ -95,11 +95,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
-                window.location.href="../competitions.php?status=success&name="+name+"&game=Surshastra";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Mr. and Ms. IRIS competition.";
             },
             error: function(x, y, z) {
                 console.log("error");
-                window.location.href="../competitions.php?status=success&name="+name+"&game=Surshastra";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Mr. and Ms. IRIS competition.";
             }
         });
         return false;   
