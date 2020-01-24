@@ -49,8 +49,10 @@
                     Near Bhagwati Hospital, Mount Poinsur,<br>
                     Borivali West,<br>
                     Mumbai, Maharashtra 400103.</span></li>
-                  <li><a href="tel: +91-9930686035"><span class="icon icon-phone"></span><span class="text">Leander Fernandez :&nbsp;</span><span class="text">+91-9930686035</span></a></li>
-                  <li><a href="tel: +91-7977602347"><span class="icon icon-phone"></span><span class="text">Manas Acharya :&nbsp;</span><span class="text">+91-7977602347</span></a></li>
+                  <li>
+                  <a href="tel: +91-9930686035"><span class="icon icon-phone"></span><span class="text">Leander Fernandez :&nbsp;</span><span class="text">+91-9930686035</span></a>
+                  <a href="tel: +91-7977602347"><span class="icon icon-phone"></span><span class="text">Manas Acharya :&nbsp;</span><span class="text">+91-7977602347</span></a>
+                  </li>
 	                <li><a href="mailto:studentcouncil@sfit.ac.in"><span class="icon icon-envelope"></span><span class="text">studentcouncil@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
