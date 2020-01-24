@@ -9884,3 +9884,8 @@ input {
 .testll {
   margin-bottom: 200px !important;
 }
+
+#visit{
+  font-size:150%;
+  display:none;
+}
