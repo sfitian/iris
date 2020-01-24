@@ -6,6 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    
+    <meta property="og:title" content="IRIS SFIT 2020"/>
+    <meta property="og:image" content="https://iris.sfit.ac.in/images/icons/themeLogo-min2-min.png"/>
+    <meta property="og:url" content="https://iris.sfit.ac.in"/>
+    <meta property="og:description" content="IRIS, the annual cutural festival of SFIT, is one of the most eagerly anticipated events in the collge calendar. ">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
