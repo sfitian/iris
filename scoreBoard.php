@@ -25,12 +25,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE INFT A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE INFT B</span></p>
                      <h2>0</h2>
                   </div>
@@ -39,12 +39,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE EXTC A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE EXTC B</span></p>
                      <h2>0</h2>
                   </div>
@@ -54,12 +54,12 @@
          <div class="col-md-2"></div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE ELEC A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE ELEC B</span></p>
                      <h2>0</h2>
                   </div>
@@ -68,12 +68,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE MECH A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE MECH B</span></p>
                      <h2>0</h2>
                   </div>
@@ -87,12 +87,12 @@
       <div class="row">
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE CMPN A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE CMPN B</span></p>
                      <h2>0</h2>
                   </div>
@@ -101,12 +101,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE INFT A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE INFT B</span></p>
                      <h2>0</h2>
                   </div>
@@ -115,12 +115,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE EXTC A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE EXTC B</span></p>
                      <h2>0</h2>
                   </div>
@@ -130,12 +130,12 @@
          <div class="col-md-2"></div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE ELEC A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE ELEC B</span></p>
                      <h2>0</h2>
                   </div>
@@ -144,12 +144,12 @@
          </div>
          <div class="col-md-4 ftco-animate">
             <div class="pricing-entry pb-1 text-center">
-               <div class="row">
-                  <div class="col-md">
+               <div class="row scoreFix2">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE MECH A</span></p>
                      <h2>0</h2>
                   </div>
-                  <div class="col-md">
+                  <div class="col-md scoreFix">
                      <p><span class="price">FE MECH B</span></p>
                      <h2>0</h2>
                   </div>
@@ -167,7 +167,7 @@
    }
 
    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-      font-size: 16px;
+      font-size: 16px;  
       padding-top: .7rem;
       padding-bottom: .7rem;
       padding-left: 20px;
