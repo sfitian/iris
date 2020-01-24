@@ -77,3 +77,22 @@
             </div>
         </div>
     </nav>
+    <?php
+    
+    $ch = curl_init();
+ 
+        // set url
+        curl_setopt($ch, CURLOPT_URL, "https://quickauction2019.000webhostapp.com/counter.php");
+ 
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+ 
+        // $output contains the output string
+        $output = curl_exec($ch);
+ 
+        //print_r($output);
+        $val=substr($output,1,strlen($output)-2);
+        // close curl resource to free up system resources
+        curl_close($ch);  
+    
+    ?>
