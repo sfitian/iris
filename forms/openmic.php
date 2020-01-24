@@ -94,21 +94,6 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
     function sendMessage() {
         let name = document.querySelector('#name').value;
@@ -133,11 +118,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
-                window.location.href="../competitions.php";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Open Mic";
             },
             error: function(x, y, z) {
                 console.log("error");
-                window.location.href="../competitions.php";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Open Mic";
             }
         });
         

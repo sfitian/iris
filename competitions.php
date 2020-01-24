@@ -7,6 +7,15 @@
 				<!-- <span class="subheading">Pricing</span> -->
 				<h2 class="mb-4">Competitions</h2>
 				<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+				<?php 
+					if(isset($_GET['status'])&&isset($_GET['name'])&&isset($_GET['game'])){
+						if($_GET['status']=='success'){
+							echo '<div class="alert alert-success" role="alert">
+									Thanks '.$_GET['name'].', see you at '.$_GET['game'].'</div>';
+						}
+					}
+				?>
+				
 				<span class="subheading">Inter-college</span>
 			</div>
 		</div>
@@ -163,7 +172,7 @@
 						</div>
 						<ul style="margin-bottom: 210px">
 							<!-- <li>Exciting prize!</li> -->
-							<li>Entry: Free</li>
+							<li>Entry: 50</li>
 						</ul>
 						<p class="button text-center"><a href="forms/iris.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
