@@ -111,11 +111,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
-                window.location.href="../competitions.php";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Tandav";
             },
             error: function(x, y, z) {
                 console.log("error");
-                window.location.href="../competitions.php";
+                window.location.href="../competitions.php?status=success&name="+name+"&game=Tandav";
             }
         });
         return false;
