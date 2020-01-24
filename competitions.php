@@ -3,7 +3,7 @@
 <section class="ftco-section" id="pricing-section">
 	<div class="container">
 		<div id="formSubmitted">
-			<div class="alert alert-success" role="alert">
+			<div class="alert alert-success" role="alert" id="message">
 				Your form has been submitted
 			</div>
 			<div class="alert-success"></div>

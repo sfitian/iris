@@ -377,8 +377,20 @@ $(document).ready(function() {
 if(document.getElementById('formSubmitted')){
     $(document).ready(function () {
         if(window.location.href.split('?')[1] == undefined) {
-            console.log('hi')
+            console.log('hi');
             $("#formSubmitted").hide(); 
+        }
+        else{
+            data = window.location.href.split('?')[1].split('&');
+            if(data[0].split('=').localeCompare("success")) {
+                // if(data[1].split('=') && data[1].split('=')[0].localeCompare("name")) {
+                //     console.log('hey')
+                //     document.getElementById('message').innerHTML = data[1].split('=')[1] + document.getElementById('message').innerHTML
+                // }
+            }
+            else {
+                $("#formSubmitted").hide();
+            }
         }
     });
 }
