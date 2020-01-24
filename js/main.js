@@ -371,3 +371,14 @@ $(document).ready(function() {
          $("#v-pills-tabContent-5").toggle(); 
     });  
 });
+
+
+// Form submitted message
+if(document.getElementById('formSubmitted')){
+    $(document).ready(function () {
+        if(window.location.href.split('?')[1] == undefined) {
+            console.log('hi')
+            $("#formSubmitted").hide(); 
+        }
+    });
+}

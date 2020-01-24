@@ -2,7 +2,12 @@
 
 <section class="ftco-section" id="pricing-section">
 	<div class="container">
-		<div class="alert-success">Your form has been submitted</div>
+		<div id="formSubmitted">
+			<div class="alert alert-success" role="alert">
+				Your form has been submitted
+			</div>
+			<div class="alert-success"></div>
+		</div>
 		<div class="row justify-content-center pb-5">
 			<div class="col-md-12 heading-section text-center ftco-animate">
 				<!-- <span class="subheading">Pricing</span> -->
@@ -206,5 +211,9 @@
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         color: #fff; } }
 </style>
+
+<script>
+	
+</script>
 
 <?php include("footer.php") ?>
