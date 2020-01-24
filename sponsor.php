@@ -82,6 +82,11 @@
                 <img src="images/sponsors/AP.jpg" class="img-fluid" alt="">
             </div>
         </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
+            <div class="supporter-logo card1 padks mx-auto image1">
+                <img src="images/sponsors/jamboree.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
     </div>
 
 </div>
