@@ -172,7 +172,7 @@
 						</div>
 						<ul style="margin-bottom: 210px">
 							<!-- <li>Exciting prize!</li> -->
-							<li>Entry: Free</li>
+							<li>Entry: 50</li>
 						</ul>
 						<p class="button text-center"><a href="forms/iris.php" class="btn btn-primary px-4 py-3">Register</a></p>
 					</div>
