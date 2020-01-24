@@ -7,6 +7,15 @@
 				<!-- <span class="subheading">Pricing</span> -->
 				<h2 class="mb-4">Competitions</h2>
 				<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
+				<?php 
+					if(isset($_GET['status'])&&isset($_GET['name'])&&isset($_GET['game'])){
+						if($_GET['status']=='success'){
+							echo '<div class="alert alert-success" role="alert">
+									Thanks '.$_GET['name'].', see you at '.$_GET['game'].'</div>';
+						}
+					}
+				?>
+				
 				<span class="subheading">Inter-college</span>
 			</div>
 		</div>
