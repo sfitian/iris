@@ -85,6 +85,12 @@
         let pid = document.querySelector('#pid').value;
         let post = $("#iris option:selected").text();
 
+        if (post == "Mr. IRIS") {
+            pos = "Mr. IRIS";
+        } else if(post == "Ms. IRIS") {
+            pos = "Ms. IRIS";
+        }
+
         console.log('hi');
 
         $.ajax({
@@ -95,11 +101,11 @@
             dataType: "xml",
             success: function(d){
                 console.log("success");
-                window.location.href="../competitions.php?status=success&name="+name+"&game=Mr. and Ms. IRIS competition.";
+                window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
             },
             error: function(x, y, z) {
                 console.log("error");
-                window.location.href="../competitions.php?status=success&name="+name+"&game=Mr. and Ms. IRIS competition.";
+                window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
             }
         });
         return false;   
