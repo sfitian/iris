@@ -62,22 +62,21 @@
                 </div>
             
             <div class="input-group">
-                <b class="bold">Phone Number</b>
-                <input type="tel" placeholder="xxx-xxx-xxxx" maxlength="10" id="contact" name="entry.1733787848"
-                    required>
-                <span class="bar"></span>
+                <b class="bold" id="error-phone-label">Phone Number</b><span class="errorForm" id="error-phone"></span>
+                <input type="tel" placeholder="xxx-xxx-xxxx" id="contact" name="entry.1733787848" required>
+                <span class="bar" id="phone-bar"></span>
             </div>
             <!-- submit -->
             <div class="input-group">
                 <!--<button>Register</button>-->
-                <button class="btn py-3 px-4 btn-primary" onclick="return sendMessage();">Register</button>
+                <button class="btn py-3 px-4 btn-primary" onclick="return validateForm();">Register</button>
             </div>
         </form>
     </div>
 </div>
 
 <script>
-    function sendMessage() {
+    function validateForm() {
         let name = document.querySelector('#name').value;
         let phoneNumber = document.querySelector('#contact').value;
         let year = $("#year option:selected").text();
@@ -93,22 +92,55 @@
 
         console.log('hi');
 
+        var values = true;
+
+        //validate Phone Number
+        if(phoneNumber.length == 10) {
+
+            values = true;
+
+        } else {
+
+            values = false;
+
+            document.getElementById("contact").focus();
+            document.getElementById("error-phone").innerHTML = "Please enter valid 10 digits only";
+            document.getElementById("error-phone-label").style.color = "red";
+        }
+        
+        if(values) {
+
+            sendMessage(name, phoneNumber, year, dept, pid, post);
+
+            return false;  
+
+        } else {
+
+            //alert("Enter 10 numbers only");
+            console.log("working but false");
+
+            return false;
+
+        }
+
+    }
+
+    function sendMessage(name, phoneNumber, year, dept, pid, post) {
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSdmKFxEmPcpCt0RMrbKhTcRNOiKLshoDJNpvJ8nKW2bi7oeJg/formResponse?",
-            data: {"entry.962837583": name, "entry.1733787848":phoneNumber, "entry.1960341028": year,
-             "entry.433383431": dept, "entry.982916234":pid, "entry.1275666766":post},
-            type: "POST",
-            dataType: "xml",
-            success: function(d){
-                console.log("success");
-                window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
-            },
-            error: function(x, y, z) {
-                console.log("error");
-                window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
-            }
-        });
-        return false;   
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSdmKFxEmPcpCt0RMrbKhTcRNOiKLshoDJNpvJ8nKW2bi7oeJg/formResponse?",
+                data: {"entry.962837583": name, "entry.1733787848":phoneNumber, "entry.1960341028": year,
+                "entry.433383431": dept, "entry.982916234":pid, "entry.1275666766":post},
+                type: "POST",
+                dataType: "xml",
+                success: function(d){
+                    console.log("success");
+                    window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
+                },
+                error: function(x, y, z) {
+                    console.log("error");
+                    window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
+                }
+            });
     }
 </script>
 

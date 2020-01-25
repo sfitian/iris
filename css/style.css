@@ -9895,3 +9895,12 @@ input {
   font-size:150%;
   display:none;
 }
+
+.preSchedule {
+  width: 50% !important;
+  margin: 0 auto !important;
+}
+
+.row {
+  margin: 0 auto !important;
+}
