@@ -81,7 +81,7 @@
         console.log('hi');
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSfJAJZxVh53m-FMkT-cJoOQj2kS910mLYg-WPT3JUaTjRqeWA/formResponse?",
+            url: pubgGD ,
             data: {"entry.1577363981": name,"entry.656693241":phoneNumber, "entry.1621489230": year,"entry.1151954041": dept,
             "entry.235261680":pid,},
             type: "POST",

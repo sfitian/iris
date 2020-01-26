@@ -93,7 +93,7 @@
         console.log('hi');
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSc42DwaEZPk68M2ym5GP77GYWCirBRkJSGb-F0P5DJ782Se4w/formResponse?",
+            url: fifaGD ,
             data: {"entry.685612832": name, "entry.1802645929": college, "entry.1035370944": year,
              "entry.757148009": dept, "entry.1793742644":pid,"entry.257358372":phoneNumber},
             type: "POST",

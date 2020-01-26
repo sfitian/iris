@@ -21,10 +21,10 @@
                 <datalist id="colleges">
                     <option>St. Francis Institute of Technology</option>
                 </datalist> -->
-               
+
 
             </div>
-            
+
                 <div class="input-group">
                     <b class="bold">Year </b><br />
                     <select class="form-control input-list" name="entry.1960341028" id="year">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="input-group">
-                    <b class="bold">Pid</b>
+                    <b class="bold" id="error-pid-label">Pid</b><span class="errorForm" id="error-pid"></span>
                     <input type="number" placeholder="eg. 1820xx" id="pid" name="entry.982916234">
                     <span class="bar"></span>
                 </div>
@@ -57,13 +57,13 @@
                     <b class="bold">Post </b><br />
                     <select class="form-control input-list" name="entry.1275666766" id="iris">
                         <option value="Mr">Mr. IRIS</option>
-                        <option value="Ms">Ms. IRIS</option>                        
+                        <option value="Ms">Ms. IRIS</option>
                     </select>
                 </div>
-            
+
             <div class="input-group">
                 <b class="bold" id="error-phone-label">Phone Number</b><span class="errorForm" id="error-phone"></span>
-                <input type="tel" placeholder="xxx-xxx-xxxx" id="contact" name="entry.1733787848" required>
+                <input type="text" placeholder="xxx-xxx-xxxx" id="contact" name="entry.1733787848" required>
                 <span class="bar" id="phone-bar"></span>
             </div>
             <!-- submit -->
@@ -106,28 +106,29 @@
             document.getElementById("contact").focus();
             document.getElementById("error-phone").innerHTML = "Please enter valid 10 digits only";
             document.getElementById("error-phone-label").style.color = "red";
-        }
-        
+		}
+
+		//validate PID
+		if(pid.length == 6) {
+
+			values = true;
+
+		} else {
+
+			values = false;
+
+			document.getElementById("pid").focus();
+			document.getElementById("error-pid").innerHTML = "Please enter valid pid";
+			document.getElementById("error-pid-label").style.color = "red";
+
+		}
+
+
+		//All successfull
         if(values) {
 
-            sendMessage(name, phoneNumber, year, dept, pid, post);
-
-            return false;  
-
-        } else {
-
-            //alert("Enter 10 numbers only");
-            console.log("working but false");
-
-            return false;
-
-        }
-
-    }
-
-    function sendMessage(name, phoneNumber, year, dept, pid, post) {
-        $.ajax({
-                url: "https://docs.google.com/forms/d/e/1FAIpQLSdmKFxEmPcpCt0RMrbKhTcRNOiKLshoDJNpvJ8nKW2bi7oeJg/formResponse?",
+            $.ajax({
+                url: irisGD ,
                 data: {"entry.962837583": name, "entry.1733787848":phoneNumber, "entry.1960341028": year,
                 "entry.433383431": dept, "entry.982916234":pid, "entry.1275666766":post},
                 type: "POST",
@@ -141,7 +142,20 @@
                     window.location.href="../competitions.php?status=success&name="+name+"&game="+pos;
                 }
             });
+
+
+            return false;
+
+        } else {
+
+            //alert("Enter 10 numbers only");
+            console.log("working but false");
+            return false;
+
+        }
+
     }
+
 </script>
 
 <?php include("footer.php") ?>

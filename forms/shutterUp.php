@@ -85,7 +85,7 @@
         let dept = $("#dept option:selected").text();
         let pid = document.querySelector('#pid').value;
         let phoneNumber = document.querySelector('#contact').value;
-        
+
         if(document.getElementById("other").checked){
         college = document.querySelector('#collegeName').value;
         }
@@ -93,7 +93,7 @@
         console.log('hi');
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLScQX9K5fMIQFW3l6eqgtyVlzqfw0_LRHrzKNm5aG5od3uD2kg/formResponse?",
+            url: shutterGD ,
             data: {"entry.1555171622": name, "entry.861199831": college, "entry.1767687659": year,
              "entry.716908024": dept, "entry.1272103391":pid, "entry.1489331585":phoneNumber},
             type: "POST",

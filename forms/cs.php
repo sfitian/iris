@@ -126,9 +126,9 @@
         }
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSfvV499yHOOSiM1cjh7Ve9y8UMzNDAAEQbXQ_diO7mP8sMaSA/formResponse?",
-            data: {"entry.558749190": name, "entry.1390789563": name2, "entry.209341018": name3, 
-            "entry.977579164": name4, "entry.641781793": name5, "entry.1149899632":team, 
+            url: csGD ,
+            data: {"entry.558749190": name, "entry.1390789563": name2, "entry.209341018": name3,
+            "entry.977579164": name4, "entry.641781793": name5, "entry.1149899632":team,
             "entry.1577977678": college, "entry.1591931841": year,
              "entry.941060304": dept, "entry.462139172":pid,"entry.207598181":phoneNumber},
             type: "POST",

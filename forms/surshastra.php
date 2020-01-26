@@ -102,7 +102,7 @@
         console.log('hi');
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSfv7OKaoV_J0uh_xIRQEX5K-HGsw9ZZyEK5xuDq-C1J3KQqyg/formResponse?",
+            url: surshastraGD ,
             data: { "entry.1242131349": name, "entry.1957620844": college, "entry.1864115645": year, "entry.1944219620": dept, "entry.167761393": pid, "entry.1299802954": participation, "entry.1586680497": phoneNumber },
             type: "POST",
             dataType: "xml",

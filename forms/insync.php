@@ -103,7 +103,7 @@
         console.log('hi');
 
         $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSctlIpCWHSESUg0b3Zdw0surs8v4FjjQmy8-W43omb-wDJpKw/formResponse?",
+            url: insyncGD ,
             data: {"entry.149299452": name, "entry.1016439583": college, "entry.1051641819": year,
              "entry.408051107": dept, "entry.569083526":pid,
               "entry.1247419668":groupCount, "entry.1489845891":phoneNumber},

@@ -63,14 +63,14 @@
             </div>
             <div class="input-group">
                 <b class="bold">What are you performing</b>
-                    <input id="perform" type = "text" list = "entry970268507" name="entry.970268507"> 
+                    <input id="perform" type = "text" list = "entry970268507" name="entry.970268507">
                     <datalist id = "entry970268507">
                         <option value = "Singing">
                         <option value = "Beat Boxing">
                         <option value = "Rap">
                     </datalist>
                 <span class="bar"></span>
-                    
+
                     <!--
                     <select class="form-control" name="entry.970268507" id="perform">
                         <option value="comp">Singing</option>
@@ -111,7 +111,7 @@
 
 
          $.ajax({
-            url: "https://docs.google.com/forms/d/e/1FAIpQLSdfEKiyPPvNubNA9gMAHSMaIiR9fg-ZyAr0peWy9qAnjGZP6A/formResponse?",
+            url: openmicGD ,
             data: {"entry.1789825728": name, "entry.1367964555": college, "entry.1639723399": year,"entry.970268507":perform,
              "entry.579071568": dept, "entry.1776986425":pid, "entry.134291980":phoneNumber},
             type: "POST",
@@ -125,7 +125,7 @@
                 window.location.href="../competitions.php?status=success&name="+name+"&game=Open Mic";
             }
         });
-        
+
         return false;
     }
     </script>
