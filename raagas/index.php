@@ -313,10 +313,11 @@
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="fa fa-map-marker address2 info2"></span><span class="text address2" >St. Francis Institute Of Technology,
-Sardar Vallabhbhai Patel Rd,
-Near Bhagwati Hospital, Mount Poinsur,
-Borivali West, Mumbai, Maharashtra 400103.</span></li>
-	                <li><a href="tel: +91-9167248587"><span class="fa fa-phone info2"></span><span class="text">Joshua Fernandes :&nbsp;</span><span class="text">+91-9167248587</span></a></li>
+                                                                                                        Sardar Vallabhbhai Patel Rd,
+                                                                                                        Near Bhagwati Hospital, Mount Poinsur,
+                                                                                                        Borivali West, Mumbai, Maharashtra 400103.</span></li>
+                  <a href="tel: +91-7756043100"><span class="icon icon-phone"></span><span class="text">Orvin Fernandes :&nbsp;</span><span class="text">+91-7756043100</span></a>
+                  <a href="tel: +91-7977602347"><span class="icon icon-phone"></span><span class="text">Manas Acharya :&nbsp;</span><span class="text">+91-7977602347</span></a>
 	                <li><a href="mailto:studentcouncil@sfit.ac.in"><span class="fa fa-envelope info2"></span><span class="text">studentcouncil@sfit.ac.in</span></a></li>
 	              </ul>
 	            </div>
