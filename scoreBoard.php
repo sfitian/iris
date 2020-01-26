@@ -15,7 +15,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">FE CMPN A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE CMPN B</span></p>
@@ -29,7 +29,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">FE INFT A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE INFT B</span></p>
@@ -43,7 +43,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">FE EXTC A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE EXTC B</span></p>
@@ -95,7 +95,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE CMPN B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -105,7 +105,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">FE INFT A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE INFT B</span></p>
@@ -123,7 +123,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">FE EXTC B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -177,7 +177,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">SE CMPN A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE CMPN B</span></p>
@@ -191,7 +191,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">SE INFT A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE INFT B</span></p>
@@ -209,7 +209,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE EXTC B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -257,7 +257,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE CMPN B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -267,7 +267,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">SE INFT A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE INFT B</span></p>
@@ -281,7 +281,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">SE EXTC A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">SE EXTC B</span></p>
@@ -339,7 +339,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">TE CMPN A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE CMPN B</span></p>
@@ -357,7 +357,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE INFT B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -367,7 +367,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">TE EXTC A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE EXTC B</span></p>
@@ -389,7 +389,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE CMPN B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -403,7 +403,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE INFT B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -417,7 +417,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">TE EXTC B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -441,7 +441,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">BE CMPN A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE CMPN B</span></p>
@@ -455,7 +455,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">BE INFT A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE INFT B</span></p>
@@ -473,7 +473,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE EXTC B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
@@ -487,7 +487,7 @@
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
                         <p><span class="price">BE CMPN A</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE CMPN B</span></p>
@@ -500,8 +500,8 @@
                <div class="pricing-entry pb-1 text-center">
                   <div class="row scoreFix2">
                      <div class="col-md scoreFix">
-                        <p><span class="price">EE INFT A</span></p>
-                        <h2>0</h2>
+                        <p><span class="price">BE INFT A</span></p>
+                        <h2>1</h2>
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE INFT B</span></p>
@@ -519,7 +519,7 @@
                      </div>
                      <div class="col-md scoreFix">
                         <p><span class="price">BE EXTC B</span></p>
-                        <h2>0</h2>
+                        <h2>1</h2>
                      </div>
                   </div>
                </div>
