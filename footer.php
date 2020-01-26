@@ -11,31 +11,7 @@
             </div>
           </div>
 
-          <!-- <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Schedule</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Venue</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Gallery</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Sponsors</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div> -->
-          <!-- <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Privacy</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Career</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About Us</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact Us</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Buy Ticket</a></li>
-              </ul>
-            </div>
-          </div> -->
+
           <div class="col-md-4">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Contact Us</h2>
