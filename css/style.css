@@ -9886,14 +9886,15 @@ input {
   border-width: 2px;
   border-color: #033fff;
   margin: 10px;
-  /* width: 250px; */
-  width: max-content;
+  width: 300px;
+  /* width: max-content; */
   margin: 10px auto;
 }
 
 .score-head:hover h1{
   background-color: #033fff;
   color: white;
+  cursor: pointer;
 }
 
 .score-head:hover h6 {
