@@ -2,11 +2,22 @@
 
 <section class="ftco-section" id="pricing-section">
    <div class="container">
-      <!-- FE -->
-      <!-- Heading -->
-      <div class="score-head"  id='fe'>
-         <h1>FIRST YEAR</h1>
+      <div id="wrapper">
+         <div class="form-group dropdown">
+            <div class="input-group">
+                  <select class="form-control" id="scoreBoardYearSelector">
+                     <option>Select your year</option>
+                     <option>First Year</option>
+                     <option>Second Year</option>
+                     <option>Third Year</option>
+                     <option>Fourth Year</option>
+                  </select>
+            </div>
+         </div>
       </div>
+
+
+      <!-- FE -->
       <div id="feDiv">
          <p style="text-align:center">BOYS</p>
          <div class="row">
@@ -165,10 +176,6 @@
 
    <!-- SE -->
    <div class="container">
-      <!-- Heading -->
-      <div class="score-head"  id='se'>
-         <h1>SECOND YEAR</h1>
-      </div>
       <div id="seDiv">
          <p style="text-align:center">BOYS</p>
          <div class="row">
@@ -327,10 +334,6 @@
 
    <!-- TE -->
    <div class="container">
-      <!-- Heading -->
-      <div class="score-head"  id='te'>
-         <h1>THIRD YEAR</h1>
-      </div>
       <div id="teDiv">
          <p style="text-align:center">BOYS</p>
          <div class="row">
@@ -429,10 +432,6 @@
 
 <!-- BE -->
    <div class="container">
-      <!-- Heading -->
-      <div class="score-head"  id='be'>
-         <h1>FOURTH YEAR</h1>
-      </div>
       <div id="beDiv">
          <p style="text-align:center">BOYS</p>
          <div class="row">
@@ -534,6 +533,11 @@
       font-size: 1em;
    }
 
+   .input-group > .form-control:not(:first-child), .input-group {
+      text-align-last: center;
+      width: 500px;
+   }
+
    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
       font-size: 16px;  
       padding-top: .7rem;
@@ -549,6 +553,11 @@
       .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
          color: #fff;
       }
+
+      .input-group > .form-control:not(:first-child), .input-group {
+      text-align-last: center;
+      width: 300px;
+   }
    }
 </style>
 

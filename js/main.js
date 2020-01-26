@@ -375,47 +375,43 @@ $(document).ready(function() {
 // score board
 $(document).ready(function() {
     if(document.getElementById("feDiv")) {
-        console.log('hey');
         $("#feDiv").hide();
         $("#seDiv").hide();
         $("#teDiv").hide();
         $("#beDiv").hide();
-
     }
 });
 
-$("#fe").on('click', function() {
-    if($("#feDiv").is(':visible')) {
-        $("#feDiv").hide();
-    }
-    else {
+$("#scoreBoardYearSelector").on('click', function() {
+    let optnStelected = $('#scoreBoardYearSelector option:selected').text();
+    if(optnStelected === 'First Year'){
         $("#feDiv").show();
-    }
-});
-
-$("#se").on('click', function() {
-    if($("#seDiv").is(':visible')) {
         $("#seDiv").hide();
-    }
-    else {
-        $("#seDiv").show();
-    }
-});
-
-$("#te").on('click', function() {
-    if($("#teDiv").is(':visible')) {
         $("#teDiv").hide();
-    }
-    else {
-        $("#teDiv").show();
-    }
-});
-
-$("#be").on('click', function() {
-    if($("#beDiv").is(':visible')) {
         $("#beDiv").hide();
     }
-    else {
+    else if(optnStelected === 'Second Year') {
+        $("#feDiv").hide();
+        $("#seDiv").show();
+        $("#teDiv").hide();
+        $("#beDiv").hide();
+    }
+    else if(optnStelected === 'Third Year') {
+        $("#feDiv").hide();
+        $("#seDiv").hide();
+        $("#teDiv").show();
+        $("#beDiv").hide();
+    }
+    else if(optnStelected === 'Fourth Year') {
+        $("#feDiv").hide();
+        $("#seDiv").hide();
+        $("#teDiv").hide();
         $("#beDiv").show();
     }
-});
+    else {
+        $("#feDiv").hide();
+        $("#seDiv").hide();
+        $("#teDiv").hide();
+        $("#beDiv").hide();
+    }
+})
