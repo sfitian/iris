@@ -371,3 +371,51 @@ $(document).ready(function() {
          $("#v-pills-tabContent-5").toggle(); 
     });  
 });
+
+// score board
+$(document).ready(function() {
+    if(document.getElementById("feDiv")) {
+        console.log('hey');
+        $("#feDiv").hide();
+        $("#seDiv").hide();
+        $("#teDiv").hide();
+        $("#beDiv").hide();
+
+    }
+});
+
+$("#fe").on('click', function() {
+    if($("#feDiv").is(':visible')) {
+        $("#feDiv").hide();
+    }
+    else {
+        $("#feDiv").show();
+    }
+});
+
+$("#se").on('click', function() {
+    if($("#seDiv").is(':visible')) {
+        $("#seDiv").hide();
+    }
+    else {
+        $("#seDiv").show();
+    }
+});
+
+$("#te").on('click', function() {
+    if($("#teDiv").is(':visible')) {
+        $("#teDiv").hide();
+    }
+    else {
+        $("#teDiv").show();
+    }
+});
+
+$("#be").on('click', function() {
+    if($("#beDiv").is(':visible')) {
+        $("#beDiv").hide();
+    }
+    else {
+        $("#beDiv").show();
+    }
+});

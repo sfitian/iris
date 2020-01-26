@@ -9886,7 +9886,8 @@ input {
   border-width: 2px;
   border-color: #033fff;
   margin: 10px;
-  width: 250px;
+  /* width: 250px; */
+  width: max-content;
   margin: 10px auto;
 }
 
