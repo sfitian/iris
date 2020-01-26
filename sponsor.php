@@ -47,13 +47,23 @@
         <!-- <div  class="col-lg-3 col-md-4 col-xs-6 mb-3"></div> -->
         <div class="row justify-content-center pb-5">
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
-            <div class="supporter-logo card1 image1 mx-auto padddpl">
+            <div class="supporter-logo card1 mx-auto padddpl">
                 <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
                 <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
+            <div class=" jutify-content-center mx-auto suppoter-logo card1 image1">
+                <img src="images/sponsors/RB.png" class="img-fluid IOlogo" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
+                <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
@@ -67,8 +77,18 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
-            <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/BC.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/CSB.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/SIB.png" class="img-fluid" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
