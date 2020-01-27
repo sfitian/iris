@@ -103,11 +103,11 @@
                 <img src="images/sponsors/CSB.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+        <!-- <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
                 <img src="images/sponsors/SIB.png" class="img-fluid" alt="">
             </div>
-        </div>
+        </div> -->
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
                 <img src="images/sponsors/KS.jpg" class="img-fluid" alt="">
