@@ -39,7 +39,7 @@
           <div class="col-md-12 text-center">
 
             <p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p><p id="visit"><?php echo 'Visitors '.$val; ?></p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </p><p id="visit"><?php echo 'Visitors :&nbsp;'.$val; ?></p>
           </div>
         </div>
       </div>

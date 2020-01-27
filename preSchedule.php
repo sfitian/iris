@@ -34,7 +34,7 @@
                                 ?>
                         </div>
 
-                        <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Black Friday<span>24 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><strike>Black Friday</strike><span>24 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-3">
                                 <?php
                                 include("schedule/blackFri.php");

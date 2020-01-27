@@ -19,7 +19,7 @@
 
       <!-- FE -->
       <div id="feDiv">
-         <p style="text-align:center">BOYS</p>
+         <p style="text-align:center;color:#333333;">BOYS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -95,7 +95,7 @@
             <div class="col-md-2"></div>
          </div>
       
-         <p style="text-align:center">GIRLS</p>
+         <p style="text-align:center;color:#333333;">GIRLS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -177,7 +177,7 @@
    <!-- SE -->
    <div class="container">
       <div id="seDiv">
-         <p style="text-align:center">BOYS</p>
+         <p style="text-align:center;color:#333333;">BOYS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -253,7 +253,7 @@
             <div class="col-md-2"></div>
          </div>
       
-         <p style="text-align:center">GIRLS</p>
+         <p style="text-align:center;color:#333333;">GIRLS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -335,7 +335,7 @@
    <!-- TE -->
    <div class="container">
       <div id="teDiv">
-         <p style="text-align:center">BOYS</p>
+         <p style="text-align:center;color:#333333;">BOYS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -381,7 +381,7 @@
             </div>
          </div>
       
-         <p style="text-align:center">GIRLS</p>
+         <p style="text-align:center;color:#333333;">GIRLS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -433,7 +433,7 @@
 <!-- BE -->
    <div class="container">
       <div id="beDiv">
-         <p style="text-align:center">BOYS</p>
+         <p style="text-align:center;color:#333333;">BOYS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
@@ -479,7 +479,7 @@
             </div>
          </div>
       
-         <p style="text-align:center">GIRLS</p>
+         <p style="text-align:center;color:#333333;">GIRLS</p>
          <div class="row">
             <div class="col-md-4 ftco-animate">
                <div class="pricing-entry pb-1 text-center">
