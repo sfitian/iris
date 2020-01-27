@@ -35,12 +35,19 @@
                 padding-bottom:13%;
             }
         }
-        /* @media (min-width: 768px){
-            .image2{
-                margin-right:auto !important;
-                margin-left:auto !important;
+        @media (min-width: 768px) {
+            .padpw{
+                padding-top:50%;
+                padding-bottom:40%;
             }
-        } */
+        }
+        @media (min-width: 768px) {
+            .padt{
+                padding-top:5%px !important;
+                /* max-height:auto !important; */
+                padding-bottom:5%;
+            }
+        }
     
 	</style>
     <div class="row no-gutters supporters-wrap clearfix">
@@ -49,6 +56,11 @@
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 mx-auto padddpl">
                 <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
+            <div class="supporter-logo image1 mx-auto card1 ">
+                <img src="images/sponsors/parxwoman.png" class="img-fluid padpw" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
@@ -64,6 +76,11 @@
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
                 <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
+            <div class="supporter-logo image1 mx-auto card1 ">
+                <img src="images/sponsors/tseries.png" class="img-fluid padt" style="max-height:260px;max-width:auto;"alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
