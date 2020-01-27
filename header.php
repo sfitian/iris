@@ -53,13 +53,8 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav nav ml-auto">
-                <li class="nav-item"><a href="index.php" class="nav-link"><span>Home</span></a></li>
-<!--
-                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-                <li class="nav-item"><a href="#gallery-section" class="nav-link"><span>Gallery</span></a></li>
--->            
-                <li class="nav-item"><a href="preSchedule.php" class="nav-link"><span>Pre IRIS</span></a></li>
-                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>      
+                <li class="nav-item"><a href="schedule.php" class="nav-link"><span>Schedule</span></a></li>  
+                <li class="nav-item"><a href="scoreBoard.php" class="nav-link"><span>Scoreboard</span></a></li>    
                 <li class="nav-item"><a href="gallery.php" class="nav-link"><span>Gallery</span></a></li>
                 <li class="nav-item"><a href="raagas/" class="nav-link"><span>Raagas</span></a></li>
                 <li class="nav-item"><a href="team.php" class="nav-link"><span>Our Team</span></a></li>
