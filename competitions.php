@@ -166,7 +166,7 @@
 				<div class="col-md-4 ftco-animate">
 					<div class="pricing-entry pb-5 text-center">
 						<div>
-							<h3><p><span class="price">MR. & MRS. IRIS</span></h3>
+							<h3><p><span class="price">MR. & MS. IRIS</span></h3>
 
 						</div>
 						<ul style="margin-bottom: 210px">
