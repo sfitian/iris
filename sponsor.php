@@ -43,12 +43,18 @@
         }
         @media (min-width: 768px) {
             .padt{
-                padding-top:5%px !important;
+                padding-top:5% !important;
                 /* max-height:auto !important; */
-                padding-bottom:5%;
+                padding-bottom:5% !important;
             }
         }
-    
+        @media (min-width: 768px) {
+            .padbj{
+                padding-top:15% !important;
+                /* max-height:auto !important; */
+                padding-bottom:15%!important;
+            }
+        }
 	</style>
     <div class="row no-gutters supporters-wrap clearfix">
         <!-- <div  class="col-lg-3 col-md-4 col-xs-6 mb-3"></div> -->
@@ -63,6 +69,7 @@
                 <img src="images/sponsors/parxwoman.png" class="img-fluid padpw" alt="">
             </div>
         </div>
+
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
                 <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
@@ -81,6 +88,11 @@
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
                 <img src="images/sponsors/tseries.png" class="img-fluid padt" style="max-height:260px;max-width:auto;"alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
+            <div class="supporter-logo image1 mx-auto card1 ">
+                <img src="images/sponsors/lic.png" class="img-fluid padpw" alt="">
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
@@ -103,16 +115,22 @@
                 <img src="images/sponsors/CSB.png" class="img-fluid" alt="">
             </div>
         </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/Altorise.png" class="img-fluid" alt="">
+            </div>
+        </div>
         <!-- <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
                 <img src="images/sponsors/SIB.png" class="img-fluid" alt="">
             </div>
-        </div> -->
+        </div>  -->
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
                 <img src="images/sponsors/KS.jpg" class="img-fluid" alt="">
             </div>
         </div>
+
 
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class=" jutify-content-center mx-auto padks suppoter-logo card1 image1">
@@ -122,6 +140,11 @@
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
                 <img src="images/sponsors/jamboree.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto ">
+                <img src="images/sponsors/bigjuicy.png" class="img-fluid padbj" alt="">
             </div>
         </div>
     </div>
