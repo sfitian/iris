@@ -29,13 +29,13 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/insync.php';">
-                          <div class="img speaker-img" style="background-image: url(images/dance.jpg);"></div>
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/surshastra.php';">
+                          <div class="img speaker-img" style="background-image: url(images/isc.jpg);"></div>
                           <div class="text pl-md-5">
-                              <span class="time">01:00PM- 03:00PM</span>
-                              <h2><a href="forms/insync.php">Intercollege Dance</a></h2>
+                              <span class="time">03:00PM - 04:30PM</span>
+                              <h2><a href="#">Intercollege Singing Competition</a></h2>
                               <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
-                              <p></p>
+                              <p>.</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
