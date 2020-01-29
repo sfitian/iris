@@ -174,7 +174,7 @@
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto ">
-                <img src="images/sponsors/eats.png" class="img-fluid padks" alt="">
+                <img src="images/sponsors/eats.PNG" class="img-fluid padks" alt="">
             </div>
         </div>
     </div>
