@@ -115,16 +115,36 @@
                 <img src="images/sponsors/CSB.png" class="img-fluid" alt="">
             </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
-            <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/Altorise.png" class="img-fluid" alt="">
-            </div>
-        </div>
         <!-- <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/SIB.png" class="img-fluid" alt="">
+                <img src="images/sponsors/.png" class="img-fluid" alt="">
             </div>
-        </div>  -->
+        </div> -->
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/citizen.png" class="img-fluid" alt="">
+            </div>
+        </div> 
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padks">
+                <img src="images/sponsors/model.jpg" class="img-fluid" alt="">
+            </div>
+        </div> 
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
+                <img src="images/sponsors/bryan&candy.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
+                <img src="images/sponsors/iide.png" class="img-fluid padks" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto padddpl">
+                <img src="images/sponsors/hpmg.png" class="img-fluid padks" alt="">
+            </div>
+        </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
                 <img src="images/sponsors/KS.jpg" class="img-fluid" alt="">
@@ -145,6 +165,16 @@
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto ">
                 <img src="images/sponsors/bigjuicy.png" class="img-fluid padbj" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto ">
+                <img src="images/sponsors/flavour.png" class="img-fluid padbj" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
+            <div class="supporter-logo card1 image1 mx-auto ">
+                <img src="images/sponsors/eats.png" class="img-fluid padks" alt="">
             </div>
         </div>
     </div>
