@@ -61,29 +61,29 @@
         <div class="row justify-content-center pb-5">
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 mx-auto padddpl">
-                <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
-            </div>
+              <a href="https://raymondnext.com/collections/parx">  <img src="images/sponsors/parx.jpg" class="img-fluid" alt="">
+           </a> </div>
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
-                <img src="images/sponsors/parxwoman.png" class="img-fluid padpw" alt="">
-            </div>
+             <a href="https://raymondnext.com/collections/parx">   <img src="images/sponsors/parxwoman.png" class="img-fluid padpw" alt="">
+            </a></div>
         </div>
 
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
-                <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
-            </div>
+               <a href="https://www.iocl.com/"> <img src="images/sponsors/IO.png" class="img-fluid IOlogo" alt="">
+           </a> </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class=" jutify-content-center mx-auto suppoter-logo card1 image1">
-                <img src="images/sponsors/RB.png" class="img-fluid IOlogo" alt="">
-            </div>
+               <a href="https://www.redbull.com/in-en/energydrink"> <img src="images/sponsors/RB.png" class="img-fluid IOlogo" alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
-            </div>
+               <a href="https://www.starbucks.in/"> <img src="images/sponsors/starbucks.png" class="img-fluid" alt="">
+           </a> </div>
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
@@ -92,28 +92,28 @@
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
-                <img src="images/sponsors/lic.png" class="img-fluid padpw" alt="">
-            </div>
+               <a href="http://www.licindia.in/"> <img src="images/sponsors/lic.png" class="img-fluid padpw" alt="">
+           </a> </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/DDPL.png" class="img-fluid" alt="">
-            </div>
+             <a href="https://ddpl.com/" >  <img src="images/sponsors/DDPL.png" class="img-fluid" alt="">
+           </a> </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padvd">
-                <img src="images/sponsors/VD.png" class="img-fluid" alt="">
-            </div>
+               <a href="http://www.vdglobal.in/"> <img src="images/sponsors/VD.png" class="img-fluid" alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/BC.jpg" class="img-fluid" alt="">
-            </div>
+               <a href="https://www.bccb.co.in/"> <img src="images/sponsors/BC.jpg" class="img-fluid" alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/CSB.png" class="img-fluid" alt="">
-            </div>
+                <a href="https://www.csb.co.in/"><img src="images/sponsors/CSB.png" class="img-fluid" alt="">
+            </a></div>
         </div>
         <!-- <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
@@ -122,28 +122,28 @@
         </div> -->
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/citizen.png" class="img-fluid" alt="">
-            </div>
+                <a href="https://citizencreditbank.com/"><img src="images/sponsors/citizen.png" class="img-fluid" alt="">
+           </a> </div>
         </div> 
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padks">
-                <img src="images/sponsors/model.jpg" class="img-fluid" alt="">
-            </div>
+               <a href="http://www.modelbank.in/"> <img src="images/sponsors/model.jpg" class="img-fluid" alt="">
+            </a></div>
         </div> 
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/bryan&candy.jpg" class="img-fluid" alt="">
+            <a href="http://www.bryanandcandy.com"><img src="images/sponsors/bryan&candy.jpg" class="img-fluid" alt=""></a>
             </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/iide.png" class="img-fluid padks" alt="">
-            </div>
+                <a href="https://iide.co/"><img src="images/sponsors/iide.png" class="img-fluid padks" alt="">
+          </a>  </div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto padddpl">
-                <img src="images/sponsors/hpmg.png" class="img-fluid padks" alt="">
-            </div>
+            <a href="https://hpmgshares.com/"> <img src="images/sponsors/hpmg.png" class="img-fluid padks" alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
@@ -159,8 +159,8 @@
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2">
             <div class="supporter-logo card1 padks mx-auto image1">
-                <img src="images/sponsors/jamboree.jpg" class="img-fluid" alt="">
-            </div>
+               <a href="https://www.jamboreeindia.com/"> <img src="images/sponsors/jamboree.jpg" class="img-fluid" alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 mb-3 image2" >
             <div class="supporter-logo card1 image1 mx-auto ">
