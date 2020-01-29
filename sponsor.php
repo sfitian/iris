@@ -87,8 +87,8 @@
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
-                <img src="images/sponsors/tseries.png" class="img-fluid padt" style="max-height:260px;max-width:auto;"alt="">
-            </div>
+              <a href="https://www.tseries.com/">  <img src="images/sponsors/tseries.png" class="img-fluid padt" style="max-height:260px;max-width:auto;"alt="">
+            </a></div>
         </div>
         <div class="col-lg-3 col-md-2 col-xs-6 mb-3 " >
             <div class="supporter-logo image1 mx-auto card1 ">
