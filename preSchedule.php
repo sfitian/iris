@@ -41,14 +41,14 @@
                                 ?>
                         </div>
 
-                        <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">High Fashion Monday<span>27 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><strike>High Fashion Monday</strike><span>27 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-4">
                                 <?php
                                 include("schedule/highFasMon.php");
                                 ?>
                             </div>
 
-                        <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">Clone Tuesday<span>28 January 2020</span></a>
+                        <a class="nav-link ftco-animate" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><strike>Clone Tuesday</strike><span>28 January 2020</span></a>
                         <div class="tab-content" id="v-pills-tabContent-5">
                                 <?php
                                 include("schedule/cloneTues.php");
