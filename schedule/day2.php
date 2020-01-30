@@ -33,8 +33,7 @@
                               <span class="time">01:00PM- 02:30PM</span>
                               <h2><a href="forms/insync.php">INSYNC</a></h2>
                               <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
-                              <p>Intercollege Dance Competition</p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
+                              <h3 class="speaker-name"><span class="position">Venue: Stage A</span></h3>
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/insync.php';">
