@@ -65,6 +65,9 @@
                          <div class="carousel-item">
                             <img src="images/iris7.jpg" class="d-block w-100">
                          </div>
+                         <div class="carousel-item">
+                            <img src="images/iris8.jpg" class="d-block w-100">
+                         </div>
                     </div>
                     <a class="left carousel-control" href="#myslideshow" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
