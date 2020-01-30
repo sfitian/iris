@@ -1,5 +1,5 @@
 <!-- --------------------- day 1 --------------------- -->
-<div class="tab-pane fade show active" id="v-pills-6" role="tabpanel" aria-labelledby="day-6-tab">
+<div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="day-6-tab">
                       <div class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/inauguration.jpg);"></div>
                           <div class="text pl-md-5">
