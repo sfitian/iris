@@ -18,12 +18,13 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex">
-                          <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='https://m.youtube.com/user/fanchub';">
+                          <div class="img speaker-img" style="background-image: url(images/navin.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">12:00AM - 01:00PM</span>
-                              <h2><a href="#">Celebrity Act</a></h2>
-                              <p></p>
+                              <h2><a href="#">Navin Noronha</a></h2>
+                              <p>Celebrity Act - Standup Comedy</p>
+                              <span class="time"> <button type="button" class="btn btn-primary">Check him out!</button></span>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
