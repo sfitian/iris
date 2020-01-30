@@ -1,5 +1,5 @@
 <!-- --------------------- day 2 --------------------- -->
-<div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-day-7-tab">
+<div class="tab-pane fade show active" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-day-7-tab">
                       <div id="test" class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
                           <div class="text pl-md-5">
