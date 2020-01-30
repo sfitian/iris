@@ -3,10 +3,10 @@
                       <div id="test" class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/convergence1.png);"></div>
                           <div class="text pl-md-5">
-                              <span class="time">10:00AM - 11:00AM</span>
+                              <span class="time">11:00AM - 12:00AM</span>
                               <h2><a href="#">Teachers Games</a></h2>
                               <p></p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
+                              <h3 class="speaker-name"><span class="position">Venue: Stage B</span></h3>
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex">
@@ -24,8 +24,7 @@
                               <span class="time">12:00AM - 01:00PM</span>
                               <h2><a href="#">Navin Noronha</a></h2>
                               <span class="time"> <button type="button" class="btn btn-primary">Check him out!</button></span>
-                              <p>Celebrity Act - Standup Comedy</p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
+                              <h3 class="speaker-name"><span class="position">Venue: Stage A</span></h3>
                           </div>
                       </div>
                       <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/insync.php';">
@@ -38,23 +37,28 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
+                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/insync.php';">
+                          <div class="img speaker-img" style="background-image: url(images/isc.jpg);"></div>
+                          <div class="text pl-md-5">
+                              <span class="time">01:00PM- 04:30PM</span>
+                              <h2><a href="#">Open Mic and Literary team games</a></h2>
+                              <h3 class="speaker-name"><span class="position">Venue: Stage B</span></h3>
+                          </div>
+                      </div>
                       <div class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/fashion.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">02:30PM - 03:30PM</span>
                               <h2><a href="#">Mr & Ms Iris (Fashion show)</a></h2>
-                              <!-- <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span> -->
-                               
-                              <p></p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
+                              <h3 class="speaker-name"><span class="position">Venue: Stage A</span></h3>
                           </div>
                       </div>
                       
                       <div class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/welcome.jpg);"></div>
                           <div class="text pl-md-5">
-                              <span class="time">05:00PM</span>
-                              <h2><a href="#">Welcome Back</a></h2>
+                              <span class="time">05:30PM</span>
+                              <h2><a href="#">Entries will start for DJ night</a></h2>
                               <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
@@ -65,8 +69,7 @@
                               <span class="time">05:30PM - 09:30PM</span>
                               <h2><a href="#">Enjoy Music with Enkore</a></h2>
                               <span class="time"> <button type="button" class="btn btn-primary">Know More</button></span>
-                              <p></p>
-                              <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
+                              <h3 class="speaker-name"><span class="position">Venue: Stage A</span></h3>
                           </div>
                         </div>
 </div>
