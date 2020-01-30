@@ -38,7 +38,7 @@
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
-                      <div class="speaker-wrap ftco-animate d-flex" onclick="location.href='forms/iris.php';">
+                      <div class="speaker-wrap ftco-animate d-flex">
                           <div class="img speaker-img" style="background-image: url(images/fashion.png);"></div>
                           <div class="text pl-md-5">
                               <span class="time">02:30PM - 03:30PM</span>
