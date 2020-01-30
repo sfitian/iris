@@ -23,8 +23,8 @@
                           <div class="text pl-md-5">
                               <span class="time">12:00AM - 01:00PM</span>
                               <h2><a href="#">Navin Noronha</a></h2>
-                              <p>Celebrity Act - Standup Comedy</p>
                               <span class="time"> <button type="button" class="btn btn-primary">Check him out!</button></span>
+                              <p>Celebrity Act - Standup Comedy</p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
                           </div>
                       </div>
@@ -43,7 +43,7 @@
                           <div class="text pl-md-5">
                               <span class="time">02:30PM - 03:30PM</span>
                               <h2><a href="#">Mr & Ms Iris (Fashion show)</a></h2>
-                              <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span>
+                              <!-- <span class="time"> <button type="button" class="btn btn-primary">Register Now</button></span> -->
                                
                               <p></p>
                               <!-- <h3 class="speaker-name">&mdash; <a href="#">Brett Morgan</a> <span class="position">Founder of Wordpress</span></h3> -->
